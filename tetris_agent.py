@@ -1,4 +1,5 @@
 import logging
+import numpy as np
 
 from gym_http_client import Client
 
@@ -26,17 +27,24 @@ if __name__ == '__main__':
     outdir = '/tmp/random-agent-results'
     client.env_monitor_start(instance_id, outdir, force=True, resume=False, video_callable=False)
     
-    episode_count = 100
+    episode_count = 5
     max_steps = 200
     reward = 0
-    done = False
 
     for i in range(episode_count):
         ob = client.env_reset(instance_id)
+        t = 0
+        done = False
 
         while not done:
             action = client.env_action_space_sample(instance_id)
             ob, reward, done, _ = client.env_step(instance_id, action, render=True)
+            # for _ in range(10):
+            #     if done: break
+            #     action = 5
+            #     ob, reward, done, _ = client.env_step(instance_id, action, render=False)
+            t +=1
+        print(f"Reset Env: {t}")
 
     # Dump result info to disk
     client.env_monitor_close(instance_id)

@@ -10,7 +10,7 @@ import json
 
 from nes_py.wrappers import JoypadSpace
 import gym_tetris
-from gym_tetris.actions import MOVEMENT
+from gym_tetris.actions import MOVEMENT, SIMPLE_MOVEMENT
 
 import logging
 logger = logging.getLogger('werkzeug')
@@ -47,7 +47,7 @@ class Envs(object):
     def create(self, env_id, seed=None):
         try:
             env = gym_tetris.make(env_id)
-            env = JoypadSpace(env, MOVEMENT)
+            env = JoypadSpace(env, SIMPLE_MOVEMENT)
             if seed:
                 env.seed(seed)
         except gym_tetris.error.Error:
@@ -266,7 +266,7 @@ def env_step(instance_id):
     json = request.get_json()
     action = get_required_param(json, 'action')
     render = get_optional_param(json, 'render', False)
-    [obs_jsonable, reward, done, info] = envs.step(instance_id, action, render)
+    [obs_jsonable, reward, done, _] = envs.step(instance_id, action, render)
     #print(f'T: {np.shape(obs_jsonable)}')
     return jsonify(observation = obs_jsonable, reward = reward, done = done, info = '')
 
