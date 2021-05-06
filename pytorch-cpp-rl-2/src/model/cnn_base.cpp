@@ -17,7 +17,7 @@ CnnBase::CnnBase(unsigned int num_inputs,
            nn::Conv2d(nn::Conv2dOptions(64, 32, 3).stride(1)),
            nn::Functional(torch::relu),
            Flatten(),
-           nn::Linear(32 * 7 * 7, hidden_size),
+           nn::Linear(32 * 28 * 26, hidden_size),
            nn::Functional(torch::relu)),
       critic_linear(nn::Linear(hidden_size, 1))
 {

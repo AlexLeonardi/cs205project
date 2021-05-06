@@ -27,7 +27,7 @@ class Communicator
     {
         // Receive message
         zmq::message_t packed_msg;
-        socket->8;
+        socket->recv(&packed_msg);
 
         // Desrialize message
         msgpack::object_handle object_handle = msgpack::unpack(static_cast<char *>(packed_msg.data()), packed_msg.size());

@@ -11,7 +11,7 @@ from gym_server.messages import (InfoMessage, MakeMessage, ResetMessage,
                                  StepMessage)
 from gym_server.zmq_client import ZmqClient
 
-
+import gym_tetris
 RUNNING_REWARD_HORIZON = 10
 
 
@@ -23,7 +23,7 @@ class Server:
 
     def __init__(self, zmq_client: ZmqClient):
         self.zmq_client: ZmqClient = zmq_client
-        self.env: gym.Env = None
+        self.env: gym_tetris.Env = None
         logging.info("Gym server initialized")
 
     def serve(self):
@@ -97,7 +97,9 @@ class Server:
         Resets the environments.
         """
         logging.info("Resetting environments")
-        return self.env.reset()
+        tmp = self.env.reset()
+        print(tmp)
+        return tmp
 
     def step(self,
              actions: np.ndarray,

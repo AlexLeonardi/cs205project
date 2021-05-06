@@ -36,7 +36,7 @@ const float value_loss_coef = 0.5;
 
 // Environment hyperparameters
 const std::string env_name = "TetrisA-v0";
-const int num_envs = 1;
+const int num_envs = 2;
 const float render_reward_threshold = 160;
 
 // Model hyperparameters
@@ -134,7 +134,7 @@ int main(int argc, char *argv[])
     else
     {
         // Without observation normalization
-        policy = Policy(space, base, true);
+        policy = Policy(space, base);
     }
     policy->to(device);
     RolloutStorage storage(batch_size, num_envs, env_info->observation_space_shape, space, hidden_size, device);

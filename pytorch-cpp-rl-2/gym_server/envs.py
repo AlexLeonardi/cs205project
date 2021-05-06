@@ -7,6 +7,7 @@ Provides utility functions for making Gym environments.
 import gym
 from gym.spaces import Box
 import numpy as np
+import logging
 
 from baselines.common.vec_env import VecEnvWrapper
 from baselines.common.atari_wrappers import make_atari, wrap_deepmind
@@ -15,6 +16,9 @@ from baselines.common.vec_env.dummy_vec_env import DummyVecEnv
 from baselines.common.vec_env.vec_normalize import (VecNormalize
                                                     as VecNormalize_)
 
+from nes_py.wrappers import JoypadSpace
+import gym_tetris
+from gym_tetris.actions import MOVEMENT, SIMPLE_MOVEMENT
 
 class TransposeImage(gym.ObservationWrapper):
     def __init__(self, env=None):
@@ -27,7 +31,7 @@ class TransposeImage(gym.ObservationWrapper):
             dtype=self.observation_space.dtype)
 
     def observation(self, observation):
-        return observation.transpose(2, 0, 1)
+        return observation.transpose(2, 1, 0)
 
 
 class VecFrameStack(VecEnvWrapper):
@@ -35,8 +39,10 @@ class VecFrameStack(VecEnvWrapper):
         self.venv = venv
         self.nstack = nstack
         wos = venv.observation_space  # wrapped ob space
-        low = np.repeat(wos.low, self.nstack, axis=0)
-        high = np.repeat(wos.high, self.nstack, axis=0)
+#        low = np.repeat(wos.low, self.nstack, axis=0)
+        low = wos.low
+#        high = np.repeat(wos.high, self.nstack, axis=0)
+        high = wos.high
         self.stackedobs = np.zeros((venv.num_envs,) + low.shape, low.dtype)
         observation_space = gym.spaces.Box(
             low=low, high=high, dtype=venv.observation_space.dtype)
@@ -54,6 +60,7 @@ class VecFrameStack(VecEnvWrapper):
     def reset(self):
         obs = self.venv.reset()
         self.stackedobs[...] = 0
+#        logging.info("{}".format(obs))
         self.stackedobs[-obs.shape[-1]:, ...] = obs
         return self.stackedobs
 
@@ -70,6 +77,7 @@ class VecRewardInfo(VecEnvWrapper):
 
     def reset(self):
         obs = self.venv.reset()
+#        logging.info("{}".format(obs))
         return obs
 
 
@@ -109,7 +117,7 @@ class VecNormalize(VecNormalize_):
 
 def make_env(env_id, seed, rank):
     def _thunk():
-        env = gym.make(env_id)
+        env = gym_tetris.make(env_id)
 
         is_atari = hasattr(gym.envs, 'atari') and isinstance(
             env.unwrapped, gym.envs.atari.atari_env.AtariEnv)
@@ -124,10 +132,7 @@ def make_env(env_id, seed, rank):
             if len(env.observation_space.shape) == 3:
                 env = wrap_deepmind(env)
         elif len(env.observation_space.shape) == 3:
-            raise NotImplementedError("CNN models work only for atari,\n"
-                                      "please use a custom wrapper for a "
-                                      "custom pixel input env.\n See "
-                                      "wrap_deepmind for an example.")
+                env = JoypadSpace(env, SIMPLE_MOVEMENT)
 
         # If the input has shape (W,H,3), wrap for PyTorch convolutions
         obs_shape = env.observation_space.shape

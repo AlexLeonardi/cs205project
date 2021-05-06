@@ -30,11 +30,11 @@ def main():
     logging.info("Connected")
     server = Server(zmq_client)
 
-    try:
-        server.serve()
-    except:  # pylint: disable=bare-except
-        import pdb
-        pdb.post_mortem()
+#    try:
+    server.serve()
+#    except:  # pylint: disable=bare-except
+#        import pdb
+#        pdb.post_mortem()
 
 
 if __name__ == '__main__':
