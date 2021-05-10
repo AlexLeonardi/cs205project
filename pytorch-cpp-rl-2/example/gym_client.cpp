@@ -35,14 +35,14 @@ const bool use_lr_decay = false;
 const float value_loss_coef = 0.5;
 
 // Environment hyperparameters
-const std::string env_name = "TetrisA-v0";
-const int num_envs = 2;
+const std::string env_name = "TetrisA-v3";
+const int num_envs = 8;
 const float render_reward_threshold = 160;
 
 // Model hyperparameters
 const int hidden_size = 64;
 const bool recurrent = false;
-const bool use_cuda = false;
+const bool use_cuda = true;
 
 std::vector<float> flatten_vector(std::vector<float> const &input)
 {
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
     spdlog::set_level(spdlog::level::debug);
     spdlog::set_pattern("%^[%T %7l] %v%$");
 
-    at::set_num_threads(1);
+    at::set_num_threads(4);
     torch::manual_seed(0);
 
     torch::Device device = use_cuda ? torch::kCUDA : torch::kCPU;

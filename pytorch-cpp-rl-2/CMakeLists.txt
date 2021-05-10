@@ -1,12 +1,13 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(CppRl
-    LANGUAGES CXX
+	LANGUAGES CUDA  CXX
     VERSION 1.2.0
     DESCRIPTION "Reinforcement learning in C++ using PyTorch"
 )
 
 # Project-wide properties
 set(CMAKE_CXX_STANDARD 17)
+
 
 # Cppcheck
 if (CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
@@ -46,6 +47,16 @@ if (NOT TORCH_FOUND)
     endif()
 endif (NOT TORCH_FOUND)
 
+## CUDA
+find_package(CUDA)
+
+if(NOT DEFINED CMAKE_CUDA_STANDARD)
+    set(CMAKE_CUDA_STANDARD 11)
+    set(CMAKE_CUDA_STANDARD_REQUIRED ON)
+endif()
+
+
+
 # Define targets
 add_library(cpprl STATIC "")
 target_compile_definitions(cpprl PRIVATE DOCTEST_CONFIG_DISABLE)
@@ -72,12 +83,16 @@ if (CPPRL_BUILD_TESTS)
     target_include_directories(cpprl_tests PRIVATE ${CPPRL_INCLUDE_DIRS})
 endif(CPPRL_BUILD_TESTS)
 
+include_directories(${CUDA_INCLUDE_DIRS})
+include_directories(/usr/lib/aarch64-linux-gnu)
+
 # Linking
 target_link_libraries(cpprl torch ${TORCH_LIBRARIES})
 target_link_libraries(cpprl torch ${TORCH_LIBRARIES})
 if (CPPRL_BUILD_TESTS)
     target_link_libraries(cpprl_tests torch ${TORCH_LIBRARIES})
 endif(CPPRL_BUILD_TESTS)
+target_link_libraries(cpprl ${CUDA_LIBRARIES} cudnn)
 
 # Example
 option(CPPRL_BUILD_EXAMPLE "Whether or not to build the CppRl Gym example" ON)

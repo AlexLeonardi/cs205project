@@ -1,0 +1,5111 @@
+[17:36:35    info] Connecting to gym server
+[17:36:35    info] Connection established
+[17:36:35    info] Creating environment
+[17:36:35    info] OK
+[17:36:35    info] Action space: Discrete - [6]
+[17:36:35    info] Observation space: Box - [3 256 240]
+[17:36:35    info] Resetting environment
+[17:36:53    info] ---
+[17:36:53    info] Update: 1/312500
+[17:36:53    info] Total frames: 640
+[17:36:53    info] FPS: 42.6667
+[17:36:53    info] Value loss: 0.000185882
+[17:36:53    info] Action loss: -0.00168898
+[17:36:53    info] Clip fraction: 0
+[17:36:53    info] Entropy: 1.7913
+[17:36:53    info] KL divergence: -0.00680707
+[17:36:53    info] Reward: -nan
+[17:37:00    info] ---
+[17:37:00    info] Update: 2/312500
+[17:37:00    info] Total frames: 960
+[17:37:00    info] FPS: 43.6364
+[17:37:00    info] Value loss: 0.000122615
+[17:37:00    info] Action loss: -0.00485533
+[17:37:00    info] Clip fraction: 0.0395833
+[17:37:00    info] Entropy: 1.78551
+[17:37:00    info] KL divergence: 0.0209386
+[17:37:00    info] Reward: -nan
+[17:37:07    info] ---
+[17:37:07    info] Update: 3/312500
+[17:37:07    info] Total frames: 1280
+[17:37:07    info] FPS: 44.1379
+[17:37:07    info] Value loss: 0.000595506
+[17:37:07    info] Action loss: -0.00732161
+[17:37:07    info] Clip fraction: 0.065625
+[17:37:07    info] Entropy: 1.77657
+[17:37:07    info] KL divergence: 0.00835244
+[17:37:07    info] Reward: -nan
+[17:37:15    info] ---
+[17:37:15    info] Update: 4/312500
+[17:37:15    info] Total frames: 1600
+[17:37:15    info] FPS: 44.4444
+[17:37:15    info] Value loss: 0.000223407
+[17:37:15    info] Action loss: -0.00850676
+[17:37:15    info] Clip fraction: 0.0802083
+[17:37:15    info] Entropy: 1.7732
+[17:37:15    info] KL divergence: 0.0281457
+[17:37:15    info] Reward: -nan
+[17:37:22    info] ---
+[17:37:22    info] Update: 5/312500
+[17:37:22    info] Total frames: 1920
+[17:37:22    info] FPS: 43.6364
+[17:37:22    info] Value loss: 0.000707792
+[17:37:22    info] Action loss: -0.0173435
+[17:37:22    info] Clip fraction: 0.108333
+[17:37:22    info] Entropy: 1.76771
+[17:37:22    info] KL divergence: -0.010858
+[17:37:22    info] Reward: -nan
+[17:37:29    info] ---
+[17:37:29    info] Update: 6/312500
+[17:37:29    info] Total frames: 2240
+[17:37:29    info] FPS: 43.9216
+[17:37:29    info] Value loss: 0.000986405
+[17:37:29    info] Action loss: -0.0178604
+[17:37:29    info] Clip fraction: 0.109375
+[17:37:29    info] Entropy: 1.75562
+[17:37:29    info] KL divergence: -0.0193362
+[17:37:29    info] Reward: -nan
+[17:37:36    info] ---
+[17:37:36    info] Update: 7/312500
+[17:37:36    info] Total frames: 2560
+[17:37:36    info] FPS: 44.1379
+[17:37:36    info] Value loss: 0.00165507
+[17:37:36    info] Action loss: -0.013841
+[17:37:36    info] Clip fraction: 0.0729167
+[17:37:36    info] Entropy: 1.73956
+[17:37:36    info] KL divergence: 0.0339592
+[17:37:36    info] Reward: -nan
+[17:37:44    info] ---
+[17:37:44    info] Update: 8/312500
+[17:37:44    info] Total frames: 2880
+[17:37:44    info] FPS: 43.6364
+[17:37:44    info] Value loss: 0.00215625
+[17:37:44    info] Action loss: -0.0206047
+[17:37:44    info] Clip fraction: 0.185417
+[17:37:44    info] Entropy: 1.71841
+[17:37:44    info] KL divergence: 0.05675
+[17:37:44    info] Reward: -nan
+[17:37:51    info] ---
+[17:37:51    info] Update: 9/312500
+[17:37:51    info] Total frames: 3200
+[17:37:51    info] FPS: 43.8356
+[17:37:51    info] Value loss: 0.00382329
+[17:37:51    info] Action loss: -0.0210378
+[17:37:51    info] Clip fraction: 0.313542
+[17:37:51    info] Entropy: 1.63962
+[17:37:51    info] KL divergence: 0.034444
+[17:37:51    info] Reward: -nan
+[17:37:59    info] ---
+[17:37:59    info] Update: 10/312500
+[17:37:59    info] Total frames: 3520
+[17:37:59    info] FPS: 43.4568
+[17:37:59    info] Value loss: 0.00157581
+[17:37:59    info] Action loss: -0.0268602
+[17:37:59    info] Clip fraction: 0.177083
+[17:37:59    info] Entropy: 1.71621
+[17:37:59    info] KL divergence: 0.0745577
+[17:37:59    info] Reward: -nan
+[17:38:06    info] ---
+[17:38:06    info] Update: 11/312500
+[17:38:06    info] Total frames: 3840
+[17:38:06    info] FPS: 43.6364
+[17:38:06    info] Value loss: 0.00209179
+[17:38:06    info] Action loss: -0.0276579
+[17:38:06    info] Clip fraction: 0.307292
+[17:38:06    info] Entropy: 1.64627
+[17:38:06    info] KL divergence: 0.143719
+[17:38:06    info] Reward: -nan
+[17:38:13    info] ---
+[17:38:13    info] Update: 12/312500
+[17:38:13    info] Total frames: 4160
+[17:38:13    info] FPS: 43.7895
+[17:38:13    info] Value loss: 0.00173975
+[17:38:13    info] Action loss: -0.0192446
+[17:38:13    info] Clip fraction: 0.145833
+[17:38:13    info] Entropy: 1.69573
+[17:38:13    info] KL divergence: 0.018123
+[17:38:13    info] Reward: -nan
+[17:38:21    info] ---
+[17:38:21    info] Update: 13/312500
+[17:38:21    info] Total frames: 4480
+[17:38:21    info] FPS: 43.9216
+[17:38:21    info] Value loss: 0.00164502
+[17:38:21    info] Action loss: -0.0340099
+[17:38:21    info] Clip fraction: 0.247917
+[17:38:21    info] Entropy: 1.74116
+[17:38:21    info] KL divergence: 0.0753627
+[17:38:21    info] Reward: -nan
+[17:38:28    info] ---
+[17:38:28    info] Update: 14/312500
+[17:38:28    info] Total frames: 4800
+[17:38:28    info] FPS: 43.6364
+[17:38:28    info] Value loss: 0.00237311
+[17:38:28    info] Action loss: -0.0279705
+[17:38:28    info] Clip fraction: 0.196875
+[17:38:28    info] Entropy: 1.7349
+[17:38:28    info] KL divergence: 0.0957815
+[17:38:28    info] Reward: -nan
+[17:38:35    info] ---
+[17:38:35    info] Update: 15/312500
+[17:38:35    info] Total frames: 5120
+[17:38:35    info] FPS: 43.7607
+[17:38:35    info] Value loss: 0.00168897
+[17:38:35    info] Action loss: -0.0340106
+[17:38:35    info] Clip fraction: 0.322917
+[17:38:35    info] Entropy: 1.70115
+[17:38:35    info] KL divergence: -0.0283351
+[17:38:35    info] Reward: -nan
+[17:38:43    info] ---
+[17:38:43    info] Update: 16/312500
+[17:38:43    info] Total frames: 5440
+[17:38:43    info] FPS: 43.52
+[17:38:43    info] Value loss: 0.00132328
+[17:38:43    info] Action loss: -0.0124142
+[17:38:43    info] Clip fraction: 0.15
+[17:38:43    info] Entropy: 1.75455
+[17:38:43    info] KL divergence: 0.0553049
+[17:38:43    info] Reward: -nan
+[17:38:50    info] ---
+[17:38:50    info] Update: 17/312500
+[17:38:50    info] Total frames: 5760
+[17:38:50    info] FPS: 43.6364
+[17:38:50    info] Value loss: 0.00168854
+[17:38:50    info] Action loss: -0.029547
+[17:38:50    info] Clip fraction: 0.128125
+[17:38:50    info] Entropy: 1.76101
+[17:38:50    info] KL divergence: -0.0409135
+[17:38:50    info] Reward: -nan
+[17:38:57    info] ---
+[17:38:57    info] Update: 18/312500
+[17:38:57    info] Total frames: 6080
+[17:38:57    info] FPS: 43.741
+[17:38:57    info] Value loss: 0.00230349
+[17:38:57    info] Action loss: -0.0276697
+[17:38:57    info] Clip fraction: 0.1875
+[17:38:57    info] Entropy: 1.74498
+[17:38:57    info] KL divergence: 0.0304202
+[17:38:57    info] Reward: -nan
+[17:39:05    info] ---
+[17:39:05    info] Update: 19/312500
+[17:39:05    info] Total frames: 6400
+[17:39:05    info] FPS: 43.8356
+[17:39:05    info] Value loss: 0.00126269
+[17:39:05    info] Action loss: -0.0206235
+[17:39:05    info] Clip fraction: 0.197917
+[17:39:05    info] Entropy: 1.75463
+[17:39:05    info] KL divergence: 0.00776121
+[17:39:05    info] Reward: -nan
+[17:39:12    info] ---
+[17:39:12    info] Update: 20/312500
+[17:39:12    info] Total frames: 6720
+[17:39:12    info] FPS: 43.6364
+[17:39:12    info] Value loss: 0.00256599
+[17:39:12    info] Action loss: -0.0324946
+[17:39:12    info] Clip fraction: 0.213542
+[17:39:12    info] Entropy: 1.74843
+[17:39:12    info] KL divergence: 0.0171143
+[17:39:12    info] Reward: -nan
+[17:39:19    info] ---
+[17:39:19    info] Update: 21/312500
+[17:39:19    info] Total frames: 7040
+[17:39:19    info] FPS: 43.7267
+[17:39:19    info] Value loss: 0.00244168
+[17:39:19    info] Action loss: -0.0455799
+[17:39:19    info] Clip fraction: 0.340625
+[17:39:19    info] Entropy: 1.68077
+[17:39:19    info] KL divergence: 0.0091062
+[17:39:19    info] Reward: -nan
+[17:39:27    info] ---
+[17:39:27    info] Update: 22/312500
+[17:39:27    info] Total frames: 7360
+[17:39:27    info] FPS: 43.5503
+[17:39:27    info] Value loss: 0.00303412
+[17:39:27    info] Action loss: -0.0361074
+[17:39:27    info] Clip fraction: 0.288542
+[17:39:27    info] Entropy: 1.70212
+[17:39:27    info] KL divergence: 0.035096
+[17:39:27    info] Reward: -nan
+[17:39:34    info] ---
+[17:39:34    info] Update: 23/312500
+[17:39:34    info] Total frames: 7680
+[17:39:34    info] FPS: 43.6364
+[17:39:34    info] Value loss: 0.00283684
+[17:39:34    info] Action loss: -0.0320312
+[17:39:34    info] Clip fraction: 0.286458
+[17:39:34    info] Entropy: 1.68837
+[17:39:34    info] KL divergence: 0.070863
+[17:39:34    info] Reward: -nan
+[17:39:41    info] ---
+[17:39:41    info] Update: 24/312500
+[17:39:41    info] Total frames: 8000
+[17:39:41    info] FPS: 43.7158
+[17:39:41    info] Value loss: 0.00341016
+[17:39:41    info] Action loss: -0.0396109
+[17:39:41    info] Clip fraction: 0.317708
+[17:39:41    info] Entropy: 1.68781
+[17:39:41    info] KL divergence: 0.0677474
+[17:39:41    info] Reward: -nan
+[17:39:49    info] ---
+[17:39:49    info] Update: 25/312500
+[17:39:49    info] Total frames: 8320
+[17:39:49    info] FPS: 43.7895
+[17:39:49    info] Value loss: 0.00256275
+[17:39:49    info] Action loss: -0.0399212
+[17:39:49    info] Clip fraction: 0.21875
+[17:39:49    info] Entropy: 1.70874
+[17:39:49    info] KL divergence: 0.069788
+[17:39:49    info] Reward: -nan
+[17:39:56    info] ---
+[17:39:56    info] Update: 26/312500
+[17:39:56    info] Total frames: 8640
+[17:39:56    info] FPS: 43.6364
+[17:39:56    info] Value loss: 0.00128509
+[17:39:56    info] Action loss: -0.0366679
+[17:39:56    info] Clip fraction: 0.186458
+[17:39:56    info] Entropy: 1.74051
+[17:39:56    info] KL divergence: -0.0201223
+[17:39:56    info] Reward: -nan
+[17:40:03    info] ---
+[17:40:03    info] Update: 27/312500
+[17:40:03    info] Total frames: 8960
+[17:40:03    info] FPS: 43.7073
+[17:40:03    info] Value loss: 0.00163926
+[17:40:03    info] Action loss: -0.0395353
+[17:40:03    info] Clip fraction: 0.210417
+[17:40:03    info] Entropy: 1.71538
+[17:40:03    info] KL divergence: 0.0501521
+[17:40:03    info] Reward: -nan
+[17:40:11    info] ---
+[17:40:11    info] Update: 28/312500
+[17:40:11    info] Total frames: 9280
+[17:40:11    info] FPS: 43.5681
+[17:40:11    info] Value loss: 0.000832292
+[17:40:11    info] Action loss: -0.0321121
+[17:40:11    info] Clip fraction: 0.248958
+[17:40:11    info] Entropy: 1.69924
+[17:40:11    info] KL divergence: 0.0707574
+[17:40:11    info] Reward: -nan
+[17:40:18    info] ---
+[17:40:18    info] Update: 29/312500
+[17:40:18    info] Total frames: 9600
+[17:40:18    info] FPS: 43.6364
+[17:40:18    info] Value loss: 0.0007935
+[17:40:18    info] Action loss: -0.0220233
+[17:40:18    info] Clip fraction: 0.36875
+[17:40:18    info] Entropy: 1.67338
+[17:40:18    info] KL divergence: 0.0156685
+[17:40:18    info] Reward: -nan
+[17:40:25    info] ---
+[17:40:25    info] Update: 30/312500
+[17:40:25    info] Total frames: 9920
+[17:40:25    info] FPS: 43.7004
+[17:40:25    info] Value loss: 0.000978058
+[17:40:25    info] Action loss: -0.0207523
+[17:40:25    info] Clip fraction: 0.233333
+[17:40:25    info] Entropy: 1.6598
+[17:40:25    info] KL divergence: -0.00442516
+[17:40:25    info] Reward: -nan
+[17:40:33    info] ---
+[17:40:33    info] Update: 31/312500
+[17:40:33    info] Total frames: 10240
+[17:40:33    info] FPS: 43.7607
+[17:40:33    info] Value loss: 0.000593012
+[17:40:33    info] Action loss: -0.0252802
+[17:40:33    info] Clip fraction: 0.138542
+[17:40:33    info] Entropy: 1.70234
+[17:40:33    info] KL divergence: -0.0669056
+[17:40:33    info] Reward: -nan
+[17:40:40    info] ---
+[17:40:40    info] Update: 32/312500
+[17:40:40    info] Total frames: 10560
+[17:40:40    info] FPS: 43.6364
+[17:40:40    info] Value loss: 0.000229619
+[17:40:40    info] Action loss: -0.0313971
+[17:40:40    info] Clip fraction: 0.246875
+[17:40:40    info] Entropy: 1.72978
+[17:40:40    info] KL divergence: -0.0164221
+[17:40:40    info] Reward: -nan
+[17:40:47    info] ---
+[17:40:47    info] Update: 33/312500
+[17:40:47    info] Total frames: 10880
+[17:40:47    info] FPS: 43.6948
+[17:40:47    info] Value loss: 0.000601155
+[17:40:47    info] Action loss: -0.0345789
+[17:40:47    info] Clip fraction: 0.272917
+[17:40:47    info] Entropy: 1.7348
+[17:40:47    info] KL divergence: 0.041217
+[17:40:47    info] Reward: -nan
+[17:40:55    info] ---
+[17:40:55    info] Update: 34/312500
+[17:40:55    info] Total frames: 11200
+[17:40:55    info] FPS: 43.75
+[17:40:55    info] Value loss: 0.000663593
+[17:40:55    info] Action loss: -0.0360903
+[17:40:55    info] Clip fraction: 0.236458
+[17:40:55    info] Entropy: 1.73292
+[17:40:55    info] KL divergence: 0.0971804
+[17:40:55    info] Reward: -nan
+[17:41:02    info] ---
+[17:41:02    info] Update: 35/312500
+[17:41:02    info] Total frames: 11520
+[17:41:02    info] FPS: 43.6364
+[17:41:02    info] Value loss: 0.00072143
+[17:41:02    info] Action loss: -0.0378777
+[17:41:02    info] Clip fraction: 0.35625
+[17:41:02    info] Entropy: 1.66343
+[17:41:02    info] KL divergence: 0.095071
+[17:41:02    info] Reward: -nan
+[17:41:09    info] ---
+[17:41:09    info] Update: 36/312500
+[17:41:09    info] Total frames: 11840
+[17:41:09    info] FPS: 43.69
+[17:41:09    info] Value loss: 0.000169253
+[17:41:09    info] Action loss: -0.0281639
+[17:41:09    info] Clip fraction: 0.296875
+[17:41:09    info] Entropy: 1.70074
+[17:41:09    info] KL divergence: -0.00706229
+[17:41:09    info] Reward: -nan
+[17:41:16    info] ---
+[17:41:16    info] Update: 37/312500
+[17:41:16    info] Total frames: 12160
+[17:41:16    info] FPS: 43.741
+[17:41:16    info] Value loss: 0.000341464
+[17:41:16    info] Action loss: -0.0236099
+[17:41:16    info] Clip fraction: 0.161458
+[17:41:16    info] Entropy: 1.75419
+[17:41:16    info] KL divergence: -0.00387935
+[17:41:16    info] Reward: -nan
+[17:41:24    info] ---
+[17:41:24    info] Update: 38/312500
+[17:41:24    info] Total frames: 12480
+[17:41:24    info] FPS: 43.6364
+[17:41:24    info] Value loss: 0.000277038
+[17:41:24    info] Action loss: -0.0264852
+[17:41:24    info] Clip fraction: 0.195833
+[17:41:24    info] Entropy: 1.73809
+[17:41:24    info] KL divergence: -0.017149
+[17:41:24    info] Reward: -nan
+[17:41:31    info] ---
+[17:41:31    info] Update: 39/312500
+[17:41:31    info] Total frames: 12800
+[17:41:31    info] FPS: 43.686
+[17:41:31    info] Value loss: 0.000207503
+[17:41:31    info] Action loss: -0.0322471
+[17:41:31    info] Clip fraction: 0.127083
+[17:41:31    info] Entropy: 1.74847
+[17:41:31    info] KL divergence: 0.0159855
+[17:41:31    info] Reward: -nan
+[17:41:38    info] ---
+[17:41:38    info] Update: 40/312500
+[17:41:38    info] Total frames: 13120
+[17:41:38    info] FPS: 43.7333
+[17:41:38    info] Value loss: 0.000494757
+[17:41:38    info] Action loss: -0.0355273
+[17:41:38    info] Clip fraction: 0.232292
+[17:41:38    info] Entropy: 1.73762
+[17:41:38    info] KL divergence: 0.0835232
+[17:41:38    info] Reward: -nan
+[17:41:46    info] ---
+[17:41:46    info] Update: 41/312500
+[17:41:46    info] Total frames: 13440
+[17:41:46    info] FPS: 43.6364
+[17:41:46    info] Value loss: 0.000638932
+[17:41:46    info] Action loss: -0.0412307
+[17:41:46    info] Clip fraction: 0.301042
+[17:41:46    info] Entropy: 1.69903
+[17:41:46    info] KL divergence: 0.0543547
+[17:41:46    info] Reward: -nan
+[17:41:53    info] ---
+[17:41:53    info] Update: 42/312500
+[17:41:53    info] Total frames: 13760
+[17:41:53    info] FPS: 43.6825
+[17:41:53    info] Value loss: 0.000292117
+[17:41:53    info] Action loss: -0.0460939
+[17:41:53    info] Clip fraction: 0.336458
+[17:41:53    info] Entropy: 1.74043
+[17:41:53    info] KL divergence: 0.166036
+[17:41:53    info] Reward: -nan
+[17:42:00    info] ---
+[17:42:00    info] Update: 43/312500
+[17:42:00    info] Total frames: 14080
+[17:42:00    info] FPS: 43.7267
+[17:42:00    info] Value loss: 0.000299041
+[17:42:00    info] Action loss: -0.0487116
+[17:42:00    info] Clip fraction: 0.282292
+[17:42:00    info] Entropy: 1.70963
+[17:42:00    info] KL divergence: -0.110275
+[17:42:00    info] Reward: -nan
+[17:42:08    info] ---
+[17:42:08    info] Update: 44/312500
+[17:42:08    info] Total frames: 14400
+[17:42:08    info] FPS: 43.6364
+[17:42:08    info] Value loss: 0.000141751
+[17:42:08    info] Action loss: -0.0194114
+[17:42:08    info] Clip fraction: 0.271875
+[17:42:08    info] Entropy: 1.68759
+[17:42:08    info] KL divergence: -0.0587167
+[17:42:08    info] Reward: -nan
+[17:42:15    info] ---
+[17:42:15    info] Update: 45/312500
+[17:42:15    info] Total frames: 14720
+[17:42:15    info] FPS: 43.6795
+[17:42:15    info] Value loss: 0.000410702
+[17:42:15    info] Action loss: -0.0464233
+[17:42:15    info] Clip fraction: 0.309375
+[17:42:15    info] Entropy: 1.67034
+[17:42:15    info] KL divergence: 0.0217508
+[17:42:15    info] Reward: -nan
+[17:42:22    info] ---
+[17:42:22    info] Update: 46/312500
+[17:42:22    info] Total frames: 15040
+[17:42:22    info] FPS: 43.7209
+[17:42:22    info] Value loss: 0.000183659
+[17:42:22    info] Action loss: -0.0328489
+[17:42:22    info] Clip fraction: 0.307292
+[17:42:22    info] Entropy: 1.66688
+[17:42:22    info] KL divergence: 0.197472
+[17:42:22    info] Reward: -nan
+[17:42:30    info] ---
+[17:42:30    info] Update: 47/312500
+[17:42:30    info] Total frames: 15360
+[17:42:30    info] FPS: 43.6364
+[17:42:30    info] Value loss: 0.000349221
+[17:42:30    info] Action loss: -0.0365971
+[17:42:30    info] Clip fraction: 0.291667
+[17:42:30    info] Entropy: 1.67092
+[17:42:30    info] KL divergence: -0.0279184
+[17:42:30    info] Reward: -nan
+[17:42:37    info] ---
+[17:42:37    info] Update: 48/312500
+[17:42:37    info] Total frames: 15680
+[17:42:37    info] FPS: 43.6769
+[17:42:37    info] Value loss: 0.00179203
+[17:42:37    info] Action loss: -0.0145171
+[17:42:37    info] Clip fraction: 0.217708
+[17:42:37    info] Entropy: 1.66225
+[17:42:37    info] KL divergence: -0.00519226
+[17:42:37    info] Reward: -nan
+[17:42:44    info] ---
+[17:42:44    info] Update: 49/312500
+[17:42:44    info] Total frames: 16000
+[17:42:44    info] FPS: 43.7158
+[17:42:44    info] Value loss: 0.00059956
+[17:42:44    info] Action loss: -0.0476212
+[17:42:44    info] Clip fraction: 0.344792
+[17:42:44    info] Entropy: 1.6622
+[17:42:44    info] KL divergence: 0.0588811
+[17:42:44    info] Reward: -nan
+[17:42:52    info] ---
+[17:42:52    info] Update: 50/312500
+[17:42:52    info] Total frames: 16320
+[17:42:52    info] FPS: 43.7534
+[17:42:52    info] Value loss: 0.000714576
+[17:42:52    info] Action loss: -0.028472
+[17:42:52    info] Clip fraction: 0.384375
+[17:42:52    info] Entropy: 1.65805
+[17:42:52    info] KL divergence: 0.00186604
+[17:42:52    info] Reward: -nan
+[17:42:59    info] ---
+[17:42:59    info] Update: 51/312500
+[17:42:59    info] Total frames: 16640
+[17:42:59    info] FPS: 43.6745
+[17:42:59    info] Value loss: 0.000485182
+[17:42:59    info] Action loss: -0.0449983
+[17:42:59    info] Clip fraction: 0.2875
+[17:42:59    info] Entropy: 1.67196
+[17:42:59    info] KL divergence: 0.0991841
+[17:42:59    info] Reward: -nan
+[17:43:06    info] ---
+[17:43:06    info] Update: 52/312500
+[17:43:06    info] Total frames: 16960
+[17:43:06    info] FPS: 43.7113
+[17:43:06    info] Value loss: 0.000119411
+[17:43:06    info] Action loss: -0.0345814
+[17:43:06    info] Clip fraction: 0.215625
+[17:43:06    info] Entropy: 1.73501
+[17:43:06    info] KL divergence: 0.0267605
+[17:43:06    info] Reward: -nan
+[17:43:14    info] ---
+[17:43:14    info] Update: 53/312500
+[17:43:14    info] Total frames: 17280
+[17:43:14    info] FPS: 43.6364
+[17:43:14    info] Value loss: 0.000135355
+[17:43:14    info] Action loss: -0.0355946
+[17:43:14    info] Clip fraction: 0.169792
+[17:43:14    info] Entropy: 1.73603
+[17:43:14    info] KL divergence: -0.0170507
+[17:43:14    info] Reward: -nan
+[17:43:21    info] ---
+[17:43:21    info] Update: 54/312500
+[17:43:21    info] Total frames: 17600
+[17:43:21    info] FPS: 43.6725
+[17:43:21    info] Value loss: 9.76454e-05
+[17:43:21    info] Action loss: -0.0491619
+[17:43:21    info] Clip fraction: 0.276042
+[17:43:21    info] Entropy: 1.71258
+[17:43:21    info] KL divergence: 0.0246797
+[17:43:21    info] Reward: -nan
+[17:43:28    info] ---
+[17:43:28    info] Update: 55/312500
+[17:43:28    info] Total frames: 17920
+[17:43:28    info] FPS: 43.7073
+[17:43:28    info] Value loss: 6.38034e-05
+[17:43:28    info] Action loss: -0.0317724
+[17:43:28    info] Clip fraction: 0.286458
+[17:43:28    info] Entropy: 1.69967
+[17:43:28    info] KL divergence: 0.103021
+[17:43:28    info] Reward: -nan
+[17:43:36    info] ---
+[17:43:36    info] Update: 56/312500
+[17:43:36    info] Total frames: 18240
+[17:43:36    info] FPS: 43.741
+[17:43:36    info] Value loss: 8.56953e-05
+[17:43:36    info] Action loss: -0.0313967
+[17:43:36    info] Clip fraction: 0.297917
+[17:43:36    info] Entropy: 1.70163
+[17:43:36    info] KL divergence: 0.0771105
+[17:43:36    info] Reward: -nan
+[17:43:43    info] ---
+[17:43:43    info] Update: 57/312500
+[17:43:43    info] Total frames: 18560
+[17:43:43    info] FPS: 43.6706
+[17:43:43    info] Value loss: 6.83348e-05
+[17:43:43    info] Action loss: -0.0270651
+[17:43:43    info] Clip fraction: 0.246875
+[17:43:43    info] Entropy: 1.71711
+[17:43:43    info] KL divergence: -0.0055778
+[17:43:43    info] Reward: -nan
+[17:43:50    info] ---
+[17:43:50    info] Update: 58/312500
+[17:43:50    info] Total frames: 18880
+[17:43:50    info] FPS: 43.7037
+[17:43:50    info] Value loss: 0.000108423
+[17:43:50    info] Action loss: -0.0335176
+[17:43:50    info] Clip fraction: 0.214583
+[17:43:50    info] Entropy: 1.71604
+[17:43:50    info] KL divergence: 0.229184
+[17:43:50    info] Reward: -nan
+[17:43:58    info] ---
+[17:43:58    info] Update: 59/312500
+[17:43:58    info] Total frames: 19200
+[17:43:58    info] FPS: 43.6364
+[17:43:58    info] Value loss: 0.000323172
+[17:43:58    info] Action loss: -0.0324806
+[17:43:58    info] Clip fraction: 0.219792
+[17:43:58    info] Entropy: 1.69827
+[17:43:58    info] KL divergence: -0.0445835
+[17:43:58    info] Reward: -nan
+[17:44:05    info] ---
+[17:44:05    info] Update: 60/312500
+[17:44:05    info] Total frames: 19520
+[17:44:05    info] FPS: 43.6689
+[17:44:05    info] Value loss: 0.000124274
+[17:44:05    info] Action loss: -0.0477442
+[17:44:05    info] Clip fraction: 0.227083
+[17:44:05    info] Entropy: 1.59901
+[17:44:05    info] KL divergence: -0.0150952
+[17:44:05    info] Reward: -nan
+[17:44:12    info] ---
+[17:44:12    info] Update: 61/312500
+[17:44:12    info] Total frames: 19840
+[17:44:12    info] FPS: 43.7004
+[17:44:12    info] Value loss: 0.000282205
+[17:44:12    info] Action loss: -0.0365658
+[17:44:12    info] Clip fraction: 0.314583
+[17:44:12    info] Entropy: 1.62643
+[17:44:12    info] KL divergence: -0.0455181
+[17:44:12    info] Reward: -nan
+[17:44:20    info] ---
+[17:44:20    info] Update: 62/312500
+[17:44:20    info] Total frames: 20160
+[17:44:20    info] FPS: 43.731
+[17:44:20    info] Value loss: 0.000223665
+[17:44:20    info] Action loss: -0.0449963
+[17:44:20    info] Clip fraction: 0.283333
+[17:44:20    info] Entropy: 1.63988
+[17:44:20    info] KL divergence: 0.19304
+[17:44:20    info] Reward: -nan
+[17:44:27    info] ---
+[17:44:27    info] Update: 63/312500
+[17:44:27    info] Total frames: 20480
+[17:44:27    info] FPS: 43.6674
+[17:44:27    info] Value loss: 0.000174068
+[17:44:27    info] Action loss: -0.033341
+[17:44:27    info] Clip fraction: 0.346875
+[17:44:27    info] Entropy: 1.63166
+[17:44:27    info] KL divergence: 0.0870136
+[17:44:27    info] Reward: -nan
+[17:44:34    info] ---
+[17:44:34    info] Update: 64/312500
+[17:44:34    info] Total frames: 20800
+[17:44:34    info] FPS: 43.6975
+[17:44:34    info] Value loss: 0.000308563
+[17:44:34    info] Action loss: -0.0392942
+[17:44:34    info] Clip fraction: 0.345833
+[17:44:34    info] Entropy: 1.64916
+[17:44:34    info] KL divergence: 0.156134
+[17:44:34    info] Reward: -nan
+[17:44:41    info] ---
+[17:44:41    info] Update: 65/312500
+[17:44:41    info] Total frames: 21120
+[17:44:41    info] FPS: 43.7267
+[17:44:41    info] Value loss: 0.000569186
+[17:44:41    info] Action loss: -0.0585026
+[17:44:41    info] Clip fraction: 0.417708
+[17:44:41    info] Entropy: 1.64073
+[17:44:41    info] KL divergence: 0.0343977
+[17:44:41    info] Reward: -nan
+[17:44:49    info] ---
+[17:44:49    info] Update: 66/312500
+[17:44:49    info] Total frames: 21440
+[17:44:49    info] FPS: 43.666
+[17:44:49    info] Value loss: 0.000214564
+[17:44:49    info] Action loss: -0.0551582
+[17:44:49    info] Clip fraction: 0.369792
+[17:44:49    info] Entropy: 1.62142
+[17:44:49    info] KL divergence: -0.0307597
+[17:44:49    info] Reward: -nan
+[17:44:56    info] ---
+[17:44:56    info] Update: 67/312500
+[17:44:56    info] Total frames: 21760
+[17:44:56    info] FPS: 43.6948
+[17:44:56    info] Value loss: 0.000192628
+[17:44:56    info] Action loss: -0.0436
+[17:44:56    info] Clip fraction: 0.307292
+[17:44:56    info] Entropy: 1.6117
+[17:44:56    info] KL divergence: -0.0969651
+[17:44:56    info] Reward: -nan
+[17:45:03    info] ---
+[17:45:03    info] Update: 68/312500
+[17:45:03    info] Total frames: 22080
+[17:45:03    info] FPS: 43.7228
+[17:45:03    info] Value loss: 0.000216626
+[17:45:03    info] Action loss: -0.0541439
+[17:45:03    info] Clip fraction: 0.323958
+[17:45:03    info] Entropy: 1.64497
+[17:45:03    info] KL divergence: 0.0828284
+[17:45:03    info] Reward: -nan
+[17:45:11    info] ---
+[17:45:11    info] Update: 69/312500
+[17:45:11    info] Total frames: 22400
+[17:45:11    info] FPS: 43.75
+[17:45:11    info] Value loss: 0.000208598
+[17:45:11    info] Action loss: -0.0527067
+[17:45:11    info] Clip fraction: 0.369792
+[17:45:11    info] Entropy: 1.58781
+[17:45:11    info] KL divergence: -0.0811095
+[17:45:11    info] Reward: -nan
+[17:45:18    info] ---
+[17:45:18    info] Update: 70/312500
+[17:45:18    info] Total frames: 22720
+[17:45:18    info] FPS: 43.6923
+[17:45:18    info] Value loss: 9.81383e-05
+[17:45:18    info] Action loss: -0.0416617
+[17:45:18    info] Clip fraction: 0.378125
+[17:45:18    info] Entropy: 1.6516
+[17:45:18    info] KL divergence: 0.0479969
+[17:45:18    info] Reward: -nan
+[17:45:25    info] ---
+[17:45:25    info] Update: 71/312500
+[17:45:25    info] Total frames: 23040
+[17:45:25    info] FPS: 43.7192
+[17:45:25    info] Value loss: 0.000129888
+[17:45:25    info] Action loss: -0.0325171
+[17:45:25    info] Clip fraction: 0.219792
+[17:45:25    info] Entropy: 1.70105
+[17:45:25    info] KL divergence: 0.178725
+[17:45:25    info] Reward: -nan
+[17:45:33    info] ---
+[17:45:33    info] Update: 72/312500
+[17:45:33    info] Total frames: 23360
+[17:45:33    info] FPS: 43.6636
+[17:45:33    info] Value loss: 2.44727e-05
+[17:45:33    info] Action loss: -0.0577632
+[17:45:33    info] Clip fraction: 0.329167
+[17:45:33    info] Entropy: 1.68907
+[17:45:33    info] KL divergence: 0.0585322
+[17:45:33    info] Reward: -nan
+[17:45:40    info] ---
+[17:45:40    info] Update: 73/312500
+[17:45:40    info] Total frames: 23680
+[17:45:40    info] FPS: 43.69
+[17:45:40    info] Value loss: 3.66751e-05
+[17:45:40    info] Action loss: -0.041843
+[17:45:40    info] Clip fraction: 0.248958
+[17:45:40    info] Entropy: 1.68626
+[17:45:40    info] KL divergence: -0.065095
+[17:45:40    info] Reward: -nan
+[17:45:47    info] ---
+[17:45:47    info] Update: 74/312500
+[17:45:47    info] Total frames: 24000
+[17:45:47    info] FPS: 43.7158
+[17:45:47    info] Value loss: 8.84711e-05
+[17:45:47    info] Action loss: -0.0353818
+[17:45:47    info] Clip fraction: 0.16875
+[17:45:47    info] Entropy: 1.68602
+[17:45:47    info] KL divergence: 0.0413958
+[17:45:47    info] Reward: -nan
+[17:45:55    info] ---
+[17:45:55    info] Update: 75/312500
+[17:45:55    info] Total frames: 24320
+[17:45:55    info] FPS: 43.6625
+[17:45:55    info] Value loss: 0.000100268
+[17:45:55    info] Action loss: -0.0348316
+[17:45:55    info] Clip fraction: 0.29375
+[17:45:55    info] Entropy: 1.63624
+[17:45:55    info] KL divergence: -0.164587
+[17:45:55    info] Reward: -nan
+[17:46:02    info] ---
+[17:46:02    info] Update: 76/312500
+[17:46:02    info] Total frames: 24640
+[17:46:02    info] FPS: 43.6879
+[17:46:02    info] Value loss: 0.000141967
+[17:46:02    info] Action loss: -0.0255872
+[17:46:02    info] Clip fraction: 0.267708
+[17:46:02    info] Entropy: 1.67554
+[17:46:02    info] KL divergence: 0.00679997
+[17:46:02    info] Reward: -nan
+[17:46:09    info] ---
+[17:46:09    info] Update: 77/312500
+[17:46:09    info] Total frames: 24960
+[17:46:09    info] FPS: 43.7128
+[17:46:09    info] Value loss: 8.57704e-05
+[17:46:09    info] Action loss: -0.0307279
+[17:46:09    info] Clip fraction: 0.282292
+[17:46:09    info] Entropy: 1.5472
+[17:46:09    info] KL divergence: 0.0737784
+[17:46:09    info] Reward: -nan
+[17:46:17    info] ---
+[17:46:17    info] Update: 78/312500
+[17:46:17    info] Total frames: 25280
+[17:46:17    info] FPS: 43.737
+[17:46:17    info] Value loss: 8.34938e-05
+[17:46:17    info] Action loss: -0.0184651
+[17:46:17    info] Clip fraction: 0.408333
+[17:46:17    info] Entropy: 1.55176
+[17:46:17    info] KL divergence: 0.0297317
+[17:46:17    info] Reward: -nan
+[17:46:24    info] ---
+[17:46:24    info] Update: 79/312500
+[17:46:24    info] Total frames: 25600
+[17:46:24    info] FPS: 43.686
+[17:46:24    info] Value loss: 0.000153079
+[17:46:24    info] Action loss: -0.0204631
+[17:46:24    info] Clip fraction: 0.277083
+[17:46:24    info] Entropy: 1.59893
+[17:46:24    info] KL divergence: 0.124824
+[17:46:24    info] Reward: -nan
+[17:46:31    info] ---
+[17:46:31    info] Update: 80/312500
+[17:46:31    info] Total frames: 25920
+[17:46:31    info] FPS: 43.7099
+[17:46:31    info] Value loss: 8.98455e-05
+[17:46:31    info] Action loss: -0.041345
+[17:46:31    info] Clip fraction: 0.304167
+[17:46:31    info] Entropy: 1.54028
+[17:46:31    info] KL divergence: -0.00741328
+[17:46:31    info] Reward: -nan
+[17:46:39    info] ---
+[17:46:39    info] Update: 81/312500
+[17:46:39    info] Total frames: 26240
+[17:46:39    info] FPS: 43.6606
+[17:46:39    info] Value loss: 0.000319401
+[17:46:39    info] Action loss: -0.0450024
+[17:46:39    info] Clip fraction: 0.319792
+[17:46:39    info] Entropy: 1.51019
+[17:46:39    info] KL divergence: -0.039568
+[17:46:39    info] Reward: -nan
+[17:46:46    info] ---
+[17:46:46    info] Update: 82/312500
+[17:46:46    info] Total frames: 26560
+[17:46:46    info] FPS: 43.6842
+[17:46:46    info] Value loss: 0.000382192
+[17:46:46    info] Action loss: -0.0311252
+[17:46:46    info] Clip fraction: 0.347917
+[17:46:46    info] Entropy: 1.46113
+[17:46:46    info] KL divergence: 0.105348
+[17:46:46    info] Reward: -nan
+[17:46:53    info] ---
+[17:46:53    info] Update: 83/312500
+[17:46:53    info] Total frames: 26880
+[17:46:53    info] FPS: 43.7073
+[17:46:53    info] Value loss: 0.000316974
+[17:46:53    info] Action loss: -0.0275186
+[17:46:53    info] Clip fraction: 0.401042
+[17:46:53    info] Entropy: 1.44589
+[17:46:53    info] KL divergence: 0.0806469
+[17:46:53    info] Reward: -nan
+[17:47:01    info] ---
+[17:47:01    info] Update: 84/312500
+[17:47:01    info] Total frames: 27200
+[17:47:01    info] FPS: 43.7299
+[17:47:01    info] Value loss: 0.000360892
+[17:47:01    info] Action loss: -0.0536975
+[17:47:01    info] Clip fraction: 0.366667
+[17:47:01    info] Entropy: 1.42215
+[17:47:01    info] KL divergence: 0.0573023
+[17:47:01    info] Reward: -nan
+[17:47:08    info] ---
+[17:47:08    info] Update: 85/312500
+[17:47:08    info] Total frames: 27520
+[17:47:08    info] FPS: 43.6825
+[17:47:08    info] Value loss: 0.000223985
+[17:47:08    info] Action loss: -0.0474769
+[17:47:08    info] Clip fraction: 0.384375
+[17:47:08    info] Entropy: 1.45968
+[17:47:08    info] KL divergence: 0.162524
+[17:47:08    info] Reward: -nan
+[17:47:15    info] ---
+[17:47:15    info] Update: 86/312500
+[17:47:15    info] Total frames: 27840
+[17:47:15    info] FPS: 43.7049
+[17:47:15    info] Value loss: 0.000117668
+[17:47:15    info] Action loss: -0.0327502
+[17:47:15    info] Clip fraction: 0.305208
+[17:47:15    info] Entropy: 1.55135
+[17:47:15    info] KL divergence: 0.0928847
+[17:47:15    info] Reward: -nan
+[17:47:23    info] ---
+[17:47:23    info] Update: 87/312500
+[17:47:23    info] Total frames: 28160
+[17:47:23    info] FPS: 43.6589
+[17:47:23    info] Value loss: 0.000136214
+[17:47:23    info] Action loss: -0.0331253
+[17:47:23    info] Clip fraction: 0.241667
+[17:47:23    info] Entropy: 1.55224
+[17:47:23    info] KL divergence: -0.101511
+[17:47:23    info] Reward: -nan
+[17:47:30    info] ---
+[17:47:30    info] Update: 88/312500
+[17:47:30    info] Total frames: 28480
+[17:47:30    info] FPS: 43.681
+[17:47:30    info] Value loss: 9.83821e-05
+[17:47:30    info] Action loss: -0.0129042
+[17:47:30    info] Clip fraction: 0.315625
+[17:47:30    info] Entropy: 1.57042
+[17:47:30    info] KL divergence: 0.0585615
+[17:47:30    info] Reward: -nan
+[17:47:37    info] ---
+[17:47:37    info] Update: 89/312500
+[17:47:37    info] Total frames: 28800
+[17:47:37    info] FPS: 43.7026
+[17:47:37    info] Value loss: 0.000285062
+[17:47:37    info] Action loss: -0.0261479
+[17:47:37    info] Clip fraction: 0.233333
+[17:47:37    info] Entropy: 1.5866
+[17:47:37    info] KL divergence: -0.0204392
+[17:47:37    info] Reward: -nan
+[17:47:45    info] ---
+[17:47:45    info] Update: 90/312500
+[17:47:45    info] Total frames: 29120
+[17:47:45    info] FPS: 43.7237
+[17:47:45    info] Value loss: 0.000342595
+[17:47:45    info] Action loss: -0.0332278
+[17:47:45    info] Clip fraction: 0.284375
+[17:47:45    info] Entropy: 1.55472
+[17:47:45    info] KL divergence: 0.0519123
+[17:47:45    info] Reward: -nan
+[17:47:52    info] ---
+[17:47:52    info] Update: 91/312500
+[17:47:52    info] Total frames: 29440
+[17:47:52    info] FPS: 43.6795
+[17:47:52    info] Value loss: 0.000205109
+[17:47:52    info] Action loss: -0.0313636
+[17:47:52    info] Clip fraction: 0.317708
+[17:47:52    info] Entropy: 1.54045
+[17:47:52    info] KL divergence: -0.0333257
+[17:47:52    info] Reward: -nan
+[17:48:00    info] ---
+[17:48:00    info] Update: 92/312500
+[17:48:00    info] Total frames: 29760
+[17:48:00    info] FPS: 43.7004
+[17:48:00    info] Value loss: 0.000116578
+[17:48:00    info] Action loss: -0.0291803
+[17:48:00    info] Clip fraction: 0.225
+[17:48:00    info] Entropy: 1.62643
+[17:48:00    info] KL divergence: 0.119075
+[17:48:00    info] Reward: -nan
+[17:48:07    info] ---
+[17:48:07    info] Update: 93/312500
+[17:48:07    info] Total frames: 30080
+[17:48:07    info] FPS: 43.6575
+[17:48:07    info] Value loss: 8.50296e-05
+[17:48:07    info] Action loss: -0.0417072
+[17:48:07    info] Clip fraction: 0.240625
+[17:48:07    info] Entropy: 1.62341
+[17:48:07    info] KL divergence: 0.109788
+[17:48:07    info] Reward: -nan
+[17:48:14    info] ---
+[17:48:14    info] Update: 94/312500
+[17:48:14    info] Total frames: 30400
+[17:48:14    info] FPS: 43.6782
+[17:48:14    info] Value loss: 3.74926e-05
+[17:48:14    info] Action loss: -0.044363
+[17:48:14    info] Clip fraction: 0.301042
+[17:48:14    info] Entropy: 1.59438
+[17:48:14    info] KL divergence: 0.0267496
+[17:48:14    info] Reward: -nan
+[17:48:21    info] ---
+[17:48:21    info] Update: 95/312500
+[17:48:21    info] Total frames: 30720
+[17:48:21    info] FPS: 43.6984
+[17:48:21    info] Value loss: 0.000116012
+[17:48:21    info] Action loss: -0.0346746
+[17:48:21    info] Clip fraction: 0.341667
+[17:48:21    info] Entropy: 1.61104
+[17:48:21    info] KL divergence: 0.0154034
+[17:48:21    info] Reward: -nan
+[17:48:29    info] ---
+[17:48:29    info] Update: 96/312500
+[17:48:29    info] Total frames: 31040
+[17:48:29    info] FPS: 43.6568
+[17:48:29    info] Value loss: 0.000136656
+[17:48:29    info] Action loss: -0.0392038
+[17:48:29    info] Clip fraction: 0.302083
+[17:48:29    info] Entropy: 1.57906
+[17:48:29    info] KL divergence: 0.0292368
+[17:48:29    info] Reward: -nan
+[17:48:36    info] ---
+[17:48:36    info] Update: 97/312500
+[17:48:36    info] Total frames: 31360
+[17:48:36    info] FPS: 43.6769
+[17:48:36    info] Value loss: 0.000262706
+[17:48:36    info] Action loss: -0.0393136
+[17:48:36    info] Clip fraction: 0.291667
+[17:48:36    info] Entropy: 1.62982
+[17:48:36    info] KL divergence: -0.0117586
+[17:48:36    info] Reward: -nan
+[17:48:44    info] ---
+[17:48:44    info] Update: 98/312500
+[17:48:44    info] Total frames: 31680
+[17:48:44    info] FPS: 43.6966
+[17:48:44    info] Value loss: 0.000954906
+[17:48:44    info] Action loss: -0.0245014
+[17:48:44    info] Clip fraction: 0.378125
+[17:48:44    info] Entropy: 1.58364
+[17:48:44    info] KL divergence: 0.0438139
+[17:48:44    info] Reward: -nan
+[17:48:51    info] ---
+[17:48:51    info] Update: 99/312500
+[17:48:51    info] Total frames: 32000
+[17:48:51    info] FPS: 43.6562
+[17:48:51    info] Value loss: 0.000518272
+[17:48:51    info] Action loss: -0.0338717
+[17:48:51    info] Clip fraction: 0.310417
+[17:48:51    info] Entropy: 1.6345
+[17:48:51    info] KL divergence: -0.0432394
+[17:48:51    info] Reward: -nan
+[17:48:58    info] ---
+[17:48:58    info] Update: 100/312500
+[17:48:58    info] Total frames: 32320
+[17:48:58    info] FPS: 43.6757
+[17:48:58    info] Value loss: 0.000277926
+[17:48:58    info] Action loss: -0.0461098
+[17:48:58    info] Clip fraction: 0.258333
+[17:48:58    info] Entropy: 1.66079
+[17:48:58    info] KL divergence: 0.111583
+[17:48:58    info] Reward: -nan
+[17:49:05    info] ---
+[17:49:05    info] Update: 101/312500
+[17:49:05    info] Total frames: 32640
+[17:49:05    info] FPS: 43.6948
+[17:49:05    info] Value loss: 0.000218965
+[17:49:05    info] Action loss: -0.0401777
+[17:49:05    info] Clip fraction: 0.277083
+[17:49:05    info] Entropy: 1.64541
+[17:49:05    info] KL divergence: 0.0107098
+[17:49:05    info] Reward: -nan
+[17:49:13    info] ---
+[17:49:13    info] Update: 102/312500
+[17:49:13    info] Total frames: 32960
+[17:49:13    info] FPS: 43.6556
+[17:49:13    info] Value loss: 0.000357935
+[17:49:13    info] Action loss: -0.0527988
+[17:49:13    info] Clip fraction: 0.316667
+[17:49:13    info] Entropy: 1.61072
+[17:49:13    info] KL divergence: 0.136967
+[17:49:13    info] Reward: -nan
+[17:49:20    info] ---
+[17:49:20    info] Update: 103/312500
+[17:49:20    info] Total frames: 33280
+[17:49:20    info] FPS: 43.6745
+[17:49:20    info] Value loss: 0.000306477
+[17:49:20    info] Action loss: -0.0467252
+[17:49:20    info] Clip fraction: 0.383333
+[17:49:20    info] Entropy: 1.58594
+[17:49:20    info] KL divergence: 0.0067987
+[17:49:20    info] Reward: -nan
+[17:49:28    info] ---
+[17:49:28    info] Update: 104/312500
+[17:49:28    info] Total frames: 33600
+[17:49:28    info] FPS: 43.6931
+[17:49:28    info] Value loss: 0.000152229
+[17:49:28    info] Action loss: -0.0346772
+[17:49:28    info] Clip fraction: 0.26875
+[17:49:28    info] Entropy: 1.63225
+[17:49:28    info] KL divergence: 0.169718
+[17:49:28    info] Reward: -nan
+[17:49:35    info] ---
+[17:49:35    info] Update: 105/312500
+[17:49:35    info] Total frames: 33920
+[17:49:35    info] FPS: 43.6551
+[17:49:35    info] Value loss: 0.000145586
+[17:49:35    info] Action loss: -0.0409028
+[17:49:35    info] Clip fraction: 0.277083
+[17:49:35    info] Entropy: 1.68448
+[17:49:35    info] KL divergence: 0.0736057
+[17:49:35    info] Reward: -nan
+[17:49:42    info] ---
+[17:49:42    info] Update: 106/312500
+[17:49:42    info] Total frames: 34240
+[17:49:42    info] FPS: 43.6735
+[17:49:42    info] Value loss: 0.000145748
+[17:49:42    info] Action loss: -0.0503247
+[17:49:42    info] Clip fraction: 0.261458
+[17:49:42    info] Entropy: 1.67801
+[17:49:42    info] KL divergence: 0.0536271
+[17:49:42    info] Reward: -nan
+[17:49:49    info] ---
+[17:49:49    info] Update: 107/312500
+[17:49:49    info] Total frames: 34560
+[17:49:49    info] FPS: 43.6915
+[17:49:49    info] Value loss: 75.2736
+[17:49:49    info] Action loss: 0.00754167
+[17:49:49    info] Clip fraction: 0.305147
+[17:49:49    info] Entropy: 1.49872
+[17:49:49    info] KL divergence: 1.43845
+[17:49:49    info] KL divergence early stop update: 17
+[17:49:49    info] Reward: -nan
+[17:49:56    info] ---
+[17:49:56    info] Update: 108/312500
+[17:49:56    info] Total frames: 34880
+[17:49:56    info] FPS: 43.7093
+[17:49:56    info] Value loss: 3.8821
+[17:49:56    info] Action loss: 0.10662
+[17:49:56    info] Clip fraction: 0.451389
+[17:49:56    info] Entropy: 0.783946
+[17:49:56    info] KL divergence: 0.80796
+[17:49:56    info] KL divergence early stop update: 9
+[17:49:56    info] Reward: -nan
+[17:50:03    info] ---
+[17:50:03    info] Update: 109/312500
+[17:50:03    info] Total frames: 35200
+[17:50:03    info] FPS: 43.7267
+[17:50:03    info] Value loss: 0.695506
+[17:50:03    info] Action loss: 0.0292104
+[17:50:03    info] Clip fraction: 0.572917
+[17:50:03    info] Entropy: 1.03316
+[17:50:03    info] KL divergence: 0.58636
+[17:50:03    info] Reward: -nan
+[17:50:10    info] ---
+[17:50:10    info] Update: 110/312500
+[17:50:10    info] Total frames: 35520
+[17:50:10    info] FPS: 43.7438
+[17:50:10    info] Value loss: 0.0568688
+[17:50:10    info] Action loss: 0.0252363
+[17:50:10    info] Clip fraction: 0.465625
+[17:50:10    info] Entropy: 1.04966
+[17:50:10    info] KL divergence: 0.510645
+[17:50:10    info] Reward: -nan
+[17:50:18    info] ---
+[17:50:18    info] Update: 111/312500
+[17:50:18    info] Total frames: 35840
+[17:50:18    info] FPS: 43.7073
+[17:50:18    info] Value loss: 0.0357385
+[17:50:18    info] Action loss: -0.00128746
+[17:50:18    info] Clip fraction: 0.338542
+[17:50:18    info] Entropy: 1.1155
+[17:50:18    info] KL divergence: -0.0328882
+[17:50:18    info] Reward: -nan
+[17:50:25    info] ---
+[17:50:25    info] Update: 112/312500
+[17:50:25    info] Total frames: 36160
+[17:50:25    info] FPS: 43.7243
+[17:50:25    info] Value loss: 0.0237525
+[17:50:25    info] Action loss: 0.0265709
+[17:50:25    info] Clip fraction: 0.251042
+[17:50:25    info] Entropy: 1.04536
+[17:50:25    info] KL divergence: -0.0844111
+[17:50:25    info] Reward: -nan
+[17:50:33    info] ---
+[17:50:33    info] Update: 113/312500
+[17:50:33    info] Total frames: 36480
+[17:50:33    info] FPS: 43.741
+[17:50:33    info] Value loss: 0.0241083
+[17:50:33    info] Action loss: -0.0147288
+[17:50:33    info] Clip fraction: 0.314583
+[17:50:33    info] Entropy: 1.21291
+[17:50:33    info] KL divergence: 0.0180828
+[17:50:33    info] Reward: -nan
+[17:50:40    info] ---
+[17:50:40    info] Update: 114/312500
+[17:50:40    info] Total frames: 36800
+[17:50:40    info] FPS: 43.7055
+[17:50:40    info] Value loss: 0.0118027
+[17:50:40    info] Action loss: -0.0204659
+[17:50:40    info] Clip fraction: 0.347917
+[17:50:40    info] Entropy: 1.31351
+[17:50:40    info] KL divergence: 0.628192
+[17:50:40    info] Reward: -nan
+[17:50:47    info] ---
+[17:50:47    info] Update: 115/312500
+[17:50:47    info] Total frames: 37120
+[17:50:47    info] FPS: 43.722
+[17:50:47    info] Value loss: 0.0335879
+[17:50:47    info] Action loss: -0.04155
+[17:50:47    info] Clip fraction: 0.304688
+[17:50:47    info] Entropy: 1.17303
+[17:50:47    info] KL divergence: 0.77673
+[17:50:47    info] KL divergence early stop update: 32
+[17:50:47    info] Reward: -nan
+[17:50:54    info] ---
+[17:50:54    info] Update: 116/312500
+[17:50:54    info] Total frames: 37440
+[17:50:54    info] FPS: 43.7383
+[17:50:54    info] Value loss: 0.0185322
+[17:50:54    info] Action loss: -0.00796141
+[17:50:54    info] Clip fraction: 0.290625
+[17:50:54    info] Entropy: 1.11159
+[17:50:54    info] KL divergence: -0.0245938
+[17:50:54    info] Reward: -nan
+[17:51:01    info] ---
+[17:51:01    info] Update: 117/312500
+[17:51:01    info] Total frames: 37760
+[17:51:01    info] FPS: 43.7543
+[17:51:01    info] Value loss: 4.21095
+[17:51:01    info] Action loss: 0.0412906
+[17:51:01    info] Clip fraction: 0.3275
+[17:51:01    info] Entropy: 1.03429
+[17:51:01    info] KL divergence: 1.32545
+[17:51:01    info] KL divergence early stop update: 25
+[17:51:01    info] Reward: -nan
+[17:51:09    info] ---
+[17:51:09    info] Update: 118/312500
+[17:51:09    info] Total frames: 38080
+[17:51:09    info] FPS: 43.7701
+[17:51:09    info] Value loss: 0.0825416
+[17:51:09    info] Action loss: -0.0566775
+[17:51:09    info] Clip fraction: 0.385081
+[17:51:09    info] Entropy: 0.650206
+[17:51:09    info] KL divergence: 0.772479
+[17:51:09    info] KL divergence early stop update: 31
+[17:51:09    info] Reward: -nan
+[17:51:16    info] ---
+[17:51:16    info] Update: 119/312500
+[17:51:16    info] Total frames: 38400
+[17:51:16    info] FPS: 43.7358
+[17:51:16    info] Value loss: 0.0556467
+[17:51:16    info] Action loss: -4.18302e-05
+[17:51:16    info] Clip fraction: 0.200893
+[17:51:16    info] Entropy: 0.371906
+[17:51:16    info] KL divergence: 0.828308
+[17:51:16    info] KL divergence early stop update: 28
+[17:51:16    info] Reward: -nan
+[17:51:23    info] ---
+[17:51:23    info] Update: 120/312500
+[17:51:23    info] Total frames: 38720
+[17:51:23    info] FPS: 43.7514
+[17:51:23    info] Value loss: 0.0235079
+[17:51:23    info] Action loss: -0.00749498
+[17:51:23    info] Clip fraction: 0.18125
+[17:51:23    info] Entropy: 0.407583
+[17:51:23    info] KL divergence: 0.574159
+[17:51:23    info] Reward: -nan
+[17:51:31    info] ---
+[17:51:31    info] Update: 121/312500
+[17:51:31    info] Total frames: 39040
+[17:51:31    info] FPS: 43.7668
+[17:51:31    info] Value loss: 0.0269613
+[17:51:31    info] Action loss: -0.00931306
+[17:51:31    info] Clip fraction: 0.2775
+[17:51:31    info] Entropy: 0.350632
+[17:51:31    info] KL divergence: 0.87489
+[17:51:31    info] KL divergence early stop update: 50
+[17:51:31    info] Reward: -nan
+[17:51:38    info] ---
+[17:51:38    info] Update: 122/312500
+[17:51:38    info] Total frames: 39360
+[17:51:38    info] FPS: 43.7333
+[17:51:38    info] Value loss: 0.0187102
+[17:51:38    info] Action loss: -0.00199504
+[17:51:38    info] Clip fraction: 0.134375
+[17:51:38    info] Entropy: 0.354002
+[17:51:38    info] KL divergence: 0.0407332
+[17:51:38    info] Reward: -nan
+[17:51:45    info] ---
+[17:51:45    info] Update: 123/312500
+[17:51:45    info] Total frames: 39680
+[17:51:45    info] FPS: 43.7486
+[17:51:45    info] Value loss: 0.0183564
+[17:51:45    info] Action loss: -0.011587
+[17:51:45    info] Clip fraction: 0.221875
+[17:51:45    info] Entropy: 0.385265
+[17:51:45    info] KL divergence: -0.0130638
+[17:51:45    info] Reward: -nan
+[17:51:53    info] ---
+[17:51:53    info] Update: 124/312500
+[17:51:53    info] Total frames: 40000
+[17:51:53    info] FPS: 43.7158
+[17:51:53    info] Value loss: 0.0129021
+[17:51:53    info] Action loss: -0.000408132
+[17:51:53    info] Clip fraction: 0.120833
+[17:51:53    info] Entropy: 0.353817
+[17:51:53    info] KL divergence: 0.0395418
+[17:51:53    info] Reward: -nan
+[17:52:01    info] ---
+[17:52:01    info] Update: 125/312500
+[17:52:01    info] Total frames: 40320
+[17:52:01    info] FPS: 43.731
+[17:52:01    info] Value loss: 0.0137855
+[17:52:01    info] Action loss: -0.00490604
+[17:52:01    info] Clip fraction: 0.0739583
+[17:52:01    info] Entropy: 0.327486
+[17:52:01    info] KL divergence: 0.0203345
+[17:52:01    info] Reward: -nan
+[17:52:08    info] ---
+[17:52:08    info] Update: 126/312500
+[17:52:08    info] Total frames: 40640
+[17:52:08    info] FPS: 43.6989
+[17:52:08    info] Value loss: 0.00892871
+[17:52:08    info] Action loss: -0.013499
+[17:52:08    info] Clip fraction: 0.0916667
+[17:52:08    info] Entropy: 0.324302
+[17:52:08    info] KL divergence: 0.0648496
+[17:52:08    info] Reward: -nan
+[17:52:16    info] ---
+[17:52:16    info] Update: 127/312500
+[17:52:16    info] Total frames: 40960
+[17:52:16    info] FPS: 43.714
+[17:52:16    info] Value loss: 0.0086762
+[17:52:16    info] Action loss: 0.0277187
+[17:52:16    info] Clip fraction: 0.20625
+[17:52:16    info] Entropy: 0.359779
+[17:52:16    info] KL divergence: 0.0283622
+[17:52:16    info] Reward: -nan
+[17:52:23    info] ---
+[17:52:23    info] Update: 128/312500
+[17:52:23    info] Total frames: 41280
+[17:52:23    info] FPS: 43.6825
+[17:52:23    info] Value loss: 0.00408866
+[17:52:23    info] Action loss: -0.00227983
+[17:52:23    info] Clip fraction: 0.1
+[17:52:23    info] Entropy: 0.347784
+[17:52:23    info] KL divergence: 0.0530898
+[17:52:23    info] Reward: -nan
+[17:52:30    info] ---
+[17:52:30    info] Update: 129/312500
+[17:52:30    info] Total frames: 41600
+[17:52:30    info] FPS: 43.6975
+[17:52:30    info] Value loss: 0.00677724
+[17:52:30    info] Action loss: 0.0143281
+[17:52:30    info] Clip fraction: 0.185417
+[17:52:30    info] Entropy: 0.408463
+[17:52:30    info] KL divergence: 0.101729
+[17:52:30    info] Reward: -nan
+[17:52:38    info] ---
+[17:52:38    info] Update: 130/312500
+[17:52:38    info] Total frames: 41920
+[17:52:38    info] FPS: 43.6667
+[17:52:38    info] Value loss: 0.00684509
+[17:52:38    info] Action loss: 0.00789183
+[17:52:38    info] Clip fraction: 0.123958
+[17:52:38    info] Entropy: 0.530445
+[17:52:38    info] KL divergence: 0.0415511
+[17:52:38    info] Reward: -nan
+[17:52:46    info] ---
+[17:52:46    info] Update: 131/312500
+[17:52:46    info] Total frames: 42240
+[17:52:46    info] FPS: 43.6815
+[17:52:46    info] Value loss: 0.00681213
+[17:52:46    info] Action loss: -0.0173086
+[17:52:46    info] Clip fraction: 0.138542
+[17:52:46    info] Entropy: 0.582865
+[17:52:46    info] KL divergence: 0.0162557
+[17:52:46    info] Reward: -nan
+[17:52:53    info] ---
+[17:52:53    info] Update: 132/312500
+[17:52:53    info] Total frames: 42560
+[17:52:53    info] FPS: 43.6513
+[17:52:53    info] Value loss: 0.00670069
+[17:52:53    info] Action loss: -0.029713
+[17:52:53    info] Clip fraction: 0.175
+[17:52:53    info] Entropy: 0.540873
+[17:52:53    info] KL divergence: 0.104012
+[17:52:53    info] Reward: -nan
+[17:53:00    info] ---
+[17:53:00    info] Update: 133/312500
+[17:53:00    info] Total frames: 42880
+[17:53:00    info] FPS: 43.666
+[17:53:00    info] Value loss: 0.00427818
+[17:53:00    info] Action loss: -0.0118569
+[17:53:00    info] Clip fraction: 0.157292
+[17:53:00    info] Entropy: 0.509526
+[17:53:00    info] KL divergence: -0.00824299
+[17:53:00    info] Reward: -nan
+[17:53:08    info] ---
+[17:53:08    info] Update: 134/312500
+[17:53:08    info] Total frames: 43200
+[17:53:08    info] FPS: 43.6364
+[17:53:08    info] Value loss: 0.00424777
+[17:53:08    info] Action loss: -0.0183348
+[17:53:08    info] Clip fraction: 0.102083
+[17:53:08    info] Entropy: 0.500084
+[17:53:08    info] KL divergence: 0.0118023
+[17:53:08    info] Reward: -nan
+[17:53:15    info] ---
+[17:53:15    info] Update: 135/312500
+[17:53:15    info] Total frames: 43520
+[17:53:15    info] FPS: 43.651
+[17:53:15    info] Value loss: 0.00659953
+[17:53:15    info] Action loss: -0.00882457
+[17:53:15    info] Clip fraction: 0.105208
+[17:53:15    info] Entropy: 0.530047
+[17:53:15    info] KL divergence: -0.0148726
+[17:53:15    info] Reward: -nan
+[17:53:23    info] ---
+[17:53:23    info] Update: 136/312500
+[17:53:23    info] Total frames: 43840
+[17:53:23    info] FPS: 43.6219
+[17:53:23    info] Value loss: 0.00785614
+[17:53:23    info] Action loss: -0.0168671
+[17:53:23    info] Clip fraction: 0.129167
+[17:53:23    info] Entropy: 0.667345
+[17:53:23    info] KL divergence: 0.0456608
+[17:53:23    info] Reward: -nan
+[17:53:30    info] ---
+[17:53:30    info] Update: 137/312500
+[17:53:30    info] Total frames: 44160
+[17:53:30    info] FPS: 43.6364
+[17:53:30    info] Value loss: 0.00357066
+[17:53:30    info] Action loss: -0.0156303
+[17:53:30    info] Clip fraction: 0.125
+[17:53:30    info] Entropy: 0.73712
+[17:53:30    info] KL divergence: 0.0858218
+[17:53:30    info] Reward: -nan
+[17:53:38    info] ---
+[17:53:38    info] Update: 138/312500
+[17:53:38    info] Total frames: 44480
+[17:53:38    info] FPS: 43.6078
+[17:53:38    info] Value loss: 0.00389175
+[17:53:38    info] Action loss: -0.00797917
+[17:53:38    info] Clip fraction: 0.148958
+[17:53:38    info] Entropy: 0.650128
+[17:53:38    info] KL divergence: 0.0111614
+[17:53:38    info] Reward: -nan
+[17:53:45    info] ---
+[17:53:45    info] Update: 139/312500
+[17:53:45    info] Total frames: 44800
+[17:53:45    info] FPS: 43.6222
+[17:53:45    info] Value loss: 0.00235309
+[17:53:45    info] Action loss: -0.00890771
+[17:53:45    info] Clip fraction: 0.0979167
+[17:53:45    info] Entropy: 0.705142
+[17:53:45    info] KL divergence: 0.00643814
+[17:53:45    info] Reward: -nan
+[17:53:53    info] ---
+[17:53:53    info] Update: 140/312500
+[17:53:53    info] Total frames: 45120
+[17:53:53    info] FPS: 43.5942
+[17:53:53    info] Value loss: 0.00177133
+[17:53:53    info] Action loss: 0.0064216
+[17:53:53    info] Clip fraction: 0.188542
+[17:53:53    info] Entropy: 0.549107
+[17:53:53    info] KL divergence: -0.0550601
+[17:53:53    info] Reward: -nan
+[17:54:00    info] ---
+[17:54:00    info] Update: 141/312500
+[17:54:00    info] Total frames: 45440
+[17:54:00    info] FPS: 43.6084
+[17:54:00    info] Value loss: 0.00410775
+[17:54:00    info] Action loss: -0.00110849
+[17:54:00    info] Clip fraction: 0.084375
+[17:54:00    info] Entropy: 0.574225
+[17:54:00    info] KL divergence: 0.0461345
+[17:54:00    info] Reward: -nan
+[17:54:08    info] ---
+[17:54:08    info] Update: 142/312500
+[17:54:08    info] Total frames: 45760
+[17:54:08    info] FPS: 43.581
+[17:54:08    info] Value loss: 0.00182908
+[17:54:08    info] Action loss: -0.00543501
+[17:54:08    info] Clip fraction: 0.0947917
+[17:54:08    info] Entropy: 0.669459
+[17:54:08    info] KL divergence: 0.0149685
+[17:54:08    info] Reward: -nan
+[17:54:15    info] ---
+[17:54:15    info] Update: 143/312500
+[17:54:15    info] Total frames: 46080
+[17:54:15    info] FPS: 43.5951
+[17:54:15    info] Value loss: 0.00126678
+[17:54:15    info] Action loss: -0.00776644
+[17:54:15    info] Clip fraction: 0.104167
+[17:54:15    info] Entropy: 0.654279
+[17:54:15    info] KL divergence: -0.0148768
+[17:54:15    info] Reward: -nan
+[17:54:23    info] ---
+[17:54:23    info] Update: 144/312500
+[17:54:23    info] Total frames: 46400
+[17:54:23    info] FPS: 43.5681
+[17:54:23    info] Value loss: 0.00105051
+[17:54:23    info] Action loss: -0.0111026
+[17:54:23    info] Clip fraction: 0.103125
+[17:54:23    info] Entropy: 0.651507
+[17:54:23    info] KL divergence: 0.0605814
+[17:54:23    info] Reward: -nan
+[17:54:30    info] ---
+[17:54:30    info] Update: 145/312500
+[17:54:30    info] Total frames: 46720
+[17:54:30    info] FPS: 43.5821
+[17:54:30    info] Value loss: 0.00219144
+[17:54:30    info] Action loss: -0.0113304
+[17:54:30    info] Clip fraction: 0.111458
+[17:54:30    info] Entropy: 0.647314
+[17:54:30    info] KL divergence: 0.0413672
+[17:54:30    info] Reward: -nan
+[17:54:38    info] ---
+[17:54:38    info] Update: 146/312500
+[17:54:38    info] Total frames: 47040
+[17:54:38    info] FPS: 43.5556
+[17:54:38    info] Value loss: 0.0014189
+[17:54:38    info] Action loss: -0.0194345
+[17:54:38    info] Clip fraction: 0.113542
+[17:54:38    info] Entropy: 0.624921
+[17:54:38    info] KL divergence: 0.0360257
+[17:54:38    info] Reward: -nan
+[17:54:45    info] ---
+[17:54:45    info] Update: 147/312500
+[17:54:45    info] Total frames: 47360
+[17:54:45    info] FPS: 43.5695
+[17:54:45    info] Value loss: 0.00199986
+[17:54:45    info] Action loss: -0.0221041
+[17:54:45    info] Clip fraction: 0.111458
+[17:54:45    info] Entropy: 0.5404
+[17:54:45    info] KL divergence: 0.0787749
+[17:54:45    info] Reward: -nan
+[17:54:53    info] ---
+[17:54:53    info] Update: 148/312500
+[17:54:53    info] Total frames: 47680
+[17:54:53    info] FPS: 43.5434
+[17:54:53    info] Value loss: 0.00116363
+[17:54:53    info] Action loss: -0.0184537
+[17:54:53    info] Clip fraction: 0.1625
+[17:54:53    info] Entropy: 0.609496
+[17:54:53    info] KL divergence: 0.0772139
+[17:54:53    info] Reward: -nan
+[17:55:00    info] ---
+[17:55:00    info] Update: 149/312500
+[17:55:00    info] Total frames: 48000
+[17:55:00    info] FPS: 43.5572
+[17:55:00    info] Value loss: 0.000913391
+[17:55:00    info] Action loss: 0.00112903
+[17:55:00    info] Clip fraction: 0.1125
+[17:55:00    info] Entropy: 0.653838
+[17:55:00    info] KL divergence: 0.0731646
+[17:55:00    info] Reward: -nan
+[17:55:08    info] ---
+[17:55:08    info] Update: 150/312500
+[17:55:08    info] Total frames: 48320
+[17:55:08    info] FPS: 43.5315
+[17:55:08    info] Value loss: 0.00113737
+[17:55:08    info] Action loss: -0.00775437
+[17:55:08    info] Clip fraction: 0.0989583
+[17:55:08    info] Entropy: 0.596978
+[17:55:08    info] KL divergence: 0.0621308
+[17:55:08    info] Reward: -nan
+[17:55:15    info] ---
+[17:55:15    info] Update: 151/312500
+[17:55:15    info] Total frames: 48640
+[17:55:15    info] FPS: 43.5452
+[17:55:15    info] Value loss: 0.00082518
+[17:55:15    info] Action loss: -0.00503006
+[17:55:15    info] Clip fraction: 0.0697917
+[17:55:15    info] Entropy: 0.602817
+[17:55:15    info] KL divergence: 0.0210938
+[17:55:15    info] Reward: -nan
+[17:55:23    info] ---
+[17:55:23    info] Update: 152/312500
+[17:55:23    info] Total frames: 48960
+[17:55:23    info] FPS: 43.5587
+[17:55:23    info] Value loss: 0.00194141
+[17:55:23    info] Action loss: -0.0121451
+[17:55:23    info] Clip fraction: 0.0666667
+[17:55:23    info] Entropy: 0.631908
+[17:55:23    info] KL divergence: 0.045832
+[17:55:23    info] Reward: -nan
+[17:55:30    info] ---
+[17:55:30    info] Update: 153/312500
+[17:55:30    info] Total frames: 49280
+[17:55:30    info] FPS: 43.5336
+[17:55:30    info] Value loss: 0.000967659
+[17:55:30    info] Action loss: -0.00505437
+[17:55:30    info] Clip fraction: 0.0989583
+[17:55:30    info] Entropy: 0.658095
+[17:55:30    info] KL divergence: -0.0318386
+[17:55:30    info] Reward: -nan
+[17:55:38    info] ---
+[17:55:38    info] Update: 154/312500
+[17:55:38    info] Total frames: 49600
+[17:55:38    info] FPS: 43.5088
+[17:55:38    info] Value loss: 0.00176043
+[17:55:38    info] Action loss: -0.012756
+[17:55:38    info] Clip fraction: 0.046875
+[17:55:38    info] Entropy: 0.657443
+[17:55:38    info] KL divergence: -0.0127895
+[17:55:38    info] Reward: -nan
+[17:55:45    info] ---
+[17:55:45    info] Update: 155/312500
+[17:55:45    info] Total frames: 49920
+[17:55:45    info] FPS: 43.5222
+[17:55:45    info] Value loss: 0.000977882
+[17:55:45    info] Action loss: -0.0145445
+[17:55:45    info] Clip fraction: 0.0604167
+[17:55:45    info] Entropy: 0.68581
+[17:55:45    info] KL divergence: -0.123779
+[17:55:45    info] Reward: -nan
+[17:55:53    info] ---
+[17:55:53    info] Update: 156/312500
+[17:55:53    info] Total frames: 50240
+[17:55:53    info] FPS: 43.5355
+[17:55:53    info] Value loss: 0.000875362
+[17:55:53    info] Action loss: -0.0103503
+[17:55:53    info] Clip fraction: 0.053125
+[17:55:53    info] Entropy: 0.605938
+[17:55:53    info] KL divergence: -0.0157983
+[17:55:53    info] Reward: -nan
+[17:56:00    info] ---
+[17:56:00    info] Update: 157/312500
+[17:56:00    info] Total frames: 50560
+[17:56:00    info] FPS: 43.5112
+[17:56:00    info] Value loss: 0.00117175
+[17:56:00    info] Action loss: -0.0146289
+[17:56:00    info] Clip fraction: 0.0572917
+[17:56:00    info] Entropy: 0.613332
+[17:56:00    info] KL divergence: 0.0250757
+[17:56:00    info] Reward: -nan
+[17:56:07    info] ---
+[17:56:07    info] Update: 158/312500
+[17:56:07    info] Total frames: 50880
+[17:56:07    info] FPS: 43.5244
+[17:56:07    info] Value loss: 0.00138173
+[17:56:07    info] Action loss: -0.0262882
+[17:56:07    info] Clip fraction: 0.0729167
+[17:56:07    info] Entropy: 0.641606
+[17:56:07    info] KL divergence: 0.0222197
+[17:56:07    info] Reward: -nan
+[17:56:15    info] ---
+[17:56:15    info] Update: 159/312500
+[17:56:15    info] Total frames: 51200
+[17:56:15    info] FPS: 43.5004
+[17:56:15    info] Value loss: 0.00244295
+[17:56:15    info] Action loss: -0.00884738
+[17:56:15    info] Clip fraction: 0.096875
+[17:56:15    info] Entropy: 0.626104
+[17:56:15    info] KL divergence: -0.00115667
+[17:56:15    info] Reward: -nan
+[17:56:23    info] ---
+[17:56:23    info] Update: 160/312500
+[17:56:23    info] Total frames: 51520
+[17:56:23    info] FPS: 43.5135
+[17:56:23    info] Value loss: 0.00179005
+[17:56:23    info] Action loss: -0.0142212
+[17:56:23    info] Clip fraction: 0.0760417
+[17:56:23    info] Entropy: 0.660877
+[17:56:23    info] KL divergence: -0.00364665
+[17:56:23    info] Reward: -nan
+[17:56:30    info] ---
+[17:56:30    info] Update: 161/312500
+[17:56:30    info] Total frames: 51840
+[17:56:30    info] FPS: 43.4899
+[17:56:30    info] Value loss: 0.00058145
+[17:56:30    info] Action loss: -0.0210661
+[17:56:30    info] Clip fraction: 0.113542
+[17:56:30    info] Entropy: 0.605551
+[17:56:30    info] KL divergence: 0.00167198
+[17:56:30    info] Reward: -nan
+[17:56:38    info] ---
+[17:56:38    info] Update: 162/312500
+[17:56:38    info] Total frames: 52160
+[17:56:38    info] FPS: 43.5029
+[17:56:38    info] Value loss: 0.00131168
+[17:56:38    info] Action loss: -0.0200067
+[17:56:38    info] Clip fraction: 0.123958
+[17:56:38    info] Entropy: 0.674577
+[17:56:38    info] KL divergence: -0.0162364
+[17:56:38    info] Reward: -nan
+[17:56:45    info] ---
+[17:56:45    info] Update: 163/312500
+[17:56:45    info] Total frames: 52480
+[17:56:45    info] FPS: 43.4797
+[17:56:45    info] Value loss: 0.00173338
+[17:56:45    info] Action loss: -0.0167456
+[17:56:45    info] Clip fraction: 0.0822917
+[17:56:45    info] Entropy: 0.625948
+[17:56:45    info] KL divergence: -0.0157561
+[17:56:45    info] Reward: -nan
+[17:56:52    info] ---
+[17:56:52    info] Update: 164/312500
+[17:56:52    info] Total frames: 52800
+[17:56:52    info] FPS: 43.4926
+[17:56:52    info] Value loss: 0.000771507
+[17:56:52    info] Action loss: -0.0185157
+[17:56:52    info] Clip fraction: 0.0760417
+[17:56:52    info] Entropy: 0.659176
+[17:56:52    info] KL divergence: 0.0175126
+[17:56:52    info] Reward: -nan
+[17:57:00    info] ---
+[17:57:00    info] Update: 165/312500
+[17:57:00    info] Total frames: 53120
+[17:57:00    info] FPS: 43.4697
+[17:57:00    info] Value loss: 0.00229092
+[17:57:00    info] Action loss: -0.0150399
+[17:57:00    info] Clip fraction: 0.1375
+[17:57:00    info] Entropy: 0.628139
+[17:57:00    info] KL divergence: 0.0274904
+[17:57:00    info] Reward: -nan
+[17:57:07    info] ---
+[17:57:07    info] Update: 166/312500
+[17:57:07    info] Total frames: 53440
+[17:57:07    info] FPS: 43.4825
+[17:57:07    info] Value loss: 0.00194163
+[17:57:07    info] Action loss: -0.0116084
+[17:57:07    info] Clip fraction: 0.0541667
+[17:57:07    info] Entropy: 0.632683
+[17:57:07    info] KL divergence: 0.0275319
+[17:57:07    info] Reward: -nan
+[17:57:15    info] ---
+[17:57:15    info] Update: 167/312500
+[17:57:15    info] Total frames: 53760
+[17:57:15    info] FPS: 43.46
+[17:57:15    info] Value loss: 0.000996743
+[17:57:15    info] Action loss: -0.00826582
+[17:57:15    info] Clip fraction: 0.119792
+[17:57:15    info] Entropy: 0.680274
+[17:57:15    info] KL divergence: 0.0461496
+[17:57:15    info] Reward: -nan
+[17:57:22    info] ---
+[17:57:22    info] Update: 168/312500
+[17:57:22    info] Total frames: 54080
+[17:57:22    info] FPS: 43.4727
+[17:57:22    info] Value loss: 0.000826243
+[17:57:22    info] Action loss: -0.0243311
+[17:57:22    info] Clip fraction: 0.0822917
+[17:57:22    info] Entropy: 0.661161
+[17:57:22    info] KL divergence: -0.0234943
+[17:57:22    info] Reward: -nan
+[17:57:30    info] ---
+[17:57:30    info] Update: 169/312500
+[17:57:30    info] Total frames: 54400
+[17:57:30    info] FPS: 43.4505
+[17:57:30    info] Value loss: 0.00182782
+[17:57:30    info] Action loss: -0.0179224
+[17:57:30    info] Clip fraction: 0.0927083
+[17:57:30    info] Entropy: 0.633018
+[17:57:30    info] KL divergence: 0.0434997
+[17:57:30    info] Reward: -nan
+[17:57:37    info] ---
+[17:57:37    info] Update: 170/312500
+[17:57:37    info] Total frames: 54720
+[17:57:37    info] FPS: 43.4631
+[17:57:37    info] Value loss: 0.0057305
+[17:57:37    info] Action loss: -0.0299202
+[17:57:37    info] Clip fraction: 0.151042
+[17:57:37    info] Entropy: 0.593339
+[17:57:37    info] KL divergence: 0.0527241
+[17:57:37    info] Reward: -nan
+[17:57:45    info] ---
+[17:57:45    info] Update: 171/312500
+[17:57:45    info] Total frames: 55040
+[17:57:45    info] FPS: 43.4412
+[17:57:45    info] Value loss: 0.00464494
+[17:57:45    info] Action loss: -0.0106857
+[17:57:45    info] Clip fraction: 0.110417
+[17:57:45    info] Entropy: 0.591085
+[17:57:45    info] KL divergence: 0.0043845
+[17:57:45    info] Reward: -nan
+[17:57:52    info] ---
+[17:57:52    info] Update: 172/312500
+[17:57:52    info] Total frames: 55360
+[17:57:52    info] FPS: 43.4537
+[17:57:52    info] Value loss: 0.00353181
+[17:57:52    info] Action loss: -0.00316841
+[17:57:52    info] Clip fraction: 0.065625
+[17:57:52    info] Entropy: 0.67676
+[17:57:52    info] KL divergence: 0.0653749
+[17:57:52    info] Reward: -nan
+[17:58:00    info] ---
+[17:58:00    info] Update: 173/312500
+[17:58:00    info] Total frames: 55680
+[17:58:00    info] FPS: 43.4321
+[17:58:00    info] Value loss: 0.00141772
+[17:58:00    info] Action loss: -0.00240818
+[17:58:00    info] Clip fraction: 0.0927083
+[17:58:00    info] Entropy: 0.688846
+[17:58:00    info] KL divergence: -0.0313495
+[17:58:00    info] Reward: -nan
+[17:58:07    info] ---
+[17:58:07    info] Update: 174/312500
+[17:58:07    info] Total frames: 56000
+[17:58:07    info] FPS: 43.4445
+[17:58:07    info] Value loss: 0.000712523
+[17:58:07    info] Action loss: -0.00175631
+[17:58:07    info] Clip fraction: 0.0958333
+[17:58:07    info] Entropy: 0.650738
+[17:58:07    info] KL divergence: 0.00851593
+[17:58:07    info] Reward: -nan
+[17:58:15    info] ---
+[17:58:15    info] Update: 175/312500
+[17:58:15    info] Total frames: 56320
+[17:58:15    info] FPS: 43.4568
+[17:58:15    info] Value loss: 0.00100454
+[17:58:15    info] Action loss: -0.00532996
+[17:58:15    info] Clip fraction: 0.103125
+[17:58:15    info] Entropy: 0.657755
+[17:58:15    info] KL divergence: 0.054609
+[17:58:15    info] Reward: -nan
+[17:58:22    info] ---
+[17:58:22    info] Update: 176/312500
+[17:58:22    info] Total frames: 56640
+[17:58:22    info] FPS: 43.4356
+[17:58:22    info] Value loss: 0.000938955
+[17:58:22    info] Action loss: -0.0165432
+[17:58:22    info] Clip fraction: 0.0635417
+[17:58:22    info] Entropy: 0.692887
+[17:58:22    info] KL divergence: 0.115604
+[17:58:22    info] Reward: -nan
+[17:58:30    info] ---
+[17:58:30    info] Update: 177/312500
+[17:58:30    info] Total frames: 56960
+[17:58:30    info] FPS: 43.4477
+[17:58:30    info] Value loss: 0.000480508
+[17:58:30    info] Action loss: -0.0132243
+[17:58:30    info] Clip fraction: 0.059375
+[17:58:30    info] Entropy: 0.653486
+[17:58:30    info] KL divergence: 0.135547
+[17:58:30    info] Reward: -nan
+[17:58:37    info] ---
+[17:58:37    info] Update: 178/312500
+[17:58:37    info] Total frames: 57280
+[17:58:37    info] FPS: 43.4268
+[17:58:37    info] Value loss: 0.00228809
+[17:58:37    info] Action loss: -0.0243787
+[17:58:37    info] Clip fraction: 0.138542
+[17:58:37    info] Entropy: 0.636353
+[17:58:37    info] KL divergence: 0.00965013
+[17:58:37    info] Reward: -nan
+[17:58:44    info] ---
+[17:58:44    info] Update: 179/312500
+[17:58:44    info] Total frames: 57600
+[17:58:44    info] FPS: 43.4389
+[17:58:44    info] Value loss: 0.00117598
+[17:58:44    info] Action loss: -0.0231799
+[17:58:44    info] Clip fraction: 0.10625
+[17:58:44    info] Entropy: 0.78934
+[17:58:44    info] KL divergence: 0.0251062
+[17:58:44    info] Reward: 0
+[17:58:52    info] ---
+[17:58:52    info] Update: 180/312500
+[17:58:52    info] Total frames: 57920
+[17:58:52    info] FPS: 43.4183
+[17:58:52    info] Value loss: 0.000424676
+[17:58:52    info] Action loss: -0.0146738
+[17:58:52    info] Clip fraction: 0.127083
+[17:58:52    info] Entropy: 0.843251
+[17:58:52    info] KL divergence: 0.0134109
+[17:58:52    info] Reward: 0
+[17:58:59    info] ---
+[17:58:59    info] Update: 181/312500
+[17:58:59    info] Total frames: 58240
+[17:58:59    info] FPS: 43.4303
+[17:58:59    info] Value loss: 0.000604451
+[17:58:59    info] Action loss: -0.0183374
+[17:58:59    info] Clip fraction: 0.176042
+[17:58:59    info] Entropy: 0.897616
+[17:58:59    info] KL divergence: 0.0701054
+[17:58:59    info] Reward: 0
+[17:59:06    info] ---
+[17:59:06    info] Update: 182/312500
+[17:59:06    info] Total frames: 58560
+[17:59:06    info] FPS: 43.4421
+[17:59:06    info] Value loss: 0.000954294
+[17:59:06    info] Action loss: -0.0203045
+[17:59:06    info] Clip fraction: 0.130208
+[17:59:06    info] Entropy: 1.09285
+[17:59:06    info] KL divergence: 0.0283452
+[17:59:06    info] Reward: 0
+[17:59:14    info] ---
+[17:59:14    info] Update: 183/312500
+[17:59:14    info] Total frames: 58880
+[17:59:14    info] FPS: 43.4218
+[17:59:14    info] Value loss: 0.000618957
+[17:59:14    info] Action loss: -0.0362222
+[17:59:14    info] Clip fraction: 0.226042
+[17:59:14    info] Entropy: 1.24387
+[17:59:14    info] KL divergence: 0.00905228
+[17:59:14    info] Reward: 0
+[17:59:21    info] ---
+[17:59:21    info] Update: 184/312500
+[17:59:21    info] Total frames: 59200
+[17:59:21    info] FPS: 43.4336
+[17:59:21    info] Value loss: 0.00107021
+[17:59:21    info] Action loss: -0.0127881
+[17:59:21    info] Clip fraction: 0.192708
+[17:59:21    info] Entropy: 1.03342
+[17:59:21    info] KL divergence: -0.0497131
+[17:59:21    info] Reward: 0
+[17:59:29    info] ---
+[17:59:29    info] Update: 185/312500
+[17:59:29    info] Total frames: 59520
+[17:59:29    info] FPS: 43.4453
+[17:59:29    info] Value loss: 0.00162384
+[17:59:29    info] Action loss: -0.0137978
+[17:59:29    info] Clip fraction: 0.158333
+[17:59:29    info] Entropy: 0.962662
+[17:59:29    info] KL divergence: 0.0556233
+[17:59:29    info] Reward: 0
+[17:59:36    info] ---
+[17:59:36    info] Update: 186/312500
+[17:59:36    info] Total frames: 59840
+[17:59:36    info] FPS: 43.4253
+[17:59:36    info] Value loss: 0.000970945
+[17:59:36    info] Action loss: -0.0293567
+[17:59:36    info] Clip fraction: 0.173958
+[17:59:36    info] Entropy: 0.948035
+[17:59:36    info] KL divergence: 0.0651071
+[17:59:36    info] Reward: 0
+[17:59:43    info] ---
+[17:59:43    info] Update: 187/312500
+[17:59:43    info] Total frames: 60160
+[17:59:43    info] FPS: 43.4368
+[17:59:43    info] Value loss: 0.00114074
+[17:59:43    info] Action loss: -0.0264348
+[17:59:43    info] Clip fraction: 0.217708
+[17:59:43    info] Entropy: 0.924796
+[17:59:43    info] KL divergence: 0.0416237
+[17:59:43    info] Reward: 0
+[17:59:51    info] ---
+[17:59:51    info] Update: 188/312500
+[17:59:51    info] Total frames: 60480
+[17:59:51    info] FPS: 43.4483
+[17:59:51    info] Value loss: 0.00170508
+[17:59:51    info] Action loss: -0.0252732
+[17:59:51    info] Clip fraction: 0.139583
+[17:59:51    info] Entropy: 0.884568
+[17:59:51    info] KL divergence: 0.030306
+[17:59:51    info] Reward: 0
+[17:59:58    info] ---
+[17:59:58    info] Update: 189/312500
+[17:59:58    info] Total frames: 60800
+[17:59:58    info] FPS: 43.4286
+[17:59:58    info] Value loss: 0.000553318
+[17:59:58    info] Action loss: -0.0256183
+[17:59:58    info] Clip fraction: 0.3
+[17:59:58    info] Entropy: 1.12051
+[17:59:58    info] KL divergence: 0.173234
+[17:59:58    info] Reward: 0
+[18:00:05    info] ---
+[18:00:05    info] Update: 190/312500
+[18:00:05    info] Total frames: 61120
+[18:00:05    info] FPS: 43.4399
+[18:00:05    info] Value loss: 0.000231062
+[18:00:05    info] Action loss: -0.0164122
+[18:00:05    info] Clip fraction: 0.180208
+[18:00:05    info] Entropy: 1.122
+[18:00:05    info] KL divergence: -0.0143881
+[18:00:05    info] Reward: 0
+[18:00:13    info] ---
+[18:00:13    info] Update: 191/312500
+[18:00:13    info] Total frames: 61440
+[18:00:13    info] FPS: 43.4205
+[18:00:13    info] Value loss: 0.000321587
+[18:00:13    info] Action loss: -0.0145834
+[18:00:13    info] Clip fraction: 0.119792
+[18:00:13    info] Entropy: 1.00564
+[18:00:13    info] KL divergence: -0.0166632
+[18:00:13    info] Reward: 0
+[18:00:20    info] ---
+[18:00:20    info] Update: 192/312500
+[18:00:20    info] Total frames: 61760
+[18:00:20    info] FPS: 43.4318
+[18:00:20    info] Value loss: 0.000351181
+[18:00:20    info] Action loss: -0.0256461
+[18:00:20    info] Clip fraction: 0.255208
+[18:00:20    info] Entropy: 1.11399
+[18:00:20    info] KL divergence: 0.133699
+[18:00:20    info] Reward: 0
+[18:00:28    info] ---
+[18:00:28    info] Update: 193/312500
+[18:00:28    info] Total frames: 62080
+[18:00:28    info] FPS: 43.4126
+[18:00:28    info] Value loss: 0.000724342
+[18:00:28    info] Action loss: -0.0343046
+[18:00:28    info] Clip fraction: 0.203125
+[18:00:28    info] Entropy: 1.07763
+[18:00:28    info] KL divergence: 0.0436145
+[18:00:28    info] Reward: 0
+[18:00:35    info] ---
+[18:00:35    info] Update: 194/312500
+[18:00:35    info] Total frames: 62400
+[18:00:35    info] FPS: 43.4238
+[18:00:35    info] Value loss: 0.00114473
+[18:00:35    info] Action loss: -0.0212972
+[18:00:35    info] Clip fraction: 0.215625
+[18:00:35    info] Entropy: 1.13454
+[18:00:35    info] KL divergence: 0.0576862
+[18:00:35    info] Reward: 0
+[18:00:42    info] ---
+[18:00:42    info] Update: 195/312500
+[18:00:42    info] Total frames: 62720
+[18:00:42    info] FPS: 43.4349
+[18:00:42    info] Value loss: 0.000832461
+[18:00:42    info] Action loss: -0.0304053
+[18:00:42    info] Clip fraction: 0.184375
+[18:00:42    info] Entropy: 1.13918
+[18:00:42    info] KL divergence: 0.0647884
+[18:00:42    info] Reward: 0
+[18:00:50    info] ---
+[18:00:50    info] Update: 196/312500
+[18:00:50    info] Total frames: 63040
+[18:00:50    info] FPS: 43.4459
+[18:00:50    info] Value loss: 0.00219484
+[18:00:50    info] Action loss: -0.0319648
+[18:00:50    info] Clip fraction: 0.205208
+[18:00:50    info] Entropy: 1.07536
+[18:00:50    info] KL divergence: 0.161131
+[18:00:50    info] Reward: 0
+[18:00:57    info] ---
+[18:00:57    info] Update: 197/312500
+[18:00:57    info] Total frames: 63360
+[18:00:57    info] FPS: 43.427
+[18:00:57    info] Value loss: 0.00110758
+[18:00:57    info] Action loss: -0.025779
+[18:00:57    info] Clip fraction: 0.177083
+[18:00:57    info] Entropy: 1.14542
+[18:00:57    info] KL divergence: 0.0810395
+[18:00:57    info] Reward: 0
+[18:01:04    info] ---
+[18:01:04    info] Update: 198/312500
+[18:01:04    info] Total frames: 63680
+[18:01:04    info] FPS: 43.4379
+[18:01:04    info] Value loss: 0.00158271
+[18:01:04    info] Action loss: -0.0370505
+[18:01:04    info] Clip fraction: 0.197917
+[18:01:04    info] Entropy: 1.0366
+[18:01:04    info] KL divergence: 0.0683714
+[18:01:04    info] Reward: 0
+[18:01:12    info] ---
+[18:01:12    info] Update: 199/312500
+[18:01:12    info] Total frames: 64000
+[18:01:12    info] FPS: 43.4193
+[18:01:12    info] Value loss: 0.000357268
+[18:01:12    info] Action loss: -0.0218456
+[18:01:12    info] Clip fraction: 0.18125
+[18:01:12    info] Entropy: 0.991039
+[18:01:12    info] KL divergence: 0.00987329
+[18:01:12    info] Reward: 0
+[18:01:19    info] ---
+[18:01:19    info] Update: 200/312500
+[18:01:19    info] Total frames: 64320
+[18:01:19    info] FPS: 43.4301
+[18:01:19    info] Value loss: 0.000594848
+[18:01:19    info] Action loss: -0.0232574
+[18:01:19    info] Clip fraction: 0.2375
+[18:01:19    info] Entropy: 1.01116
+[18:01:19    info] KL divergence: -0.000642464
+[18:01:19    info] Reward: 0
+[18:01:26    info] ---
+[18:01:26    info] Update: 201/312500
+[18:01:26    info] Total frames: 64640
+[18:01:26    info] FPS: 43.4409
+[18:01:26    info] Value loss: 0.000207421
+[18:01:26    info] Action loss: -0.0280152
+[18:01:26    info] Clip fraction: 0.24375
+[18:01:26    info] Entropy: 1.19187
+[18:01:26    info] KL divergence: 0.0685235
+[18:01:26    info] Reward: 0
+[18:01:34    info] ---
+[18:01:34    info] Update: 202/312500
+[18:01:34    info] Total frames: 64960
+[18:01:34    info] FPS: 43.4225
+[18:01:34    info] Value loss: 0.000408501
+[18:01:34    info] Action loss: -0.0378232
+[18:01:34    info] Clip fraction: 0.173958
+[18:01:34    info] Entropy: 1.25048
+[18:01:34    info] KL divergence: 0.0530537
+[18:01:34    info] Reward: 0
+[18:01:41    info] ---
+[18:01:41    info] Update: 203/312500
+[18:01:41    info] Total frames: 65280
+[18:01:41    info] FPS: 43.4331
+[18:01:41    info] Value loss: 0.000297198
+[18:01:41    info] Action loss: -0.033535
+[18:01:41    info] Clip fraction: 0.146875
+[18:01:41    info] Entropy: 1.27379
+[18:01:41    info] KL divergence: 0.022594
+[18:01:41    info] Reward: 0
+[18:01:48    info] ---
+[18:01:48    info] Update: 204/312500
+[18:01:48    info] Total frames: 65600
+[18:01:48    info] FPS: 43.4437
+[18:01:48    info] Value loss: 0.000352156
+[18:01:48    info] Action loss: -0.0251663
+[18:01:48    info] Clip fraction: 0.134375
+[18:01:48    info] Entropy: 1.298
+[18:01:48    info] KL divergence: 0.0552956
+[18:01:48    info] Reward: 0
+[18:01:56    info] ---
+[18:01:56    info] Update: 205/312500
+[18:01:56    info] Total frames: 65920
+[18:01:56    info] FPS: 43.4256
+[18:01:56    info] Value loss: 0.000564656
+[18:01:56    info] Action loss: -0.022115
+[18:01:56    info] Clip fraction: 0.351042
+[18:01:56    info] Entropy: 1.40525
+[18:01:56    info] KL divergence: 0.0590422
+[18:01:56    info] Reward: 0
+[18:02:03    info] ---
+[18:02:03    info] Update: 206/312500
+[18:02:03    info] Total frames: 66240
+[18:02:03    info] FPS: 43.4361
+[18:02:03    info] Value loss: 0.000384404
+[18:02:03    info] Action loss: -0.0389923
+[18:02:03    info] Clip fraction: 0.170833
+[18:02:03    info] Entropy: 1.41681
+[18:02:03    info] KL divergence: 0.0586666
+[18:02:03    info] Reward: 0
+[18:02:11    info] ---
+[18:02:11    info] Update: 207/312500
+[18:02:11    info] Total frames: 66560
+[18:02:11    info] FPS: 43.4465
+[18:02:11    info] Value loss: 0.000211863
+[18:02:11    info] Action loss: -0.0362911
+[18:02:11    info] Clip fraction: 0.2
+[18:02:11    info] Entropy: 1.34426
+[18:02:11    info] KL divergence: 0.00851411
+[18:02:11    info] Reward: 0
+[18:02:18    info] ---
+[18:02:18    info] Update: 208/312500
+[18:02:18    info] Total frames: 66880
+[18:02:18    info] FPS: 43.4286
+[18:02:18    info] Value loss: 0.000473994
+[18:02:18    info] Action loss: -0.0287325
+[18:02:18    info] Clip fraction: 0.246875
+[18:02:18    info] Entropy: 1.43851
+[18:02:18    info] KL divergence: -0.0127666
+[18:02:18    info] Reward: 0
+[18:02:25    info] ---
+[18:02:25    info] Update: 209/312500
+[18:02:25    info] Total frames: 67200
+[18:02:25    info] FPS: 43.4389
+[18:02:25    info] Value loss: 0.000158727
+[18:02:25    info] Action loss: -0.0133569
+[18:02:25    info] Clip fraction: 0.225
+[18:02:25    info] Entropy: 1.53072
+[18:02:25    info] KL divergence: 0.0748917
+[18:02:25    info] Reward: 0
+[18:02:33    info] ---
+[18:02:33    info] Update: 210/312500
+[18:02:33    info] Total frames: 67520
+[18:02:33    info] FPS: 43.4492
+[18:02:33    info] Value loss: 0.000431995
+[18:02:33    info] Action loss: -0.0287283
+[18:02:33    info] Clip fraction: 0.20625
+[18:02:33    info] Entropy: 1.63669
+[18:02:33    info] KL divergence: 0.00842581
+[18:02:33    info] Reward: 0
+[18:02:40    info] ---
+[18:02:40    info] Update: 211/312500
+[18:02:40    info] Total frames: 67840
+[18:02:40    info] FPS: 43.4315
+[18:02:40    info] Value loss: 0.000322685
+[18:02:40    info] Action loss: -0.0377479
+[18:02:40    info] Clip fraction: 0.192708
+[18:02:40    info] Entropy: 1.5747
+[18:02:40    info] KL divergence: 0.0787018
+[18:02:40    info] Reward: 0
+[18:02:47    info] ---
+[18:02:47    info] Update: 212/312500
+[18:02:47    info] Total frames: 68160
+[18:02:47    info] FPS: 43.4417
+[18:02:47    info] Value loss: 0.000376511
+[18:02:47    info] Action loss: -0.0270807
+[18:02:47    info] Clip fraction: 0.282292
+[18:02:47    info] Entropy: 1.60346
+[18:02:47    info] KL divergence: 0.152246
+[18:02:47    info] Reward: 0
+[18:02:55    info] ---
+[18:02:55    info] Update: 213/312500
+[18:02:55    info] Total frames: 68480
+[18:02:55    info] FPS: 43.4242
+[18:02:55    info] Value loss: 0.00158058
+[18:02:55    info] Action loss: -0.0363471
+[18:02:55    info] Clip fraction: 0.197917
+[18:02:55    info] Entropy: 1.57972
+[18:02:55    info] KL divergence: 0.0448657
+[18:02:55    info] Reward: 0
+[18:03:02    info] ---
+[18:03:02    info] Update: 214/312500
+[18:03:02    info] Total frames: 68800
+[18:03:02    info] FPS: 43.4343
+[18:03:02    info] Value loss: 0.000909124
+[18:03:02    info] Action loss: -0.034863
+[18:03:02    info] Clip fraction: 0.3125
+[18:03:02    info] Entropy: 1.51454
+[18:03:02    info] KL divergence: -0.0151903
+[18:03:02    info] Reward: 0
+[18:03:09    info] ---
+[18:03:09    info] Update: 215/312500
+[18:03:09    info] Total frames: 69120
+[18:03:09    info] FPS: 43.4444
+[18:03:09    info] Value loss: 0.00104255
+[18:03:09    info] Action loss: -0.0400383
+[18:03:09    info] Clip fraction: 0.325
+[18:03:09    info] Entropy: 1.45686
+[18:03:09    info] KL divergence: 0.0597502
+[18:03:09    info] Reward: 0
+[18:03:17    info] ---
+[18:03:17    info] Update: 216/312500
+[18:03:17    info] Total frames: 69440
+[18:03:17    info] FPS: 43.4271
+[18:03:17    info] Value loss: 0.00166868
+[18:03:17    info] Action loss: -0.0487395
+[18:03:17    info] Clip fraction: 0.370833
+[18:03:17    info] Entropy: 1.49547
+[18:03:17    info] KL divergence: 0.140471
+[18:03:17    info] Reward: 0
+[18:03:24    info] ---
+[18:03:24    info] Update: 217/312500
+[18:03:24    info] Total frames: 69760
+[18:03:24    info] FPS: 43.4371
+[18:03:24    info] Value loss: 0.00138032
+[18:03:24    info] Action loss: -0.031745
+[18:03:24    info] Clip fraction: 0.277083
+[18:03:24    info] Entropy: 1.49785
+[18:03:24    info] KL divergence: -0.0846401
+[18:03:24    info] Reward: 0
+[18:03:32    info] ---
+[18:03:32    info] Update: 218/312500
+[18:03:32    info] Total frames: 70080
+[18:03:32    info] FPS: 43.447
+[18:03:32    info] Value loss: 0.000803562
+[18:03:32    info] Action loss: -0.0240573
+[18:03:32    info] Clip fraction: 0.313542
+[18:03:32    info] Entropy: 1.5336
+[18:03:32    info] KL divergence: 0.0589122
+[18:03:32    info] Reward: 0
+[18:03:39    info] ---
+[18:03:39    info] Update: 219/312500
+[18:03:39    info] Total frames: 70400
+[18:03:39    info] FPS: 43.43
+[18:03:39    info] Value loss: 0.000520973
+[18:03:39    info] Action loss: -0.0251952
+[18:03:39    info] Clip fraction: 0.242708
+[18:03:39    info] Entropy: 1.47117
+[18:03:39    info] KL divergence: 0.00322664
+[18:03:39    info] Reward: 0
+[18:03:46    info] ---
+[18:03:46    info] Update: 220/312500
+[18:03:46    info] Total frames: 70720
+[18:03:46    info] FPS: 43.4398
+[18:03:46    info] Value loss: 0.000666594
+[18:03:46    info] Action loss: -0.0338464
+[18:03:46    info] Clip fraction: 0.303125
+[18:03:46    info] Entropy: 1.47475
+[18:03:46    info] KL divergence: 0.109651
+[18:03:46    info] Reward: 0
+[18:03:54    info] ---
+[18:03:54    info] Update: 221/312500
+[18:03:54    info] Total frames: 71040
+[18:03:54    info] FPS: 43.4495
+[18:03:54    info] Value loss: 0.0004697
+[18:03:54    info] Action loss: -0.0205889
+[18:03:54    info] Clip fraction: 0.203125
+[18:03:54    info] Entropy: 1.44841
+[18:03:54    info] KL divergence: 0.0594464
+[18:03:54    info] Reward: 0
+[18:04:01    info] ---
+[18:04:01    info] Update: 222/312500
+[18:04:01    info] Total frames: 71360
+[18:04:01    info] FPS: 43.4327
+[18:04:01    info] Value loss: 0.000311407
+[18:04:01    info] Action loss: -0.0332886
+[18:04:01    info] Clip fraction: 0.210417
+[18:04:01    info] Entropy: 1.49793
+[18:04:01    info] KL divergence: 0.0978517
+[18:04:01    info] Reward: 0
+[18:04:08    info] ---
+[18:04:08    info] Update: 223/312500
+[18:04:08    info] Total frames: 71680
+[18:04:08    info] FPS: 43.4424
+[18:04:08    info] Value loss: 0.000470769
+[18:04:08    info] Action loss: -0.0436715
+[18:04:08    info] Clip fraction: 0.238542
+[18:04:08    info] Entropy: 1.51555
+[18:04:08    info] KL divergence: 0.155457
+[18:04:08    info] Reward: 0
+[18:04:16    info] ---
+[18:04:16    info] Update: 224/312500
+[18:04:16    info] Total frames: 72000
+[18:04:16    info] FPS: 43.4258
+[18:04:16    info] Value loss: 0.000381614
+[18:04:16    info] Action loss: -0.00879352
+[18:04:16    info] Clip fraction: 0.235417
+[18:04:16    info] Entropy: 1.51598
+[18:04:16    info] KL divergence: 0.0623171
+[18:04:16    info] Reward: 0
+[18:04:23    info] ---
+[18:04:23    info] Update: 225/312500
+[18:04:23    info] Total frames: 72320
+[18:04:23    info] FPS: 43.4354
+[18:04:23    info] Value loss: 0.000469379
+[18:04:23    info] Action loss: -0.0342273
+[18:04:23    info] Clip fraction: 0.355208
+[18:04:23    info] Entropy: 1.53255
+[18:04:23    info] KL divergence: -0.0961291
+[18:04:23    info] Reward: 0
+[18:04:30    info] ---
+[18:04:30    info] Update: 226/312500
+[18:04:30    info] Total frames: 72640
+[18:04:30    info] FPS: 43.445
+[18:04:30    info] Value loss: 0.000462952
+[18:04:30    info] Action loss: -0.0424995
+[18:04:30    info] Clip fraction: 0.24375
+[18:04:30    info] Entropy: 1.579
+[18:04:30    info] KL divergence: 0.0858653
+[18:04:30    info] Reward: 0
+[18:04:38    info] ---
+[18:04:38    info] Update: 227/312500
+[18:04:38    info] Total frames: 72960
+[18:04:38    info] FPS: 43.4286
+[18:04:38    info] Value loss: 0.000400685
+[18:04:38    info] Action loss: -0.0364382
+[18:04:38    info] Clip fraction: 0.29375
+[18:04:38    info] Entropy: 1.53343
+[18:04:38    info] KL divergence: -0.0264209
+[18:04:38    info] Reward: 0
+[18:04:45    info] ---
+[18:04:45    info] Update: 228/312500
+[18:04:45    info] Total frames: 73280
+[18:04:45    info] FPS: 43.4381
+[18:04:45    info] Value loss: 0.000504275
+[18:04:45    info] Action loss: -0.0338493
+[18:04:45    info] Clip fraction: 0.266667
+[18:04:45    info] Entropy: 1.56818
+[18:04:45    info] KL divergence: 0.0510766
+[18:04:45    info] Reward: 0
+[18:04:52    info] ---
+[18:04:52    info] Update: 229/312500
+[18:04:52    info] Total frames: 73600
+[18:04:52    info] FPS: 43.4475
+[18:04:52    info] Value loss: 0.000493385
+[18:04:52    info] Action loss: -0.0389846
+[18:04:52    info] Clip fraction: 0.240625
+[18:04:52    info] Entropy: 1.56495
+[18:04:52    info] KL divergence: 0.0247589
+[18:04:52    info] Reward: 0
+[18:05:00    info] ---
+[18:05:00    info] Update: 230/312500
+[18:05:00    info] Total frames: 73920
+[18:05:00    info] FPS: 43.4313
+[18:05:00    info] Value loss: 0.000572652
+[18:05:00    info] Action loss: -0.0381589
+[18:05:00    info] Clip fraction: 0.351042
+[18:05:00    info] Entropy: 1.5144
+[18:05:00    info] KL divergence: -0.0248302
+[18:05:00    info] Reward: 0
+[18:05:07    info] ---
+[18:05:07    info] Update: 231/312500
+[18:05:07    info] Total frames: 74240
+[18:05:07    info] FPS: 43.4406
+[18:05:07    info] Value loss: 0.000338359
+[18:05:07    info] Action loss: -0.0322619
+[18:05:07    info] Clip fraction: 0.322917
+[18:05:07    info] Entropy: 1.43797
+[18:05:07    info] KL divergence: 0.0840556
+[18:05:07    info] Reward: 0
+[18:05:15    info] ---
+[18:05:15    info] Update: 232/312500
+[18:05:15    info] Total frames: 74560
+[18:05:15    info] FPS: 43.4499
+[18:05:15    info] Value loss: 0.000414673
+[18:05:15    info] Action loss: -0.0317266
+[18:05:15    info] Clip fraction: 0.425
+[18:05:15    info] Entropy: 1.32638
+[18:05:15    info] KL divergence: 0.102804
+[18:05:15    info] Reward: 0
+[18:05:22    info] ---
+[18:05:22    info] Update: 233/312500
+[18:05:22    info] Total frames: 74880
+[18:05:22    info] FPS: 43.4339
+[18:05:22    info] Value loss: 0.000330928
+[18:05:22    info] Action loss: -0.0263075
+[18:05:22    info] Clip fraction: 0.178125
+[18:05:22    info] Entropy: 1.41384
+[18:05:22    info] KL divergence: -0.0831802
+[18:05:22    info] Reward: 0
+[18:05:29    info] ---
+[18:05:29    info] Update: 234/312500
+[18:05:29    info] Total frames: 75200
+[18:05:29    info] FPS: 43.4431
+[18:05:29    info] Value loss: 0.000501874
+[18:05:29    info] Action loss: -0.0272924
+[18:05:29    info] Clip fraction: 0.301042
+[18:05:29    info] Entropy: 1.45949
+[18:05:29    info] KL divergence: 0.00277419
+[18:05:29    info] Reward: 0
+[18:05:37    info] ---
+[18:05:37    info] Update: 235/312500
+[18:05:37    info] Total frames: 75520
+[18:05:37    info] FPS: 43.4522
+[18:05:37    info] Value loss: 0.000519014
+[18:05:37    info] Action loss: -0.0262965
+[18:05:37    info] Clip fraction: 0.191667
+[18:05:37    info] Entropy: 1.52451
+[18:05:37    info] KL divergence: -0.0455762
+[18:05:37    info] Reward: 0
+[18:05:44    info] ---
+[18:05:44    info] Update: 236/312500
+[18:05:44    info] Total frames: 75840
+[18:05:44    info] FPS: 43.4364
+[18:05:44    info] Value loss: 0.000452483
+[18:05:44    info] Action loss: -0.0287041
+[18:05:44    info] Clip fraction: 0.241667
+[18:05:44    info] Entropy: 1.49709
+[18:05:44    info] KL divergence: -0.0486746
+[18:05:44    info] Reward: 0
+[18:05:51    info] ---
+[18:05:51    info] Update: 237/312500
+[18:05:51    info] Total frames: 76160
+[18:05:51    info] FPS: 43.4455
+[18:05:51    info] Value loss: 0.000252152
+[18:05:51    info] Action loss: -0.0312917
+[18:05:51    info] Clip fraction: 0.16875
+[18:05:51    info] Entropy: 1.58437
+[18:05:51    info] KL divergence: 0.147457
+[18:05:51    info] Reward: 0
+[18:05:59    info] ---
+[18:05:59    info] Update: 238/312500
+[18:05:59    info] Total frames: 76480
+[18:05:59    info] FPS: 43.4299
+[18:05:59    info] Value loss: 0.000142809
+[18:05:59    info] Action loss: -0.0404708
+[18:05:59    info] Clip fraction: 0.276042
+[18:05:59    info] Entropy: 1.56848
+[18:05:59    info] KL divergence: -0.0749818
+[18:05:59    info] Reward: 0
+[18:06:06    info] ---
+[18:06:06    info] Update: 239/312500
+[18:06:06    info] Total frames: 76800
+[18:06:06    info] FPS: 43.4389
+[18:06:06    info] Value loss: 0.00022599
+[18:06:06    info] Action loss: -0.0436591
+[18:06:06    info] Clip fraction: 0.265625
+[18:06:06    info] Entropy: 1.51956
+[18:06:06    info] KL divergence: 0.00492784
+[18:06:06    info] Reward: 0
+[18:06:13    info] ---
+[18:06:13    info] Update: 240/312500
+[18:06:13    info] Total frames: 77120
+[18:06:13    info] FPS: 43.4479
+[18:06:13    info] Value loss: 0.000116057
+[18:06:13    info] Action loss: -0.0399397
+[18:06:13    info] Clip fraction: 0.327083
+[18:06:13    info] Entropy: 1.55173
+[18:06:13    info] KL divergence: 0.00105868
+[18:06:13    info] Reward: 0
+[18:06:21    info] ---
+[18:06:21    info] Update: 241/312500
+[18:06:21    info] Total frames: 77440
+[18:06:21    info] FPS: 43.4324
+[18:06:21    info] Value loss: 0.00010038
+[18:06:21    info] Action loss: -0.0368298
+[18:06:21    info] Clip fraction: 0.209375
+[18:06:21    info] Entropy: 1.55743
+[18:06:21    info] KL divergence: 0.0305023
+[18:06:21    info] Reward: 0
+[18:06:28    info] ---
+[18:06:28    info] Update: 242/312500
+[18:06:28    info] Total frames: 77760
+[18:06:28    info] FPS: 43.4413
+[18:06:28    info] Value loss: 0.00013754
+[18:06:28    info] Action loss: -0.023602
+[18:06:28    info] Clip fraction: 0.259375
+[18:06:28    info] Entropy: 1.58017
+[18:06:28    info] KL divergence: 0.123768
+[18:06:28    info] Reward: 0.2
+[18:06:35    info] ---
+[18:06:35    info] Update: 243/312500
+[18:06:35    info] Total frames: 78080
+[18:06:35    info] FPS: 43.4502
+[18:06:35    info] Value loss: 9.11443e-05
+[18:06:35    info] Action loss: -0.0475875
+[18:06:35    info] Clip fraction: 0.304167
+[18:06:35    info] Entropy: 1.61558
+[18:06:35    info] KL divergence: 0.0888163
+[18:06:35    info] Reward: 0.2
+[18:06:43    info] ---
+[18:06:43    info] Update: 244/312500
+[18:06:43    info] Total frames: 78400
+[18:06:43    info] FPS: 43.4349
+[18:06:43    info] Value loss: 0.00021977
+[18:06:43    info] Action loss: -0.0426273
+[18:06:43    info] Clip fraction: 0.304167
+[18:06:43    info] Entropy: 1.58589
+[18:06:43    info] KL divergence: 0.0544303
+[18:06:43    info] Reward: 0.2
+[18:06:50    info] ---
+[18:06:50    info] Update: 245/312500
+[18:06:50    info] Total frames: 78720
+[18:06:50    info] FPS: 43.4437
+[18:06:50    info] Value loss: 0.000264674
+[18:06:50    info] Action loss: -0.0357383
+[18:06:50    info] Clip fraction: 0.216667
+[18:06:50    info] Entropy: 1.58491
+[18:06:50    info] KL divergence: 0.0873418
+[18:06:50    info] Reward: 0.2
+[18:06:57    info] ---
+[18:06:57    info] Update: 246/312500
+[18:06:57    info] Total frames: 79040
+[18:06:57    info] FPS: 43.4524
+[18:06:57    info] Value loss: 0.000123191
+[18:06:57    info] Action loss: -0.0401828
+[18:06:57    info] Clip fraction: 0.165625
+[18:06:57    info] Entropy: 1.5863
+[18:06:57    info] KL divergence: 0.0535257
+[18:06:57    info] Reward: 0.2
+[18:07:05    info] ---
+[18:07:05    info] Update: 247/312500
+[18:07:05    info] Total frames: 79360
+[18:07:05    info] FPS: 43.4373
+[18:07:05    info] Value loss: 0.000103667
+[18:07:05    info] Action loss: -0.0507221
+[18:07:05    info] Clip fraction: 0.255208
+[18:07:05    info] Entropy: 1.59059
+[18:07:05    info] KL divergence: -0.0327992
+[18:07:05    info] Reward: 0.2
+[18:07:12    info] ---
+[18:07:12    info] Update: 248/312500
+[18:07:12    info] Total frames: 79680
+[18:07:12    info] FPS: 43.446
+[18:07:12    info] Value loss: 0.000150734
+[18:07:12    info] Action loss: -0.0418173
+[18:07:12    info] Clip fraction: 0.289583
+[18:07:12    info] Entropy: 1.54007
+[18:07:12    info] KL divergence: 0.00573216
+[18:07:12    info] Reward: 0.166667
+[18:07:19    info] ---
+[18:07:19    info] Update: 249/312500
+[18:07:19    info] Total frames: 80000
+[18:07:19    info] FPS: 43.4546
+[18:07:19    info] Value loss: 0.000158632
+[18:07:19    info] Action loss: -0.0609145
+[18:07:19    info] Clip fraction: 0.344792
+[18:07:19    info] Entropy: 1.60964
+[18:07:19    info] KL divergence: -0.111084
+[18:07:19    info] Reward: 0.166667
+[18:07:27    info] ---
+[18:07:27    info] Update: 250/312500
+[18:07:27    info] Total frames: 80320
+[18:07:27    info] FPS: 43.4397
+[18:07:27    info] Value loss: 0.000146761
+[18:07:27    info] Action loss: -0.0432297
+[18:07:27    info] Clip fraction: 0.272917
+[18:07:27    info] Entropy: 1.60352
+[18:07:27    info] KL divergence: 0.0150161
+[18:07:27    info] Reward: 0.166667
+[18:07:34    info] ---
+[18:07:34    info] Update: 251/312500
+[18:07:34    info] Total frames: 80640
+[18:07:34    info] FPS: 43.4483
+[18:07:34    info] Value loss: 8.57188e-05
+[18:07:34    info] Action loss: -0.0606028
+[18:07:34    info] Clip fraction: 0.360417
+[18:07:34    info] Entropy: 1.57123
+[18:07:34    info] KL divergence: -0.0285924
+[18:07:34    info] Reward: 0.166667
+[18:07:41    info] ---
+[18:07:41    info] Update: 252/312500
+[18:07:41    info] Total frames: 80960
+[18:07:41    info] FPS: 43.4568
+[18:07:41    info] Value loss: 8.04112e-05
+[18:07:41    info] Action loss: -0.0473951
+[18:07:41    info] Clip fraction: 0.311458
+[18:07:41    info] Entropy: 1.50801
+[18:07:41    info] KL divergence: 0.0917258
+[18:07:41    info] Reward: 0.166667
+[18:07:49    info] ---
+[18:07:49    info] Update: 253/312500
+[18:07:49    info] Total frames: 81280
+[18:07:49    info] FPS: 43.442
+[18:07:49    info] Value loss: 0.000156853
+[18:07:49    info] Action loss: -0.0564609
+[18:07:49    info] Clip fraction: 0.267708
+[18:07:49    info] Entropy: 1.55244
+[18:07:49    info] KL divergence: 0.0999399
+[18:07:49    info] Reward: 0.166667
+[18:07:56    info] ---
+[18:07:56    info] Update: 254/312500
+[18:07:56    info] Total frames: 81600
+[18:07:56    info] FPS: 43.4505
+[18:07:56    info] Value loss: 0.000152411
+[18:07:56    info] Action loss: -0.0505419
+[18:07:56    info] Clip fraction: 0.259375
+[18:07:56    info] Entropy: 1.53905
+[18:07:56    info] KL divergence: 0.14512
+[18:07:56    info] Reward: 0.166667
+[18:08:03    info] ---
+[18:08:03    info] Update: 255/312500
+[18:08:03    info] Total frames: 81920
+[18:08:03    info] FPS: 43.4589
+[18:08:03    info] Value loss: 5.94597e-05
+[18:08:03    info] Action loss: -0.0427799
+[18:08:03    info] Clip fraction: 0.266667
+[18:08:03    info] Entropy: 1.58478
+[18:08:03    info] KL divergence: 0.146194
+[18:08:03    info] Reward: 0.166667
+[18:08:11    info] ---
+[18:08:11    info] Update: 256/312500
+[18:08:11    info] Total frames: 82240
+[18:08:11    info] FPS: 43.4443
+[18:08:11    info] Value loss: 0.000140424
+[18:08:11    info] Action loss: -0.0412137
+[18:08:11    info] Clip fraction: 0.248958
+[18:08:11    info] Entropy: 1.531
+[18:08:11    info] KL divergence: 0.085502
+[18:08:11    info] Reward: 0.166667
+[18:08:18    info] ---
+[18:08:18    info] Update: 257/312500
+[18:08:18    info] Total frames: 82560
+[18:08:18    info] FPS: 43.4526
+[18:08:18    info] Value loss: 5.48257e-05
+[18:08:18    info] Action loss: -0.037827
+[18:08:18    info] Clip fraction: 0.365625
+[18:08:18    info] Entropy: 1.55051
+[18:08:18    info] KL divergence: 0.0798574
+[18:08:18    info] Reward: 0.166667
+[18:08:25    info] ---
+[18:08:25    info] Update: 258/312500
+[18:08:25    info] Total frames: 82880
+[18:08:25    info] FPS: 43.4609
+[18:08:25    info] Value loss: 5.65708e-05
+[18:08:25    info] Action loss: -0.0458267
+[18:08:25    info] Clip fraction: 0.328125
+[18:08:25    info] Entropy: 1.55231
+[18:08:25    info] KL divergence: 0.162662
+[18:08:25    info] Reward: 0.166667
+[18:08:33    info] ---
+[18:08:33    info] Update: 259/312500
+[18:08:33    info] Total frames: 83200
+[18:08:33    info] FPS: 43.4465
+[18:08:33    info] Value loss: 2.86537e-05
+[18:08:33    info] Action loss: -0.0430194
+[18:08:33    info] Clip fraction: 0.257292
+[18:08:33    info] Entropy: 1.56403
+[18:08:33    info] KL divergence: -0.0822807
+[18:08:33    info] Reward: 0.166667
+[18:08:40    info] ---
+[18:08:40    info] Update: 260/312500
+[18:08:40    info] Total frames: 83520
+[18:08:40    info] FPS: 43.4547
+[18:08:40    info] Value loss: 4.72658e-05
+[18:08:40    info] Action loss: -0.0621879
+[18:08:40    info] Clip fraction: 0.257292
+[18:08:40    info] Entropy: 1.49599
+[18:08:40    info] KL divergence: 0.0960124
+[18:08:40    info] Reward: 0.166667
+[18:08:47    info] ---
+[18:08:47    info] Update: 261/312500
+[18:08:47    info] Total frames: 83840
+[18:08:47    info] FPS: 43.4629
+[18:08:47    info] Value loss: 5.24738e-05
+[18:08:47    info] Action loss: -0.0568824
+[18:08:47    info] Clip fraction: 0.384375
+[18:08:47    info] Entropy: 1.54354
+[18:08:47    info] KL divergence: 0.0851206
+[18:08:47    info] Reward: 0.166667
+[18:08:55    info] ---
+[18:08:55    info] Update: 262/312500
+[18:08:55    info] Total frames: 84160
+[18:08:55    info] FPS: 43.4486
+[18:08:55    info] Value loss: 3.14024e-05
+[18:08:55    info] Action loss: -0.0438021
+[18:08:55    info] Clip fraction: 0.33125
+[18:08:55    info] Entropy: 1.60944
+[18:08:55    info] KL divergence: 0.0687262
+[18:08:55    info] Reward: 0.166667
+[18:09:02    info] ---
+[18:09:02    info] Update: 263/312500
+[18:09:02    info] Total frames: 84480
+[18:09:02    info] FPS: 43.4568
+[18:09:02    info] Value loss: 5.77876e-06
+[18:09:02    info] Action loss: -0.0360223
+[18:09:02    info] Clip fraction: 0.240625
+[18:09:02    info] Entropy: 1.63031
+[18:09:02    info] KL divergence: 0.138135
+[18:09:02    info] Reward: 0.166667
+[18:09:10    info] ---
+[18:09:10    info] Update: 264/312500
+[18:09:10    info] Total frames: 84800
+[18:09:10    info] FPS: 43.4649
+[18:09:10    info] Value loss: 1.60765e-05
+[18:09:10    info] Action loss: -0.0301105
+[18:09:10    info] Clip fraction: 0.305208
+[18:09:10    info] Entropy: 1.59489
+[18:09:10    info] KL divergence: 0.085542
+[18:09:10    info] Reward: 0.166667
+[18:09:17    info] ---
+[18:09:17    info] Update: 265/312500
+[18:09:17    info] Total frames: 85120
+[18:09:17    info] FPS: 43.4507
+[18:09:17    info] Value loss: 2.3256e-05
+[18:09:17    info] Action loss: -0.0473082
+[18:09:17    info] Clip fraction: 0.290625
+[18:09:17    info] Entropy: 1.55271
+[18:09:17    info] KL divergence: -0.0359719
+[18:09:17    info] Reward: 0.166667
+[18:09:24    info] ---
+[18:09:24    info] Update: 266/312500
+[18:09:24    info] Total frames: 85440
+[18:09:24    info] FPS: 43.4588
+[18:09:24    info] Value loss: 1.42005e-05
+[18:09:24    info] Action loss: -0.0494191
+[18:09:24    info] Clip fraction: 0.323958
+[18:09:24    info] Entropy: 1.57909
+[18:09:24    info] KL divergence: 0.0970566
+[18:09:24    info] Reward: 0.166667
+[18:09:31    info] ---
+[18:09:31    info] Update: 267/312500
+[18:09:31    info] Total frames: 85760
+[18:09:31    info] FPS: 43.4668
+[18:09:31    info] Value loss: 5.42539e-05
+[18:09:31    info] Action loss: -0.0371166
+[18:09:31    info] Clip fraction: 0.280208
+[18:09:31    info] Entropy: 1.51422
+[18:09:31    info] KL divergence: 0.00657115
+[18:09:31    info] Reward: 0.166667
+[18:09:39    info] ---
+[18:09:39    info] Update: 268/312500
+[18:09:39    info] Total frames: 86080
+[18:09:39    info] FPS: 43.4528
+[18:09:39    info] Value loss: 2.78979e-05
+[18:09:39    info] Action loss: -0.0273386
+[18:09:39    info] Clip fraction: 0.258333
+[18:09:39    info] Entropy: 1.48319
+[18:09:39    info] KL divergence: -0.0314469
+[18:09:39    info] Reward: 0.166667
+[18:09:46    info] ---
+[18:09:46    info] Update: 269/312500
+[18:09:46    info] Total frames: 86400
+[18:09:46    info] FPS: 43.4608
+[18:09:46    info] Value loss: 2.26947e-05
+[18:09:46    info] Action loss: -0.0391601
+[18:09:46    info] Clip fraction: 0.333333
+[18:09:46    info] Entropy: 1.47802
+[18:09:46    info] KL divergence: 0.172013
+[18:09:46    info] Reward: 0.166667
+[18:09:54    info] ---
+[18:09:54    info] Update: 270/312500
+[18:09:54    info] Total frames: 86720
+[18:09:54    info] FPS: 43.4687
+[18:09:54    info] Value loss: 8.60224e-06
+[18:09:54    info] Action loss: -0.0500086
+[18:09:54    info] Clip fraction: 0.327083
+[18:09:54    info] Entropy: 1.50187
+[18:09:54    info] KL divergence: 0.0911058
+[18:09:54    info] Reward: 0.166667
+[18:10:01    info] ---
+[18:10:01    info] Update: 271/312500
+[18:10:01    info] Total frames: 87040
+[18:10:01    info] FPS: 43.4548
+[18:10:01    info] Value loss: 4.85732e-06
+[18:10:01    info] Action loss: -0.0463452
+[18:10:01    info] Clip fraction: 0.314583
+[18:10:01    info] Entropy: 1.5595
+[18:10:01    info] KL divergence: 0.0296915
+[18:10:01    info] Reward: 0.166667
+[18:10:08    info] ---
+[18:10:08    info] Update: 272/312500
+[18:10:08    info] Total frames: 87360
+[18:10:08    info] FPS: 43.4627
+[18:10:08    info] Value loss: 1.52641e-05
+[18:10:08    info] Action loss: -0.0356278
+[18:10:08    info] Clip fraction: 0.217708
+[18:10:08    info] Entropy: 1.52168
+[18:10:08    info] KL divergence: -0.0587768
+[18:10:08    info] Reward: 0.166667
+[18:10:15    info] ---
+[18:10:15    info] Update: 273/312500
+[18:10:15    info] Total frames: 87680
+[18:10:15    info] FPS: 43.4705
+[18:10:15    info] Value loss: 2.72272e-05
+[18:10:15    info] Action loss: -0.0394392
+[18:10:15    info] Clip fraction: 0.228125
+[18:10:15    info] Entropy: 1.54335
+[18:10:15    info] KL divergence: 0.0317411
+[18:10:15    info] Reward: 0.166667
+[18:10:23    info] ---
+[18:10:23    info] Update: 274/312500
+[18:10:23    info] Total frames: 88000
+[18:10:23    info] FPS: 43.4568
+[18:10:23    info] Value loss: 3.70587e-05
+[18:10:23    info] Action loss: -0.0403893
+[18:10:23    info] Clip fraction: 0.204167
+[18:10:23    info] Entropy: 1.52134
+[18:10:23    info] KL divergence: -0.0597598
+[18:10:23    info] Reward: 0.166667
+[18:10:30    info] ---
+[18:10:30    info] Update: 275/312500
+[18:10:30    info] Total frames: 88320
+[18:10:30    info] FPS: 43.4646
+[18:10:30    info] Value loss: 1.44258e-05
+[18:10:30    info] Action loss: -0.0414983
+[18:10:30    info] Clip fraction: 0.259375
+[18:10:30    info] Entropy: 1.49486
+[18:10:30    info] KL divergence: 0.174643
+[18:10:30    info] Reward: 0.166667
+[18:10:38    info] ---
+[18:10:38    info] Update: 276/312500
+[18:10:38    info] Total frames: 88640
+[18:10:38    info] FPS: 43.4723
+[18:10:38    info] Value loss: 1.02535e-05
+[18:10:38    info] Action loss: -0.0570484
+[18:10:38    info] Clip fraction: 0.3625
+[18:10:38    info] Entropy: 1.48039
+[18:10:38    info] KL divergence: -0.0251728
+[18:10:38    info] Reward: 0.166667
+[18:10:45    info] ---
+[18:10:45    info] Update: 277/312500
+[18:10:45    info] Total frames: 88960
+[18:10:45    info] FPS: 43.4587
+[18:10:45    info] Value loss: 8.29614e-06
+[18:10:45    info] Action loss: -0.0457456
+[18:10:45    info] Clip fraction: 0.351042
+[18:10:45    info] Entropy: 1.50304
+[18:10:45    info] KL divergence: 0.0036298
+[18:10:45    info] Reward: 0.166667
+[18:10:52    info] ---
+[18:10:52    info] Update: 278/312500
+[18:10:52    info] Total frames: 89280
+[18:10:52    info] FPS: 43.4664
+[18:10:52    info] Value loss: 7.57681e-06
+[18:10:52    info] Action loss: -0.0430028
+[18:10:52    info] Clip fraction: 0.247917
+[18:10:52    info] Entropy: 1.55533
+[18:10:52    info] KL divergence: -0.0351926
+[18:10:52    info] Reward: 0.166667
+[18:10:59    info] ---
+[18:10:59    info] Update: 279/312500
+[18:10:59    info] Total frames: 89600
+[18:10:59    info] FPS: 43.474
+[18:10:59    info] Value loss: 6.00545e-06
+[18:10:59    info] Action loss: -0.0603786
+[18:10:59    info] Clip fraction: 0.35625
+[18:10:59    info] Entropy: 1.5125
+[18:10:59    info] KL divergence: 0.238796
+[18:10:59    info] Reward: 0.166667
+[18:11:07    info] ---
+[18:11:07    info] Update: 280/312500
+[18:11:07    info] Total frames: 89920
+[18:11:07    info] FPS: 43.4606
+[18:11:07    info] Value loss: 7.22435e-06
+[18:11:07    info] Action loss: -0.0357372
+[18:11:07    info] Clip fraction: 0.3375
+[18:11:07    info] Entropy: 1.55191
+[18:11:07    info] KL divergence: 0.084071
+[18:11:07    info] Reward: 0.166667
+[18:11:14    info] ---
+[18:11:14    info] Update: 281/312500
+[18:11:14    info] Total frames: 90240
+[18:11:14    info] FPS: 43.4682
+[18:11:14    info] Value loss: 6.45469e-06
+[18:11:14    info] Action loss: -0.0228823
+[18:11:14    info] Clip fraction: 0.21875
+[18:11:14    info] Entropy: 1.56235
+[18:11:14    info] KL divergence: 0.00111454
+[18:11:14    info] Reward: 0.166667
+[18:11:21    info] ---
+[18:11:21    info] Update: 282/312500
+[18:11:21    info] Total frames: 90560
+[18:11:21    info] FPS: 43.4758
+[18:11:21    info] Value loss: 2.87744e-05
+[18:11:21    info] Action loss: -0.0210689
+[18:11:21    info] Clip fraction: 0.161458
+[18:11:21    info] Entropy: 1.56883
+[18:11:21    info] KL divergence: 0.00105239
+[18:11:21    info] Reward: 0.166667
+[18:11:29    info] ---
+[18:11:29    info] Update: 283/312500
+[18:11:29    info] Total frames: 90880
+[18:11:29    info] FPS: 43.4625
+[18:11:29    info] Value loss: 3.4071e-05
+[18:11:29    info] Action loss: -0.0396542
+[18:11:29    info] Clip fraction: 0.327083
+[18:11:29    info] Entropy: 1.5287
+[18:11:29    info] KL divergence: 0.115433
+[18:11:29    info] Reward: 0.142857
+[18:11:36    info] ---
+[18:11:36    info] Update: 284/312500
+[18:11:36    info] Total frames: 91200
+[18:11:36    info] FPS: 43.47
+[18:11:36    info] Value loss: 3.39789e-05
+[18:11:36    info] Action loss: -0.0380168
+[18:11:36    info] Clip fraction: 0.366667
+[18:11:36    info] Entropy: 1.34567
+[18:11:36    info] KL divergence: -0.0467165
+[18:11:36    info] Reward: 0.142857
+[18:11:44    info] ---
+[18:11:44    info] Update: 285/312500
+[18:11:44    info] Total frames: 91520
+[18:11:44    info] FPS: 43.4774
+[18:11:44    info] Value loss: 2.72301e-05
+[18:11:44    info] Action loss: -0.0326985
+[18:11:44    info] Clip fraction: 0.314583
+[18:11:44    info] Entropy: 1.45948
+[18:11:44    info] KL divergence: 0.0725163
+[18:11:44    info] Reward: 0.142857
+[18:11:51    info] ---
+[18:11:51    info] Update: 286/312500
+[18:11:51    info] Total frames: 91840
+[18:11:51    info] FPS: 43.4643
+[18:11:51    info] Value loss: 1.5101e-05
+[18:11:51    info] Action loss: -0.0379169
+[18:11:51    info] Clip fraction: 0.255208
+[18:11:51    info] Entropy: 1.4665
+[18:11:51    info] KL divergence: 0.0334454
+[18:11:51    info] Reward: 0.142857
+[18:11:58    info] ---
+[18:11:58    info] Update: 287/312500
+[18:11:58    info] Total frames: 92160
+[18:11:58    info] FPS: 43.4717
+[18:11:58    info] Value loss: 2.25726e-05
+[18:11:58    info] Action loss: -0.0399898
+[18:11:58    info] Clip fraction: 0.259375
+[18:11:58    info] Entropy: 1.52194
+[18:11:58    info] KL divergence: 0.195928
+[18:11:58    info] Reward: 0.142857
+[18:12:05    info] ---
+[18:12:05    info] Update: 288/312500
+[18:12:05    info] Total frames: 92480
+[18:12:05    info] FPS: 43.4791
+[18:12:05    info] Value loss: 2.9842e-05
+[18:12:05    info] Action loss: -0.0375831
+[18:12:05    info] Clip fraction: 0.334375
+[18:12:05    info] Entropy: 1.46957
+[18:12:05    info] KL divergence: 0.0223579
+[18:12:05    info] Reward: 0.142857
+[18:12:13    info] ---
+[18:12:13    info] Update: 289/312500
+[18:12:13    info] Total frames: 92800
+[18:12:13    info] FPS: 43.466
+[18:12:13    info] Value loss: 1.84469e-05
+[18:12:13    info] Action loss: -0.0363592
+[18:12:13    info] Clip fraction: 0.369792
+[18:12:13    info] Entropy: 1.40373
+[18:12:13    info] KL divergence: 0.0873379
+[18:12:13    info] Reward: 0.142857
+[18:12:20    info] ---
+[18:12:20    info] Update: 290/312500
+[18:12:20    info] Total frames: 93120
+[18:12:20    info] FPS: 43.4734
+[18:12:20    info] Value loss: 1.79642e-05
+[18:12:20    info] Action loss: -0.0368285
+[18:12:20    info] Clip fraction: 0.327083
+[18:12:20    info] Entropy: 1.46386
+[18:12:20    info] KL divergence: 0.0355216
+[18:12:20    info] Reward: 0.142857
+[18:12:27    info] ---
+[18:12:27    info] Update: 291/312500
+[18:12:27    info] Total frames: 93440
+[18:12:27    info] FPS: 43.4807
+[18:12:27    info] Value loss: 3.10615e-06
+[18:12:27    info] Action loss: -0.0202953
+[18:12:27    info] Clip fraction: 0.296875
+[18:12:27    info] Entropy: 1.39365
+[18:12:27    info] KL divergence: 0.0185532
+[18:12:27    info] Reward: 0.142857
+[18:12:35    info] ---
+[18:12:35    info] Update: 292/312500
+[18:12:35    info] Total frames: 93760
+[18:12:35    info] FPS: 43.4678
+[18:12:35    info] Value loss: 3.54286e-06
+[18:12:35    info] Action loss: -0.0473745
+[18:12:35    info] Clip fraction: 0.283333
+[18:12:35    info] Entropy: 1.34286
+[18:12:35    info] KL divergence: 0.0808763
+[18:12:35    info] Reward: 0.142857
+[18:12:42    info] ---
+[18:12:42    info] Update: 293/312500
+[18:12:42    info] Total frames: 94080
+[18:12:42    info] FPS: 43.475
+[18:12:42    info] Value loss: 3.92403e-05
+[18:12:42    info] Action loss: -0.0177115
+[18:12:42    info] Clip fraction: 0.20625
+[18:12:42    info] Entropy: 1.36835
+[18:12:42    info] KL divergence: 0.0507909
+[18:12:42    info] Reward: 0.142857
+[18:12:49    info] ---
+[18:12:49    info] Update: 294/312500
+[18:12:49    info] Total frames: 94400
+[18:12:49    info] FPS: 43.4823
+[18:12:49    info] Value loss: 4.68135e-05
+[18:12:49    info] Action loss: -0.0333384
+[18:12:49    info] Clip fraction: 0.246875
+[18:12:49    info] Entropy: 1.32165
+[18:12:49    info] KL divergence: 0.132633
+[18:12:49    info] Reward: 0.142857
+[18:12:57    info] ---
+[18:12:57    info] Update: 295/312500
+[18:12:57    info] Total frames: 94720
+[18:12:57    info] FPS: 43.4695
+[18:12:57    info] Value loss: 2.89525e-05
+[18:12:57    info] Action loss: -0.0231527
+[18:12:57    info] Clip fraction: 0.35
+[18:12:57    info] Entropy: 1.29544
+[18:12:57    info] KL divergence: 0.0218933
+[18:12:57    info] Reward: 0.142857
+[18:13:04    info] ---
+[18:13:04    info] Update: 296/312500
+[18:13:04    info] Total frames: 95040
+[18:13:04    info] FPS: 43.4767
+[18:13:04    info] Value loss: 1.20822e-05
+[18:13:04    info] Action loss: -0.0313747
+[18:13:04    info] Clip fraction: 0.3125
+[18:13:04    info] Entropy: 1.44214
+[18:13:04    info] KL divergence: 0.0265067
+[18:13:04    info] Reward: 0.142857
+[18:13:12    info] ---
+[18:13:12    info] Update: 297/312500
+[18:13:12    info] Total frames: 95360
+[18:13:12    info] FPS: 43.4838
+[18:13:12    info] Value loss: 6.95072e-06
+[18:13:12    info] Action loss: -0.0296679
+[18:13:12    info] Clip fraction: 0.355208
+[18:13:12    info] Entropy: 1.41209
+[18:13:12    info] KL divergence: 0.118418
+[18:13:12    info] Reward: 0.142857
+[18:13:19    info] ---
+[18:13:19    info] Update: 298/312500
+[18:13:19    info] Total frames: 95680
+[18:13:19    info] FPS: 43.4711
+[18:13:19    info] Value loss: 6.96053e-06
+[18:13:19    info] Action loss: -0.0383198
+[18:13:19    info] Clip fraction: 0.351042
+[18:13:19    info] Entropy: 1.44586
+[18:13:19    info] KL divergence: 0.0748771
+[18:13:19    info] Reward: 0.142857
+[18:13:26    info] ---
+[18:13:26    info] Update: 299/312500
+[18:13:26    info] Total frames: 96000
+[18:13:26    info] FPS: 43.4783
+[18:13:26    info] Value loss: 1.23777e-05
+[18:13:26    info] Action loss: -0.0315054
+[18:13:26    info] Clip fraction: 0.351042
+[18:13:26    info] Entropy: 1.4739
+[18:13:26    info] KL divergence: -0.110739
+[18:13:26    info] Reward: 0.142857
+[18:13:33    info] ---
+[18:13:33    info] Update: 300/312500
+[18:13:33    info] Total frames: 96320
+[18:13:33    info] FPS: 43.4853
+[18:13:33    info] Value loss: 3.69508e-06
+[18:13:33    info] Action loss: -0.0312506
+[18:13:33    info] Clip fraction: 0.201042
+[18:13:33    info] Entropy: 1.54063
+[18:13:33    info] KL divergence: -0.011815
+[18:13:33    info] Reward: 0.142857
+[18:13:41    info] ---
+[18:13:41    info] Update: 301/312500
+[18:13:41    info] Total frames: 96640
+[18:13:41    info] FPS: 43.4728
+[18:13:41    info] Value loss: 5.27672e-06
+[18:13:41    info] Action loss: -0.0364917
+[18:13:41    info] Clip fraction: 0.24375
+[18:13:41    info] Entropy: 1.55363
+[18:13:41    info] KL divergence: -0.0574338
+[18:13:41    info] Reward: 0.142857
+[18:13:48    info] ---
+[18:13:48    info] Update: 302/312500
+[18:13:48    info] Total frames: 96960
+[18:13:48    info] FPS: 43.4798
+[18:13:48    info] Value loss: 4.87537e-06
+[18:13:48    info] Action loss: -0.0453751
+[18:13:48    info] Clip fraction: 0.264583
+[18:13:48    info] Entropy: 1.45405
+[18:13:48    info] KL divergence: 0.0169372
+[18:13:48    info] Reward: 0.142857
+[18:13:55    info] ---
+[18:13:55    info] Update: 303/312500
+[18:13:55    info] Total frames: 97280
+[18:13:55    info] FPS: 43.4868
+[18:13:55    info] Value loss: 1.17149e-05
+[18:13:55    info] Action loss: -0.0410963
+[18:13:55    info] Clip fraction: 0.255208
+[18:13:55    info] Entropy: 1.38131
+[18:13:55    info] KL divergence: -0.0260496
+[18:13:55    info] Reward: 0.142857
+[18:14:03    info] ---
+[18:14:03    info] Update: 304/312500
+[18:14:03    info] Total frames: 97600
+[18:14:03    info] FPS: 43.4744
+[18:14:03    info] Value loss: 1.25783e-05
+[18:14:03    info] Action loss: -0.0267218
+[18:14:03    info] Clip fraction: 0.190625
+[18:14:03    info] Entropy: 1.45831
+[18:14:03    info] KL divergence: 0.0374504
+[18:14:03    info] Reward: 0.142857
+[18:14:10    info] ---
+[18:14:10    info] Update: 305/312500
+[18:14:10    info] Total frames: 97920
+[18:14:10    info] FPS: 43.4813
+[18:14:10    info] Value loss: 3.93218e-05
+[18:14:10    info] Action loss: -0.0324252
+[18:14:10    info] Clip fraction: 0.304167
+[18:14:10    info] Entropy: 1.46845
+[18:14:10    info] KL divergence: 0.06495
+[18:14:10    info] Reward: 0.142857
+[18:14:17    info] ---
+[18:14:17    info] Update: 306/312500
+[18:14:17    info] Total frames: 98240
+[18:14:17    info] FPS: 43.4883
+[18:14:17    info] Value loss: 2.03598e-05
+[18:14:17    info] Action loss: -0.0431917
+[18:14:17    info] Clip fraction: 0.238542
+[18:14:17    info] Entropy: 1.55813
+[18:14:17    info] KL divergence: 0.103988
+[18:14:17    info] Reward: 0.142857
+[18:14:25    info] ---
+[18:14:25    info] Update: 307/312500
+[18:14:25    info] Total frames: 98560
+[18:14:25    info] FPS: 43.476
+[18:14:25    info] Value loss: 4.67283e-06
+[18:14:25    info] Action loss: -0.0414643
+[18:14:25    info] Clip fraction: 0.25
+[18:14:25    info] Entropy: 1.56921
+[18:14:25    info] KL divergence: 0.0970022
+[18:14:25    info] Reward: 0.25
+[18:14:32    info] ---
+[18:14:32    info] Update: 308/312500
+[18:14:32    info] Total frames: 98880
+[18:14:32    info] FPS: 43.4828
+[18:14:32    info] Value loss: 8.58583e-06
+[18:14:32    info] Action loss: -0.0371762
+[18:14:32    info] Clip fraction: 0.214583
+[18:14:32    info] Entropy: 1.57375
+[18:14:32    info] KL divergence: 0.0784994
+[18:14:32    info] Reward: 0.25
+[18:14:40    info] ---
+[18:14:40    info] Update: 309/312500
+[18:14:40    info] Total frames: 99200
+[18:14:40    info] FPS: 43.4897
+[18:14:40    info] Value loss: 1.22301e-05
+[18:14:40    info] Action loss: -0.0406587
+[18:14:40    info] Clip fraction: 0.19375
+[18:14:40    info] Entropy: 1.51634
+[18:14:40    info] KL divergence: 0.109805
+[18:14:40    info] Reward: 0.25
+[18:14:47    info] ---
+[18:14:47    info] Update: 310/312500
+[18:14:47    info] Total frames: 99520
+[18:14:47    info] FPS: 43.4775
+[18:14:47    info] Value loss: 5.63355e-06
+[18:14:47    info] Action loss: -0.0502963
+[18:14:47    info] Clip fraction: 0.305208
+[18:14:47    info] Entropy: 1.51018
+[18:14:47    info] KL divergence: 0.0764244
+[18:14:47    info] Reward: 0.25
+[18:14:54    info] ---
+[18:14:54    info] Update: 311/312500
+[18:14:54    info] Total frames: 99840
+[18:14:54    info] FPS: 43.4843
+[18:14:54    info] Value loss: 3.1657e-06
+[18:14:54    info] Action loss: -0.0487276
+[18:14:54    info] Clip fraction: 0.378125
+[18:14:54    info] Entropy: 1.59136
+[18:14:54    info] KL divergence: -0.0458028
+[18:14:54    info] Reward: 0.25
+[18:15:01    info] ---
+[18:15:01    info] Update: 312/312500
+[18:15:01    info] Total frames: 100160
+[18:15:01    info] FPS: 43.4911
+[18:15:01    info] Value loss: 2.65302e-06
+[18:15:01    info] Action loss: -0.0461822
+[18:15:01    info] Clip fraction: 0.254167
+[18:15:01    info] Entropy: 1.61103
+[18:15:01    info] KL divergence: 0.0250705
+[18:15:01    info] Reward: 0.25
+[18:15:09    info] ---
+[18:15:09    info] Update: 313/312500
+[18:15:09    info] Total frames: 100480
+[18:15:09    info] FPS: 43.479
+[18:15:09    info] Value loss: 2.99751e-06
+[18:15:09    info] Action loss: -0.0252857
+[18:15:09    info] Clip fraction: 0.2125
+[18:15:09    info] Entropy: 1.51976
+[18:15:09    info] KL divergence: 0.0742009
+[18:15:09    info] Reward: 0.25
+[18:15:16    info] ---
+[18:15:16    info] Update: 314/312500
+[18:15:16    info] Total frames: 100800
+[18:15:16    info] FPS: 43.4858
+[18:15:16    info] Value loss: 1.33091e-06
+[18:15:16    info] Action loss: -0.0441816
+[18:15:16    info] Clip fraction: 0.244792
+[18:15:16    info] Entropy: 1.5969
+[18:15:16    info] KL divergence: -0.00978642
+[18:15:16    info] Reward: 0.25
+[18:15:23    info] ---
+[18:15:23    info] Update: 315/312500
+[18:15:23    info] Total frames: 101120
+[18:15:23    info] FPS: 43.4925
+[18:15:23    info] Value loss: 7.9561e-07
+[18:15:23    info] Action loss: -0.0432475
+[18:15:23    info] Clip fraction: 0.275
+[18:15:23    info] Entropy: 1.508
+[18:15:23    info] KL divergence: -0.0116996
+[18:15:23    info] Reward: 0.25
+[18:15:31    info] ---
+[18:15:31    info] Update: 316/312500
+[18:15:31    info] Total frames: 101440
+[18:15:31    info] FPS: 43.4805
+[18:15:31    info] Value loss: 2.22859e-06
+[18:15:31    info] Action loss: -0.0346309
+[18:15:31    info] Clip fraction: 0.255208
+[18:15:31    info] Entropy: 1.47292
+[18:15:31    info] KL divergence: 0.0962446
+[18:15:31    info] Reward: 0.25
+[18:15:38    info] ---
+[18:15:38    info] Update: 317/312500
+[18:15:38    info] Total frames: 101760
+[18:15:38    info] FPS: 43.4872
+[18:15:38    info] Value loss: 6.8327e-07
+[18:15:38    info] Action loss: -0.0505371
+[18:15:38    info] Clip fraction: 0.317708
+[18:15:38    info] Entropy: 1.54775
+[18:15:38    info] KL divergence: 0.117903
+[18:15:38    info] Reward: 0.25
+[18:15:46    info] ---
+[18:15:46    info] Update: 318/312500
+[18:15:46    info] Total frames: 102080
+[18:15:46    info] FPS: 43.4938
+[18:15:46    info] Value loss: 1.69261e-07
+[18:15:46    info] Action loss: -0.0446092
+[18:15:46    info] Clip fraction: 0.261458
+[18:15:46    info] Entropy: 1.51533
+[18:15:46    info] KL divergence: 0.145516
+[18:15:46    info] Reward: 0.25
+[18:15:53    info] ---
+[18:15:53    info] Update: 319/312500
+[18:15:53    info] Total frames: 102400
+[18:15:53    info] FPS: 43.482
+[18:15:53    info] Value loss: 1.06022e-06
+[18:15:53    info] Action loss: -0.0492967
+[18:15:53    info] Clip fraction: 0.260417
+[18:15:53    info] Entropy: 1.55747
+[18:15:53    info] KL divergence: 0.0285205
+[18:15:53    info] Reward: 0.25
+[18:16:00    info] ---
+[18:16:00    info] Update: 320/312500
+[18:16:00    info] Total frames: 102720
+[18:16:00    info] FPS: 43.4886
+[18:16:00    info] Value loss: 5.59982e-07
+[18:16:00    info] Action loss: -0.0359381
+[18:16:00    info] Clip fraction: 0.245833
+[18:16:00    info] Entropy: 1.58918
+[18:16:00    info] KL divergence: 0.171064
+[18:16:00    info] Reward: 0.25
+[18:16:07    info] ---
+[18:16:07    info] Update: 321/312500
+[18:16:07    info] Total frames: 103040
+[18:16:07    info] FPS: 43.4951
+[18:16:07    info] Value loss: 1.74348e-07
+[18:16:07    info] Action loss: -0.0386177
+[18:16:07    info] Clip fraction: 0.19375
+[18:16:07    info] Entropy: 1.58189
+[18:16:07    info] KL divergence: -0.015749
+[18:16:07    info] Reward: 0.25
+[18:16:15    info] ---
+[18:16:15    info] Update: 322/312500
+[18:16:15    info] Total frames: 103360
+[18:16:15    info] FPS: 43.4834
+[18:16:15    info] Value loss: 2.08794e-07
+[18:16:15    info] Action loss: -0.0400706
+[18:16:15    info] Clip fraction: 0.225
+[18:16:15    info] Entropy: 1.63167
+[18:16:15    info] KL divergence: 0.021546
+[18:16:15    info] Reward: 0.25
+[18:16:22    info] ---
+[18:16:22    info] Update: 323/312500
+[18:16:22    info] Total frames: 103680
+[18:16:22    info] FPS: 43.4899
+[18:16:22    info] Value loss: 8.38389e-08
+[18:16:22    info] Action loss: -0.0271468
+[18:16:22    info] Clip fraction: 0.225
+[18:16:22    info] Entropy: 1.60953
+[18:16:22    info] KL divergence: 0.0626296
+[18:16:22    info] Reward: 0.25
+[18:16:29    info] ---
+[18:16:29    info] Update: 324/312500
+[18:16:29    info] Total frames: 104000
+[18:16:29    info] FPS: 43.4964
+[18:16:29    info] Value loss: 9.14293e-08
+[18:16:29    info] Action loss: -0.0414761
+[18:16:29    info] Clip fraction: 0.278125
+[18:16:29    info] Entropy: 1.60589
+[18:16:29    info] KL divergence: 0.0836552
+[18:16:29    info] Reward: 0.25
+[18:16:37    info] ---
+[18:16:37    info] Update: 325/312500
+[18:16:37    info] Total frames: 104320
+[18:16:37    info] FPS: 43.4848
+[18:16:37    info] Value loss: 1.03307e-07
+[18:16:37    info] Action loss: -0.0276895
+[18:16:37    info] Clip fraction: 0.2375
+[18:16:37    info] Entropy: 1.61989
+[18:16:37    info] KL divergence: 0.0816243
+[18:16:37    info] Reward: 0.25
+[18:16:44    info] ---
+[18:16:44    info] Update: 326/312500
+[18:16:44    info] Total frames: 104640
+[18:16:44    info] FPS: 43.4913
+[18:16:44    info] Value loss: 1.97405e-07
+[18:16:44    info] Action loss: -0.0407135
+[18:16:44    info] Clip fraction: 0.276042
+[18:16:44    info] Entropy: 1.57268
+[18:16:44    info] KL divergence: -0.0171727
+[18:16:44    info] Reward: 0.25
+[18:16:51    info] ---
+[18:16:51    info] Update: 327/312500
+[18:16:51    info] Total frames: 104960
+[18:16:51    info] FPS: 43.4977
+[18:16:51    info] Value loss: 4.78836e-07
+[18:16:51    info] Action loss: -0.0188897
+[18:16:51    info] Clip fraction: 0.173958
+[18:16:51    info] Entropy: 1.52673
+[18:16:51    info] KL divergence: 0.0172801
+[18:16:51    info] Reward: 0.25
+[18:16:59    info] ---
+[18:16:59    info] Update: 328/312500
+[18:16:59    info] Total frames: 105280
+[18:16:59    info] FPS: 43.5041
+[18:16:59    info] Value loss: 1.21126e-06
+[18:16:59    info] Action loss: -0.0295092
+[18:16:59    info] Clip fraction: 0.235417
+[18:16:59    info] Entropy: 1.5965
+[18:16:59    info] KL divergence: 0.0695107
+[18:16:59    info] Reward: 0.25
+[18:17:06    info] ---
+[18:17:06    info] Update: 329/312500
+[18:17:06    info] Total frames: 105600
+[18:17:06    info] FPS: 43.4926
+[18:17:06    info] Value loss: 7.45205e-05
+[18:17:06    info] Action loss: -0.0383944
+[18:17:06    info] Clip fraction: 0.265625
+[18:17:06    info] Entropy: 1.59433
+[18:17:06    info] KL divergence: -0.00704347
+[18:17:06    info] Reward: 0.25
+[18:17:13    info] ---
+[18:17:13    info] Update: 330/312500
+[18:17:13    info] Total frames: 105920
+[18:17:13    info] FPS: 43.499
+[18:17:13    info] Value loss: 3.83605e-05
+[18:17:13    info] Action loss: -0.0456138
+[18:17:13    info] Clip fraction: 0.296875
+[18:17:13    info] Entropy: 1.60779
+[18:17:13    info] KL divergence: 0.0962223
+[18:17:13    info] Reward: 0.25
+[18:17:21    info] ---
+[18:17:21    info] Update: 331/312500
+[18:17:21    info] Total frames: 106240
+[18:17:21    info] FPS: 43.4875
+[18:17:21    info] Value loss: 2.13617e-05
+[18:17:21    info] Action loss: -0.046574
+[18:17:21    info] Clip fraction: 0.286458
+[18:17:21    info] Entropy: 1.47691
+[18:17:21    info] KL divergence: 0.0623455
+[18:17:21    info] Reward: 0.25
+[18:17:28    info] ---
+[18:17:28    info] Update: 332/312500
+[18:17:28    info] Total frames: 106560
+[18:17:28    info] FPS: 43.4939
+[18:17:28    info] Value loss: 5.51055e-06
+[18:17:28    info] Action loss: -0.0419059
+[18:17:28    info] Clip fraction: 0.219792
+[18:17:28    info] Entropy: 1.51352
+[18:17:28    info] KL divergence: 0.00475153
+[18:17:28    info] Reward: 0.25
+[18:17:35    info] ---
+[18:17:35    info] Update: 333/312500
+[18:17:35    info] Total frames: 106880
+[18:17:35    info] FPS: 43.5002
+[18:17:35    info] Value loss: 6.85268e-06
+[18:17:35    info] Action loss: -0.0367434
+[18:17:35    info] Clip fraction: 0.223958
+[18:17:35    info] Entropy: 1.58658
+[18:17:35    info] KL divergence: -0.00745852
+[18:17:35    info] Reward: 0.25
+[18:17:43    info] ---
+[18:17:43    info] Update: 334/312500
+[18:17:43    info] Total frames: 107200
+[18:17:43    info] FPS: 43.5065
+[18:17:43    info] Value loss: 3.76276e-06
+[18:17:43    info] Action loss: -0.0327229
+[18:17:43    info] Clip fraction: 0.270833
+[18:17:43    info] Entropy: 1.55662
+[18:17:43    info] KL divergence: 0.111585
+[18:17:43    info] Reward: 0.25
+[18:17:50    info] ---
+[18:17:50    info] Update: 335/312500
+[18:17:50    info] Total frames: 107520
+[18:17:50    info] FPS: 43.4951
+[18:17:50    info] Value loss: 1.97999e-06
+[18:17:50    info] Action loss: -0.0432222
+[18:17:50    info] Clip fraction: 0.235417
+[18:17:50    info] Entropy: 1.62558
+[18:17:50    info] KL divergence: 0.0257599
+[18:17:50    info] Reward: 0.25
+[18:17:57    info] ---
+[18:17:57    info] Update: 336/312500
+[18:17:57    info] Total frames: 107840
+[18:17:57    info] FPS: 43.5014
+[18:17:57    info] Value loss: 1.05263e-06
+[18:17:57    info] Action loss: -0.0494938
+[18:17:57    info] Clip fraction: 0.270833
+[18:17:57    info] Entropy: 1.62654
+[18:17:57    info] KL divergence: 0.028048
+[18:17:57    info] Reward: 0.25
+[18:18:05    info] ---
+[18:18:05    info] Update: 337/312500
+[18:18:05    info] Total frames: 108160
+[18:18:05    info] FPS: 43.5076
+[18:18:05    info] Value loss: 4.11609e-07
+[18:18:05    info] Action loss: -0.0446077
+[18:18:05    info] Clip fraction: 0.227083
+[18:18:05    info] Entropy: 1.60791
+[18:18:05    info] KL divergence: 0.0293469
+[18:18:05    info] Reward: 0.25
+[18:18:12    info] ---
+[18:18:12    info] Update: 338/312500
+[18:18:12    info] Total frames: 108480
+[18:18:12    info] FPS: 43.4964
+[18:18:12    info] Value loss: 4.22e-07
+[18:18:12    info] Action loss: -0.0550376
+[18:18:12    info] Clip fraction: 0.238542
+[18:18:12    info] Entropy: 1.65062
+[18:18:12    info] KL divergence: 0.20451
+[18:18:12    info] Reward: 0.25
+[18:18:19    info] ---
+[18:18:19    info] Update: 339/312500
+[18:18:19    info] Total frames: 108800
+[18:18:19    info] FPS: 43.5026
+[18:18:19    info] Value loss: 1.31966e-07
+[18:18:19    info] Action loss: -0.0450204
+[18:18:19    info] Clip fraction: 0.252083
+[18:18:19    info] Entropy: 1.67794
+[18:18:19    info] KL divergence: -0.011099
+[18:18:19    info] Reward: 0.25
+[18:18:26    info] ---
+[18:18:26    info] Update: 340/312500
+[18:18:26    info] Total frames: 109120
+[18:18:26    info] FPS: 43.5088
+[18:18:26    info] Value loss: 5.86558e-08
+[18:18:26    info] Action loss: -0.0453216
+[18:18:26    info] Clip fraction: 0.242708
+[18:18:26    info] Entropy: 1.65224
+[18:18:26    info] KL divergence: 0.0612998
+[18:18:26    info] Reward: 0.25
+[18:18:34    info] ---
+[18:18:34    info] Update: 341/312500
+[18:18:34    info] Total frames: 109440
+[18:18:34    info] FPS: 43.5149
+[18:18:34    info] Value loss: 6.5939e-08
+[18:18:34    info] Action loss: -0.0446352
+[18:18:34    info] Clip fraction: 0.2625
+[18:18:34    info] Entropy: 1.6522
+[18:18:34    info] KL divergence: 0.125291
+[18:18:34    info] Reward: 0.25
+[18:18:41    info] ---
+[18:18:41    info] Update: 342/312500
+[18:18:41    info] Total frames: 109760
+[18:18:41    info] FPS: 43.5038
+[18:18:41    info] Value loss: 3.20455e-08
+[18:18:41    info] Action loss: -0.0441719
+[18:18:41    info] Clip fraction: 0.257292
+[18:18:41    info] Entropy: 1.65939
+[18:18:41    info] KL divergence: 0.014477
+[18:18:41    info] Reward: 0.25
+[18:18:48    info] ---
+[18:18:48    info] Update: 343/312500
+[18:18:48    info] Total frames: 110080
+[18:18:48    info] FPS: 43.5099
+[18:18:48    info] Value loss: 7.43198e-08
+[18:18:48    info] Action loss: -0.0303518
+[18:18:48    info] Clip fraction: 0.210417
+[18:18:48    info] Entropy: 1.63734
+[18:18:48    info] KL divergence: 0.0364034
+[18:18:48    info] Reward: 0.25
+[18:18:56    info] ---
+[18:18:56    info] Update: 344/312500
+[18:18:56    info] Total frames: 110400
+[18:18:56    info] FPS: 43.4988
+[18:18:56    info] Value loss: 3.5565e-08
+[18:18:56    info] Action loss: -0.0186369
+[18:18:56    info] Clip fraction: 0.209375
+[18:18:56    info] Entropy: 1.59838
+[18:18:56    info] KL divergence: 0.0114354
+[18:18:56    info] Reward: 0.25
+[18:19:03    info] ---
+[18:19:03    info] Update: 345/312500
+[18:19:03    info] Total frames: 110720
+[18:19:03    info] FPS: 43.5049
+[18:19:03    info] Value loss: 1.42874e-08
+[18:19:03    info] Action loss: -0.0352808
+[18:19:03    info] Clip fraction: 0.198958
+[18:19:03    info] Entropy: 1.667
+[18:19:03    info] KL divergence: 0.0945132
+[18:19:03    info] Reward: 0.25
+[18:19:10    info] ---
+[18:19:10    info] Update: 346/312500
+[18:19:10    info] Total frames: 111040
+[18:19:10    info] FPS: 43.511
+[18:19:10    info] Value loss: 2.93436e-08
+[18:19:10    info] Action loss: -0.0453103
+[18:19:10    info] Clip fraction: 0.24375
+[18:19:10    info] Entropy: 1.58707
+[18:19:10    info] KL divergence: 0.0338039
+[18:19:10    info] Reward: 0.25
+[18:19:18    info] ---
+[18:19:18    info] Update: 347/312500
+[18:19:18    info] Total frames: 111360
+[18:19:18    info] FPS: 43.517
+[18:19:18    info] Value loss: 1.16929e-07
+[18:19:18    info] Action loss: -0.0410347
+[18:19:18    info] Clip fraction: 0.217708
+[18:19:18    info] Entropy: 1.61338
+[18:19:18    info] KL divergence: 0.0205933
+[18:19:18    info] Reward: 0.25
+[18:19:25    info] ---
+[18:19:25    info] Update: 348/312500
+[18:19:25    info] Total frames: 111680
+[18:19:25    info] FPS: 43.506
+[18:19:25    info] Value loss: 1.04533e-07
+[18:19:25    info] Action loss: -0.0292086
+[18:19:25    info] Clip fraction: 0.201042
+[18:19:25    info] Entropy: 1.64895
+[18:19:25    info] KL divergence: 0.0306273
+[18:19:25    info] Reward: 0.25
+[18:19:32    info] ---
+[18:19:32    info] Update: 349/312500
+[18:19:32    info] Total frames: 112000
+[18:19:32    info] FPS: 43.512
+[18:19:32    info] Value loss: 1.70429e-07
+[18:19:32    info] Action loss: -0.0295042
+[18:19:32    info] Clip fraction: 0.183333
+[18:19:32    info] Entropy: 1.61443
+[18:19:32    info] KL divergence: 0.0793546
+[18:19:32    info] Reward: 0.25
+[18:19:40    info] ---
+[18:19:40    info] Update: 350/312500
+[18:19:40    info] Total frames: 112320
+[18:19:40    info] FPS: 43.5012
+[18:19:40    info] Value loss: 5.50733e-08
+[18:19:40    info] Action loss: -0.0401597
+[18:19:40    info] Clip fraction: 0.178125
+[18:19:40    info] Entropy: 1.66138
+[18:19:40    info] KL divergence: 0.00460108
+[18:19:40    info] Reward: 0.25
+[18:19:47    info] ---
+[18:19:47    info] Update: 351/312500
+[18:19:47    info] Total frames: 112640
+[18:19:47    info] FPS: 43.5071
+[18:19:47    info] Value loss: 1.69138e-08
+[18:19:47    info] Action loss: -0.0430241
+[18:19:47    info] Clip fraction: 0.202083
+[18:19:47    info] Entropy: 1.64327
+[18:19:47    info] KL divergence: 0.00313082
+[18:19:47    info] Reward: 0.25
+[18:19:54    info] ---
+[18:19:54    info] Update: 352/312500
+[18:19:54    info] Total frames: 112960
+[18:19:54    info] FPS: 43.5131
+[18:19:54    info] Value loss: 1.21703e-08
+[18:19:54    info] Action loss: -0.0575663
+[18:19:54    info] Clip fraction: 0.254167
+[18:19:54    info] Entropy: 1.63267
+[18:19:54    info] KL divergence: 0.169879
+[18:19:54    info] Reward: 0.25
+[18:20:01    info] ---
+[18:20:01    info] Update: 353/312500
+[18:20:01    info] Total frames: 113280
+[18:20:01    info] FPS: 43.519
+[18:20:01    info] Value loss: 7.56011e-09
+[18:20:01    info] Action loss: -0.0404343
+[18:20:01    info] Clip fraction: 0.269792
+[18:20:01    info] Entropy: 1.58008
+[18:20:01    info] KL divergence: 0.100492
+[18:20:01    info] Reward: 0.25
+[18:20:09    info] ---
+[18:20:09    info] Update: 354/312500
+[18:20:09    info] Total frames: 113600
+[18:20:09    info] FPS: 43.5082
+[18:20:09    info] Value loss: 7.51594e-09
+[18:20:09    info] Action loss: -0.0415357
+[18:20:09    info] Clip fraction: 0.271875
+[18:20:09    info] Entropy: 1.61749
+[18:20:09    info] KL divergence: -0.0431702
+[18:20:09    info] Reward: 0.25
+[18:20:16    info] ---
+[18:20:16    info] Update: 355/312500
+[18:20:16    info] Total frames: 113920
+[18:20:16    info] FPS: 43.5141
+[18:20:16    info] Value loss: 1.29164e-08
+[18:20:16    info] Action loss: -0.0335182
+[18:20:16    info] Clip fraction: 0.207292
+[18:20:16    info] Entropy: 1.59009
+[18:20:16    info] KL divergence: 0.000104934
+[18:20:16    info] Reward: 0.25
+[18:20:24    info] ---
+[18:20:24    info] Update: 356/312500
+[18:20:24    info] Total frames: 114240
+[18:20:24    info] FPS: 43.52
+[18:20:24    info] Value loss: 8.14834e-09
+[18:20:24    info] Action loss: -0.0404277
+[18:20:24    info] Clip fraction: 0.267708
+[18:20:24    info] Entropy: 1.59906
+[18:20:24    info] KL divergence: -0.0337761
+[18:20:24    info] Reward: 0.25
+[18:20:31    info] ---
+[18:20:31    info] Update: 357/312500
+[18:20:31    info] Total frames: 114560
+[18:20:31    info] FPS: 43.5093
+[18:20:31    info] Value loss: 7.31941e-08
+[18:20:31    info] Action loss: -0.0454395
+[18:20:31    info] Clip fraction: 0.292708
+[18:20:31    info] Entropy: 1.53016
+[18:20:31    info] KL divergence: 0.0264847
+[18:20:31    info] Reward: 0.25
+[18:20:38    info] ---
+[18:20:38    info] Update: 358/312500
+[18:20:38    info] Total frames: 114880
+[18:20:38    info] FPS: 43.5152
+[18:20:38    info] Value loss: 1.92337e-06
+[18:20:38    info] Action loss: -0.029915
+[18:20:38    info] Clip fraction: 0.2875
+[18:20:38    info] Entropy: 1.39766
+[18:20:38    info] KL divergence: 0.00363696
+[18:20:38    info] Reward: 0.25
+[18:20:46    info] ---
+[18:20:46    info] Update: 359/312500
+[18:20:46    info] Total frames: 115200
+[18:20:46    info] FPS: 43.521
+[18:20:46    info] Value loss: 2.46972e-05
+[18:20:46    info] Action loss: -0.0250969
+[18:20:46    info] Clip fraction: 0.314583
+[18:20:46    info] Entropy: 1.55808
+[18:20:46    info] KL divergence: 0.09521
+[18:20:46    info] Reward: 0.25
+[18:20:53    info] ---
+[18:20:53    info] Update: 360/312500
+[18:20:53    info] Total frames: 115520
+[18:20:53    info] FPS: 43.5104
+[18:20:53    info] Value loss: 5.31282e-06
+[18:20:53    info] Action loss: -0.0372021
+[18:20:53    info] Clip fraction: 0.260417
+[18:20:53    info] Entropy: 1.61597
+[18:20:53    info] KL divergence: 0.0415821
+[18:20:53    info] Reward: 0.25
+[18:21:00    info] ---
+[18:21:00    info] Update: 361/312500
+[18:21:00    info] Total frames: 115840
+[18:21:00    info] FPS: 43.5162
+[18:21:00    info] Value loss: 3.53421e-06
+[18:21:00    info] Action loss: -0.0222852
+[18:21:00    info] Clip fraction: 0.219792
+[18:21:00    info] Entropy: 1.65088
+[18:21:00    info] KL divergence: 0.156008
+[18:21:00    info] Reward: 0.25
+[18:21:08    info] ---
+[18:21:08    info] Update: 362/312500
+[18:21:08    info] Total frames: 116160
+[18:21:08    info] FPS: 43.5219
+[18:21:08    info] Value loss: 6.06457e-06
+[18:21:08    info] Action loss: -0.0509453
+[18:21:08    info] Clip fraction: 0.276042
+[18:21:08    info] Entropy: 1.62853
+[18:21:08    info] KL divergence: 0.0737657
+[18:21:08    info] Reward: 0.25
+[18:21:15    info] ---
+[18:21:15    info] Update: 363/312500
+[18:21:15    info] Total frames: 116480
+[18:21:15    info] FPS: 43.5114
+[18:21:15    info] Value loss: 1.56282e-05
+[18:21:15    info] Action loss: -0.0395592
+[18:21:15    info] Clip fraction: 0.242708
+[18:21:15    info] Entropy: 1.63877
+[18:21:15    info] KL divergence: -0.00127031
+[18:21:15    info] Reward: 0.25
+[18:21:22    info] ---
+[18:21:22    info] Update: 364/312500
+[18:21:22    info] Total frames: 116800
+[18:21:22    info] FPS: 43.5171
+[18:21:22    info] Value loss: 2.06798e-05
+[18:21:22    info] Action loss: -0.033969
+[18:21:22    info] Clip fraction: 0.242708
+[18:21:22    info] Entropy: 1.59412
+[18:21:22    info] KL divergence: 0.0630701
+[18:21:22    info] Reward: 0.25
+[18:21:29    info] ---
+[18:21:29    info] Update: 365/312500
+[18:21:29    info] Total frames: 117120
+[18:21:29    info] FPS: 43.5229
+[18:21:29    info] Value loss: 2.91327e-05
+[18:21:29    info] Action loss: -0.0274685
+[18:21:29    info] Clip fraction: 0.355208
+[18:21:29    info] Entropy: 1.51148
+[18:21:29    info] KL divergence: 0.0483547
+[18:21:29    info] Reward: 0.25
+[18:21:37    info] ---
+[18:21:37    info] Update: 366/312500
+[18:21:37    info] Total frames: 117440
+[18:21:37    info] FPS: 43.5285
+[18:21:37    info] Value loss: 1.48801e-05
+[18:21:37    info] Action loss: -0.0438909
+[18:21:37    info] Clip fraction: 0.254167
+[18:21:37    info] Entropy: 1.52548
+[18:21:37    info] KL divergence: -0.0383672
+[18:21:37    info] Reward: 0.25
+[18:21:44    info] ---
+[18:21:44    info] Update: 367/312500
+[18:21:44    info] Total frames: 117760
+[18:21:44    info] FPS: 43.5181
+[18:21:44    info] Value loss: 6.30676e-06
+[18:21:44    info] Action loss: -0.0426936
+[18:21:44    info] Clip fraction: 0.291667
+[18:21:44    info] Entropy: 1.5273
+[18:21:44    info] KL divergence: 0.153058
+[18:21:44    info] Reward: 0.25
+[18:21:51    info] ---
+[18:21:51    info] Update: 368/312500
+[18:21:51    info] Total frames: 118080
+[18:21:51    info] FPS: 43.5238
+[18:21:51    info] Value loss: 1.40327e-05
+[18:21:51    info] Action loss: -0.0343689
+[18:21:51    info] Clip fraction: 0.313542
+[18:21:51    info] Entropy: 1.55247
+[18:21:51    info] KL divergence: -0.00196649
+[18:21:51    info] Reward: 0.25
+[18:21:59    info] ---
+[18:21:59    info] Update: 369/312500
+[18:21:59    info] Total frames: 118400
+[18:21:59    info] FPS: 43.5294
+[18:21:59    info] Value loss: 4.36199e-06
+[18:21:59    info] Action loss: -0.0335744
+[18:21:59    info] Clip fraction: 0.25625
+[18:21:59    info] Entropy: 1.56139
+[18:21:59    info] KL divergence: 0.0265803
+[18:21:59    info] Reward: 0.25
+[18:22:06    info] ---
+[18:22:06    info] Update: 370/312500
+[18:22:06    info] Total frames: 118720
+[18:22:06    info] FPS: 43.5191
+[18:22:06    info] Value loss: 2.72192e-06
+[18:22:06    info] Action loss: -0.038391
+[18:22:06    info] Clip fraction: 0.333333
+[18:22:06    info] Entropy: 1.54172
+[18:22:06    info] KL divergence: -0.0558061
+[18:22:06    info] Reward: 0.25
+[18:22:13    info] ---
+[18:22:13    info] Update: 371/312500
+[18:22:13    info] Total frames: 119040
+[18:22:13    info] FPS: 43.5247
+[18:22:13    info] Value loss: 1.22379e-06
+[18:22:13    info] Action loss: -0.0445078
+[18:22:13    info] Clip fraction: 0.25625
+[18:22:13    info] Entropy: 1.63334
+[18:22:13    info] KL divergence: -0.066444
+[18:22:13    info] Reward: 0.25
+[18:22:20    info] ---
+[18:22:20    info] Update: 372/312500
+[18:22:20    info] Total frames: 119360
+[18:22:20    info] FPS: 43.5303
+[18:22:20    info] Value loss: 1.24688e-06
+[18:22:20    info] Action loss: -0.0471246
+[18:22:20    info] Clip fraction: 0.315625
+[18:22:20    info] Entropy: 1.55696
+[18:22:20    info] KL divergence: 0.0594267
+[18:22:20    info] Reward: 0.25
+[18:22:28    info] ---
+[18:22:28    info] Update: 373/312500
+[18:22:28    info] Total frames: 119680
+[18:22:28    info] FPS: 43.52
+[18:22:28    info] Value loss: 1.42038e-06
+[18:22:28    info] Action loss: -0.0347161
+[18:22:28    info] Clip fraction: 0.322917
+[18:22:28    info] Entropy: 1.51879
+[18:22:28    info] KL divergence: 0.133287
+[18:22:28    info] Reward: 0.25
+[18:22:35    info] ---
+[18:22:35    info] Update: 374/312500
+[18:22:35    info] Total frames: 120000
+[18:22:35    info] FPS: 43.5256
+[18:22:35    info] Value loss: 3.28483e-06
+[18:22:35    info] Action loss: -0.0322427
+[18:22:35    info] Clip fraction: 0.270833
+[18:22:35    info] Entropy: 1.52145
+[18:22:35    info] KL divergence: 0.0107614
+[18:22:35    info] Reward: 0.25
+[18:22:42    info] ---
+[18:22:42    info] Update: 375/312500
+[18:22:42    info] Total frames: 120320
+[18:22:42    info] FPS: 43.5311
+[18:22:42    info] Value loss: 1.62071e-05
+[18:22:42    info] Action loss: -0.0383227
+[18:22:42    info] Clip fraction: 0.197917
+[18:22:42    info] Entropy: 1.56255
+[18:22:42    info] KL divergence: -0.0317271
+[18:22:42    info] Reward: 0.25
+[18:22:50    info] ---
+[18:22:50    info] Update: 376/312500
+[18:22:50    info] Total frames: 120640
+[18:22:50    info] FPS: 43.5209
+[18:22:50    info] Value loss: 6.21778e-06
+[18:22:50    info] Action loss: -0.0414116
+[18:22:50    info] Clip fraction: 0.29375
+[18:22:50    info] Entropy: 1.56632
+[18:22:50    info] KL divergence: 0.087015
+[18:22:50    info] Reward: 0.25
+[18:22:57    info] ---
+[18:22:57    info] Update: 377/312500
+[18:22:57    info] Total frames: 120960
+[18:22:57    info] FPS: 43.5264
+[18:22:57    info] Value loss: 3.73621e-06
+[18:22:57    info] Action loss: -0.0442113
+[18:22:57    info] Clip fraction: 0.301042
+[18:22:57    info] Entropy: 1.5168
+[18:22:57    info] KL divergence: -0.116543
+[18:22:57    info] Reward: 0.25
+[18:23:04    info] ---
+[18:23:04    info] Update: 378/312500
+[18:23:04    info] Total frames: 121280
+[18:23:04    info] FPS: 43.5319
+[18:23:04    info] Value loss: 5.65447
+[18:23:04    info] Action loss: 0.00793566
+[18:23:04    info] Clip fraction: 0.330189
+[18:23:04    info] Entropy: 1.45316
+[18:23:04    info] KL divergence: 0.969999
+[18:23:04    info] KL divergence early stop update: 53
+[18:23:04    info] Reward: 0.25
+[18:23:11    info] ---
+[18:23:11    info] Update: 379/312500
+[18:23:11    info] Total frames: 121600
+[18:23:11    info] FPS: 43.5374
+[18:23:11    info] Value loss: 0.18524
+[18:23:11    info] Action loss: 0.00392448
+[18:23:11    info] Clip fraction: 0.529762
+[18:23:11    info] Entropy: 1.07011
+[18:23:11    info] KL divergence: 0.881148
+[18:23:11    info] KL divergence early stop update: 21
+[18:23:11    info] Reward: 0.25
+[18:23:18    info] ---
+[18:23:18    info] Update: 380/312500
+[18:23:18    info] Total frames: 121920
+[18:23:18    info] FPS: 43.5429
+[18:23:18    info] Value loss: 0.0855844
+[18:23:18    info] Action loss: 0.0853721
+[18:23:18    info] Clip fraction: 0.58875
+[18:23:18    info] Entropy: 1.2704
+[18:23:18    info] KL divergence: 0.904941
+[18:23:18    info] KL divergence early stop update: 50
+[18:23:18    info] Reward: 0.25
+[18:23:26    info] ---
+[18:23:26    info] Update: 381/312500
+[18:23:26    info] Total frames: 122240
+[18:23:26    info] FPS: 43.5483
+[18:23:26    info] Value loss: 0.0405527
+[18:23:26    info] Action loss: -0.0371262
+[18:23:26    info] Clip fraction: 0.33125
+[18:23:26    info] Entropy: 1.10494
+[18:23:26    info] KL divergence: 0.101128
+[18:23:26    info] Reward: 0.25
+[18:23:33    info] ---
+[18:23:33    info] Update: 382/312500
+[18:23:33    info] Total frames: 122560
+[18:23:33    info] FPS: 43.5382
+[18:23:33    info] Value loss: 0.0218828
+[18:23:33    info] Action loss: -0.0141982
+[18:23:33    info] Clip fraction: 0.321875
+[18:23:33    info] Entropy: 1.10723
+[18:23:33    info] KL divergence: 0.0695235
+[18:23:33    info] Reward: 0.25
+[18:23:40    info] ---
+[18:23:40    info] Update: 383/312500
+[18:23:40    info] Total frames: 122880
+[18:23:40    info] FPS: 43.5436
+[18:23:40    info] Value loss: 3.71353
+[18:23:40    info] Action loss: 0.015681
+[18:23:40    info] Clip fraction: 0.440625
+[18:23:40    info] Entropy: 1.2124
+[18:23:40    info] KL divergence: 0.267054
+[18:23:40    info] Reward: 0.25
+[18:23:48    info] ---
+[18:23:48    info] Update: 384/312500
+[18:23:48    info] Total frames: 123200
+[18:23:48    info] FPS: 43.549
+[18:23:48    info] Value loss: 0.109172
+[18:23:48    info] Action loss: 0.00840189
+[18:23:48    info] Clip fraction: 0.294922
+[18:23:48    info] Entropy: 1.0286
+[18:23:48    info] KL divergence: 0.934841
+[18:23:48    info] KL divergence early stop update: 32
+[18:23:48    info] Reward: 0.25
+[18:23:55    info] ---
+[18:23:55    info] Update: 385/312500
+[18:23:55    info] Total frames: 123520
+[18:23:55    info] FPS: 43.5389
+[18:23:55    info] Value loss: 0.0929055
+[18:23:55    info] Action loss: -0.047797
+[18:23:55    info] Clip fraction: 0.321875
+[18:23:55    info] Entropy: 1.24157
+[18:23:55    info] KL divergence: 0.0317922
+[18:23:55    info] Reward: 0.25
+[18:24:02    info] ---
+[18:24:02    info] Update: 386/312500
+[18:24:02    info] Total frames: 123840
+[18:24:02    info] FPS: 43.5443
+[18:24:02    info] Value loss: 2.68369
+[18:24:02    info] Action loss: 0.0322028
+[18:24:02    info] Clip fraction: 0.326786
+[18:24:02    info] Entropy: 1.26968
+[18:24:02    info] KL divergence: 0.933919
+[18:24:02    info] KL divergence early stop update: 35
+[18:24:02    info] Reward: 0.25
+[18:24:09    info] ---
+[18:24:09    info] Update: 387/312500
+[18:24:09    info] Total frames: 124160
+[18:24:09    info] FPS: 43.5496
+[18:24:09    info] Value loss: 74.4267
+[18:24:09    info] Action loss: 0.0505378
+[18:24:09    info] Clip fraction: 0.1875
+[18:24:09    info] Entropy: 1.06716
+[18:24:09    info] KL divergence: 0.929179
+[18:24:09    info] KL divergence early stop update: 10
+[18:24:09    info] Reward: 0.25
+[18:24:16    info] ---
+[18:24:16    info] Update: 388/312500
+[18:24:16    info] Total frames: 124480
+[18:24:16    info] FPS: 43.5549
+[18:24:16    info] Value loss: 2.90826
+[18:24:16    info] Action loss: 0.0238042
+[18:24:16    info] Clip fraction: 0.446023
+[18:24:16    info] Entropy: 0.868299
+[18:24:16    info] KL divergence: 0.878581
+[18:24:16    info] KL divergence early stop update: 22
+[18:24:16    info] Reward: 0.25
+[18:24:23    info] ---
+[18:24:23    info] Update: 389/312500
+[18:24:23    info] Total frames: 124800
+[18:24:23    info] FPS: 43.5602
+[18:24:23    info] Value loss: 0.142293
+[18:24:23    info] Action loss: 0.012457
+[18:24:23    info] Clip fraction: 0.4625
+[18:24:23    info] Entropy: 0.927587
+[18:24:23    info] KL divergence: 0.336739
+[18:24:23    info] Reward: 0.25
+[18:24:31    info] ---
+[18:24:31    info] Update: 390/312500
+[18:24:31    info] Total frames: 125120
+[18:24:31    info] FPS: 43.5655
+[18:24:31    info] Value loss: 1.34914
+[18:24:31    info] Action loss: 0.0080223
+[18:24:31    info] Clip fraction: 0.284375
+[18:24:31    info] Entropy: 0.895397
+[18:24:31    info] KL divergence: 0.292915
+[18:24:31    info] Reward: 0.25
+[18:24:38    info] ---
+[18:24:38    info] Update: 391/312500
+[18:24:38    info] Total frames: 125440
+[18:24:38    info] FPS: 43.5556
+[18:24:38    info] Value loss: 0.0371823
+[18:24:38    info] Action loss: -0.0257099
+[18:24:38    info] Clip fraction: 0.360417
+[18:24:38    info] Entropy: 1.08329
+[18:24:38    info] KL divergence: 0.111174
+[18:24:38    info] Reward: 0.25
+[18:24:45    info] ---
+[18:24:45    info] Update: 392/312500
+[18:24:45    info] Total frames: 125760
+[18:24:45    info] FPS: 43.5608
+[18:24:45    info] Value loss: 0.0795186
+[18:24:45    info] Action loss: -0.0204919
+[18:24:45    info] Clip fraction: 0.282292
+[18:24:45    info] Entropy: 1.29352
+[18:24:45    info] KL divergence: -0.113864
+[18:24:45    info] Reward: 0.25
+[18:24:52    info] ---
+[18:24:52    info] Update: 393/312500
+[18:24:52    info] Total frames: 126080
+[18:24:52    info] FPS: 43.566
+[18:24:52    info] Value loss: 0.226424
+[18:24:52    info] Action loss: -0.0158181
+[18:24:52    info] Clip fraction: 0.222917
+[18:24:52    info] Entropy: 1.1926
+[18:24:52    info] KL divergence: -0.00888632
+[18:24:52    info] Reward: 0.25
+[18:25:00    info] ---
+[18:25:00    info] Update: 394/312500
+[18:25:00    info] Total frames: 126400
+[18:25:00    info] FPS: 43.5712
+[18:25:00    info] Value loss: 2.50377
+[18:25:00    info] Action loss: 0.000234389
+[18:25:00    info] Clip fraction: 0.335417
+[18:25:00    info] Entropy: 1.17143
+[18:25:00    info] KL divergence: 0.138734
+[18:25:00    info] Reward: 0.25
+[18:25:07    info] ---
+[18:25:07    info] Update: 395/312500
+[18:25:07    info] Total frames: 126720
+[18:25:07    info] FPS: 43.5614
+[18:25:07    info] Value loss: 0.05375
+[18:25:07    info] Action loss: -0.021415
+[18:25:07    info] Clip fraction: 0.338542
+[18:25:07    info] Entropy: 1.19778
+[18:25:07    info] KL divergence: 0.128143
+[18:25:07    info] Reward: 0.25
+[18:25:14    info] ---
+[18:25:14    info] Update: 396/312500
+[18:25:14    info] Total frames: 127040
+[18:25:14    info] FPS: 43.5665
+[18:25:14    info] Value loss: 0.0338681
+[18:25:14    info] Action loss: -0.0262168
+[18:25:14    info] Clip fraction: 0.353125
+[18:25:14    info] Entropy: 1.21102
+[18:25:14    info] KL divergence: 0.279995
+[18:25:14    info] Reward: 0.25
+[18:25:22    info] ---
+[18:25:22    info] Update: 397/312500
+[18:25:22    info] Total frames: 127360
+[18:25:22    info] FPS: 43.5568
+[18:25:22    info] Value loss: 0.0204842
+[18:25:22    info] Action loss: -0.0111377
+[18:25:22    info] Clip fraction: 0.347917
+[18:25:22    info] Entropy: 1.27299
+[18:25:22    info] KL divergence: 0.0807184
+[18:25:22    info] Reward: 0.25
+[18:25:29    info] ---
+[18:25:29    info] Update: 398/312500
+[18:25:29    info] Total frames: 127680
+[18:25:29    info] FPS: 43.5619
+[18:25:29    info] Value loss: 0.143891
+[18:25:29    info] Action loss: -0.0269139
+[18:25:29    info] Clip fraction: 0.2625
+[18:25:29    info] Entropy: 1.41743
+[18:25:29    info] KL divergence: -0.0178108
+[18:25:29    info] Reward: 1.88889
+[18:25:36    info] ---
+[18:25:36    info] Update: 399/312500
+[18:25:36    info] Total frames: 128000
+[18:25:36    info] FPS: 43.5671
+[18:25:36    info] Value loss: 0.0222367
+[18:25:36    info] Action loss: -0.0299736
+[18:25:36    info] Clip fraction: 0.239583
+[18:25:36    info] Entropy: 1.37871
+[18:25:36    info] KL divergence: 0.0630317
+[18:25:36    info] Reward: 1.88889
+[18:25:44    info] ---
+[18:25:44    info] Update: 400/312500
+[18:25:44    info] Total frames: 128320
+[18:25:44    info] FPS: 43.5722
+[18:25:44    info] Value loss: 0.00973775
+[18:25:44    info] Action loss: -0.0462202
+[18:25:44    info] Clip fraction: 0.291667
+[18:25:44    info] Entropy: 1.45359
+[18:25:44    info] KL divergence: -0.0350449
+[18:25:44    info] Reward: 1.88889
+[18:25:51    info] ---
+[18:25:51    info] Update: 401/312500
+[18:25:51    info] Total frames: 128640
+[18:25:51    info] FPS: 43.5625
+[18:25:51    info] Value loss: 0.00814082
+[18:25:51    info] Action loss: -0.0367241
+[18:25:51    info] Clip fraction: 0.335417
+[18:25:51    info] Entropy: 1.49542
+[18:25:51    info] KL divergence: 0.0148633
+[18:25:51    info] Reward: 1.88889
+[18:25:58    info] ---
+[18:25:58    info] Update: 402/312500
+[18:25:58    info] Total frames: 128960
+[18:25:58    info] FPS: 43.5676
+[18:25:58    info] Value loss: 0.0117156
+[18:25:58    info] Action loss: -0.0453315
+[18:25:58    info] Clip fraction: 0.342708
+[18:25:58    info] Entropy: 1.44867
+[18:25:58    info] KL divergence: 0.134005
+[18:25:58    info] Reward: 1.88889
+[18:26:06    info] ---
+[18:26:06    info] Update: 403/312500
+[18:26:06    info] Total frames: 129280
+[18:26:06    info] FPS: 43.5726
+[18:26:06    info] Value loss: 0.0178432
+[18:26:06    info] Action loss: -0.0332152
+[18:26:06    info] Clip fraction: 0.313542
+[18:26:06    info] Entropy: 1.42799
+[18:26:06    info] KL divergence: -0.030764
+[18:26:06    info] Reward: 1.88889
+[18:26:13    info] ---
+[18:26:13    info] Update: 404/312500
+[18:26:13    info] Total frames: 129600
+[18:26:13    info] FPS: 43.563
+[18:26:13    info] Value loss: 0.00720505
+[18:26:13    info] Action loss: -0.0414588
+[18:26:13    info] Clip fraction: 0.334375
+[18:26:13    info] Entropy: 1.49638
+[18:26:13    info] KL divergence: -0.0453084
+[18:26:13    info] Reward: 1.88889
+[18:26:20    info] ---
+[18:26:20    info] Update: 405/312500
+[18:26:20    info] Total frames: 129920
+[18:26:20    info] FPS: 43.5681
+[18:26:20    info] Value loss: 0.00824842
+[18:26:20    info] Action loss: -0.036175
+[18:26:20    info] Clip fraction: 0.371875
+[18:26:20    info] Entropy: 1.53196
+[18:26:20    info] KL divergence: -0.129767
+[18:26:20    info] Reward: 1.88889
+[18:26:27    info] ---
+[18:26:27    info] Update: 406/312500
+[18:26:27    info] Total frames: 130240
+[18:26:27    info] FPS: 43.5731
+[18:26:27    info] Value loss: 0.00554767
+[18:26:27    info] Action loss: -0.0345583
+[18:26:27    info] Clip fraction: 0.317708
+[18:26:27    info] Entropy: 1.50263
+[18:26:27    info] KL divergence: -0.0670018
+[18:26:27    info] Reward: 1.88889
+[18:26:35    info] ---
+[18:26:35    info] Update: 407/312500
+[18:26:35    info] Total frames: 130560
+[18:26:35    info] FPS: 43.5636
+[18:26:35    info] Value loss: 0.0112715
+[18:26:35    info] Action loss: -0.0357673
+[18:26:35    info] Clip fraction: 0.277083
+[18:26:35    info] Entropy: 1.52033
+[18:26:35    info] KL divergence: 0.0281196
+[18:26:35    info] Reward: 1.88889
+[18:26:42    info] ---
+[18:26:42    info] Update: 408/312500
+[18:26:42    info] Total frames: 130880
+[18:26:42    info] FPS: 43.5686
+[18:26:42    info] Value loss: 0.00670086
+[18:26:42    info] Action loss: -0.0563468
+[18:26:42    info] Clip fraction: 0.351042
+[18:26:42    info] Entropy: 1.59364
+[18:26:42    info] KL divergence: 0.0936732
+[18:26:42    info] Reward: 1.88889
+[18:26:49    info] ---
+[18:26:49    info] Update: 409/312500
+[18:26:49    info] Total frames: 131200
+[18:26:49    info] FPS: 43.5736
+[18:26:49    info] Value loss: 0.00540983
+[18:26:49    info] Action loss: -0.0435056
+[18:26:49    info] Clip fraction: 0.283333
+[18:26:49    info] Entropy: 1.53561
+[18:26:49    info] KL divergence: 0.0672751
+[18:26:49    info] Reward: 1.88889
+[18:26:57    info] ---
+[18:26:57    info] Update: 410/312500
+[18:26:57    info] Total frames: 131520
+[18:26:57    info] FPS: 43.5641
+[18:26:57    info] Value loss: 0.00793429
+[18:26:57    info] Action loss: -0.0274656
+[18:26:57    info] Clip fraction: 0.230208
+[18:26:57    info] Entropy: 1.54323
+[18:26:57    info] KL divergence: -0.0682308
+[18:26:57    info] Reward: 1.88889
+[18:27:04    info] ---
+[18:27:04    info] Update: 411/312500
+[18:27:04    info] Total frames: 131840
+[18:27:04    info] FPS: 43.5691
+[18:27:04    info] Value loss: 0.00316262
+[18:27:04    info] Action loss: -0.0439083
+[18:27:04    info] Clip fraction: 0.197917
+[18:27:04    info] Entropy: 1.47933
+[18:27:04    info] KL divergence: -0.0312945
+[18:27:04    info] Reward: 1.88889
+[18:27:11    info] ---
+[18:27:11    info] Update: 412/312500
+[18:27:11    info] Total frames: 132160
+[18:27:11    info] FPS: 43.574
+[18:27:11    info] Value loss: 0.00935774
+[18:27:11    info] Action loss: -0.0481804
+[18:27:11    info] Clip fraction: 0.213542
+[18:27:11    info] Entropy: 1.58052
+[18:27:11    info] KL divergence: 0.0931921
+[18:27:11    info] Reward: 1.88889
+[18:27:19    info] ---
+[18:27:19    info] Update: 413/312500
+[18:27:19    info] Total frames: 132480
+[18:27:19    info] FPS: 43.5789
+[18:27:19    info] Value loss: 0.00271269
+[18:27:19    info] Action loss: -0.0370302
+[18:27:19    info] Clip fraction: 0.192708
+[18:27:19    info] Entropy: 1.57009
+[18:27:19    info] KL divergence: -0.0556175
+[18:27:19    info] Reward: 1.88889
+[18:27:26    info] ---
+[18:27:26    info] Update: 414/312500
+[18:27:26    info] Total frames: 132800
+[18:27:26    info] FPS: 43.5696
+[18:27:26    info] Value loss: 0.00249914
+[18:27:26    info] Action loss: -0.0368968
+[18:27:26    info] Clip fraction: 0.225
+[18:27:26    info] Entropy: 1.60721
+[18:27:26    info] KL divergence: 0.0251563
+[18:27:26    info] Reward: 1.88889
+[18:27:33    info] ---
+[18:27:33    info] Update: 415/312500
+[18:27:33    info] Total frames: 133120
+[18:27:33    info] FPS: 43.5745
+[18:27:33    info] Value loss: 0.002798
+[18:27:33    info] Action loss: -0.0323756
+[18:27:33    info] Clip fraction: 0.303125
+[18:27:33    info] Entropy: 1.60063
+[18:27:33    info] KL divergence: 0.0262418
+[18:27:33    info] Reward: 1.88889
+[18:27:40    info] ---
+[18:27:40    info] Update: 416/312500
+[18:27:40    info] Total frames: 133440
+[18:27:40    info] FPS: 43.5794
+[18:27:40    info] Value loss: 0.00421454
+[18:27:40    info] Action loss: -0.0366868
+[18:27:40    info] Clip fraction: 0.251042
+[18:27:40    info] Entropy: 1.58047
+[18:27:40    info] KL divergence: -0.101443
+[18:27:40    info] Reward: 1.88889
+[18:27:48    info] ---
+[18:27:48    info] Update: 417/312500
+[18:27:48    info] Total frames: 133760
+[18:27:48    info] FPS: 43.57
+[18:27:48    info] Value loss: 0.0047427
+[18:27:48    info] Action loss: -0.0270802
+[18:27:48    info] Clip fraction: 0.226042
+[18:27:48    info] Entropy: 1.55493
+[18:27:48    info] KL divergence: 0.00711025
+[18:27:48    info] Reward: 1.88889
+[18:27:55    info] ---
+[18:27:55    info] Update: 418/312500
+[18:27:55    info] Total frames: 134080
+[18:27:55    info] FPS: 43.5749
+[18:27:55    info] Value loss: 0.0029508
+[18:27:55    info] Action loss: -0.0389502
+[18:27:55    info] Clip fraction: 0.288542
+[18:27:55    info] Entropy: 1.50637
+[18:27:55    info] KL divergence: -0.0334594
+[18:27:55    info] Reward: 1.88889
+[18:28:02    info] ---
+[18:28:02    info] Update: 419/312500
+[18:28:02    info] Total frames: 134400
+[18:28:02    info] FPS: 43.5798
+[18:28:02    info] Value loss: 0.00557084
+[18:28:02    info] Action loss: -0.030798
+[18:28:02    info] Clip fraction: 0.313542
+[18:28:02    info] Entropy: 1.48239
+[18:28:02    info] KL divergence: -0.0918396
+[18:28:02    info] Reward: 1.8
+[18:28:09    info] ---
+[18:28:09    info] Update: 420/312500
+[18:28:09    info] Total frames: 134720
+[18:28:09    info] FPS: 43.5846
+[18:28:09    info] Value loss: 0.00354469
+[18:28:09    info] Action loss: -0.0379318
+[18:28:09    info] Clip fraction: 0.334375
+[18:28:09    info] Entropy: 1.51881
+[18:28:09    info] KL divergence: 0.116036
+[18:28:09    info] Reward: 1.8
+[18:28:16    info] ---
+[18:28:16    info] Update: 421/312500
+[18:28:16    info] Total frames: 135040
+[18:28:16    info] FPS: 43.5894
+[18:28:16    info] Value loss: 0.00413811
+[18:28:16    info] Action loss: -0.0308869
+[18:28:16    info] Clip fraction: 0.29375
+[18:28:16    info] Entropy: 1.51371
+[18:28:16    info] KL divergence: 0.24191
+[18:28:16    info] Reward: 1.8
+[18:28:24    info] ---
+[18:28:24    info] Update: 422/312500
+[18:28:24    info] Total frames: 135360
+[18:28:24    info] FPS: 43.5802
+[18:28:24    info] Value loss: 0.00501454
+[18:28:24    info] Action loss: -0.0460031
+[18:28:24    info] Clip fraction: 0.338542
+[18:28:24    info] Entropy: 1.50884
+[18:28:24    info] KL divergence: 0.065397
+[18:28:24    info] Reward: 1.8
+[18:28:31    info] ---
+[18:28:31    info] Update: 423/312500
+[18:28:31    info] Total frames: 135680
+[18:28:31    info] FPS: 43.585
+[18:28:31    info] Value loss: 0.00362667
+[18:28:31    info] Action loss: -0.0357841
+[18:28:31    info] Clip fraction: 0.273958
+[18:28:31    info] Entropy: 1.50271
+[18:28:31    info] KL divergence: 0.106071
+[18:28:31    info] Reward: 1.8
+[18:28:38    info] ---
+[18:28:38    info] Update: 424/312500
+[18:28:38    info] Total frames: 136000
+[18:28:38    info] FPS: 43.5897
+[18:28:38    info] Value loss: 0.00291319
+[18:28:38    info] Action loss: -0.0243937
+[18:28:38    info] Clip fraction: 0.290625
+[18:28:38    info] Entropy: 1.52177
+[18:28:38    info] KL divergence: -0.0012761
+[18:28:38    info] Reward: 1.8
+[18:28:45    info] ---
+[18:28:45    info] Update: 425/312500
+[18:28:45    info] Total frames: 136320
+[18:28:45    info] FPS: 43.5945
+[18:28:45    info] Value loss: 0.00582721
+[18:28:45    info] Action loss: -0.0391746
+[18:28:45    info] Clip fraction: 0.267708
+[18:28:45    info] Entropy: 1.43949
+[18:28:45    info] KL divergence: -0.0718177
+[18:28:45    info] Reward: 1.8
+[18:28:53    info] ---
+[18:28:53    info] Update: 426/312500
+[18:28:53    info] Total frames: 136640
+[18:28:53    info] FPS: 43.5992
+[18:28:53    info] Value loss: 0.00713691
+[18:28:53    info] Action loss: -0.0257717
+[18:28:53    info] Clip fraction: 0.247917
+[18:28:53    info] Entropy: 1.51042
+[18:28:53    info] KL divergence: -0.0161583
+[18:28:53    info] Reward: 1.8
+[18:29:00    info] ---
+[18:29:00    info] Update: 427/312500
+[18:29:00    info] Total frames: 136960
+[18:29:00    info] FPS: 43.5901
+[18:29:00    info] Value loss: 0.00477327
+[18:29:00    info] Action loss: -0.037236
+[18:29:00    info] Clip fraction: 0.239583
+[18:29:00    info] Entropy: 1.48283
+[18:29:00    info] KL divergence: -0.0420988
+[18:29:00    info] Reward: 1.8
+[18:29:07    info] ---
+[18:29:07    info] Update: 428/312500
+[18:29:07    info] Total frames: 137280
+[18:29:07    info] FPS: 43.5948
+[18:29:07    info] Value loss: 0.00301305
+[18:29:07    info] Action loss: -0.0293152
+[18:29:07    info] Clip fraction: 0.220833
+[18:29:07    info] Entropy: 1.45989
+[18:29:07    info] KL divergence: 0.0816215
+[18:29:07    info] Reward: 1.8
+[18:29:15    info] ---
+[18:29:15    info] Update: 429/312500
+[18:29:15    info] Total frames: 137600
+[18:29:15    info] FPS: 43.5995
+[18:29:15    info] Value loss: 0.00596396
+[18:29:15    info] Action loss: -0.0332114
+[18:29:15    info] Clip fraction: 0.253125
+[18:29:15    info] Entropy: 1.44171
+[18:29:15    info] KL divergence: 0.0471882
+[18:29:15    info] Reward: 1.8
+[18:29:22    info] ---
+[18:29:22    info] Update: 430/312500
+[18:29:22    info] Total frames: 137920
+[18:29:22    info] FPS: 43.5904
+[18:29:22    info] Value loss: 0.00450586
+[18:29:22    info] Action loss: -0.0253642
+[18:29:22    info] Clip fraction: 0.28125
+[18:29:22    info] Entropy: 1.49285
+[18:29:22    info] KL divergence: 0.011563
+[18:29:22    info] Reward: 1.8
+[18:29:29    info] ---
+[18:29:29    info] Update: 431/312500
+[18:29:29    info] Total frames: 138240
+[18:29:29    info] FPS: 43.5951
+[18:29:29    info] Value loss: 0.00232242
+[18:29:29    info] Action loss: -0.0348391
+[18:29:29    info] Clip fraction: 0.264583
+[18:29:29    info] Entropy: 1.47885
+[18:29:29    info] KL divergence: 0.0726232
+[18:29:29    info] Reward: 1.8
+[18:29:36    info] ---
+[18:29:36    info] Update: 432/312500
+[18:29:36    info] Total frames: 138560
+[18:29:36    info] FPS: 43.5997
+[18:29:36    info] Value loss: 0.00245989
+[18:29:36    info] Action loss: -0.0367642
+[18:29:36    info] Clip fraction: 0.253125
+[18:29:36    info] Entropy: 1.54949
+[18:29:36    info] KL divergence: 0.0418069
+[18:29:36    info] Reward: 1.8
+[18:29:44    info] ---
+[18:29:44    info] Update: 433/312500
+[18:29:44    info] Total frames: 138880
+[18:29:44    info] FPS: 43.6044
+[18:29:44    info] Value loss: 0.00307546
+[18:29:44    info] Action loss: -0.0398163
+[18:29:44    info] Clip fraction: 0.2625
+[18:29:44    info] Entropy: 1.52227
+[18:29:44    info] KL divergence: -0.057335
+[18:29:44    info] Reward: 1.8
+[18:29:51    info] ---
+[18:29:51    info] Update: 434/312500
+[18:29:51    info] Total frames: 139200
+[18:29:51    info] FPS: 43.5954
+[18:29:51    info] Value loss: 0.00182457
+[18:29:51    info] Action loss: -0.0411498
+[18:29:51    info] Clip fraction: 0.3125
+[18:29:51    info] Entropy: 1.57902
+[18:29:51    info] KL divergence: 0.169098
+[18:29:51    info] Reward: 1.8
+[18:29:58    info] ---
+[18:29:58    info] Update: 435/312500
+[18:29:58    info] Total frames: 139520
+[18:29:58    info] FPS: 43.6
+[18:29:58    info] Value loss: 0.00192456
+[18:29:58    info] Action loss: -0.028708
+[18:29:58    info] Clip fraction: 0.190625
+[18:29:58    info] Entropy: 1.60534
+[18:29:58    info] KL divergence: 0.00666204
+[18:29:58    info] Reward: 1.8
+[18:30:05    info] ---
+[18:30:05    info] Update: 436/312500
+[18:30:05    info] Total frames: 139840
+[18:30:05    info] FPS: 43.6046
+[18:30:05    info] Value loss: 0.00460533
+[18:30:05    info] Action loss: -0.0333682
+[18:30:05    info] Clip fraction: 0.166667
+[18:30:05    info] Entropy: 1.58907
+[18:30:05    info] KL divergence: 0.10499
+[18:30:05    info] Reward: 1.8
+[18:30:13    info] ---
+[18:30:13    info] Update: 437/312500
+[18:30:13    info] Total frames: 140160
+[18:30:13    info] FPS: 43.5956
+[18:30:13    info] Value loss: 0.00193299
+[18:30:13    info] Action loss: -0.026975
+[18:30:13    info] Clip fraction: 0.155208
+[18:30:13    info] Entropy: 1.63566
+[18:30:13    info] KL divergence: 0.094076
+[18:30:13    info] Reward: 1.8
+[18:30:20    info] ---
+[18:30:20    info] Update: 438/312500
+[18:30:20    info] Total frames: 140480
+[18:30:20    info] FPS: 43.6002
+[18:30:20    info] Value loss: 0.00338653
+[18:30:20    info] Action loss: -0.0423436
+[18:30:20    info] Clip fraction: 0.197917
+[18:30:20    info] Entropy: 1.60773
+[18:30:20    info] KL divergence: -0.00934275
+[18:30:20    info] Reward: 1.8
+[18:30:27    info] ---
+[18:30:27    info] Update: 439/312500
+[18:30:27    info] Total frames: 140800
+[18:30:27    info] FPS: 43.6048
+[18:30:27    info] Value loss: 0.00223589
+[18:30:27    info] Action loss: -0.0420982
+[18:30:27    info] Clip fraction: 0.223958
+[18:30:27    info] Entropy: 1.61669
+[18:30:27    info] KL divergence: 0.0476121
+[18:30:27    info] Reward: 1.8
+[18:30:34    info] ---
+[18:30:34    info] Update: 440/312500
+[18:30:34    info] Total frames: 141120
+[18:30:34    info] FPS: 43.6094
+[18:30:34    info] Value loss: 0.00429737
+[18:30:34    info] Action loss: -0.0368569
+[18:30:34    info] Clip fraction: 0.235417
+[18:30:34    info] Entropy: 1.5922
+[18:30:34    info] KL divergence: 0.0892573
+[18:30:34    info] Reward: 1.8
+[18:30:42    info] ---
+[18:30:42    info] Update: 441/312500
+[18:30:42    info] Total frames: 141440
+[18:30:42    info] FPS: 43.6139
+[18:30:42    info] Value loss: 0.00434686
+[18:30:42    info] Action loss: -0.0419283
+[18:30:42    info] Clip fraction: 0.232292
+[18:30:42    info] Entropy: 1.5917
+[18:30:42    info] KL divergence: 0.0908903
+[18:30:42    info] Reward: 1.8
+[18:30:49    info] ---
+[18:30:49    info] Update: 442/312500
+[18:30:49    info] Total frames: 141760
+[18:30:49    info] FPS: 43.605
+[18:30:49    info] Value loss: 0.00551592
+[18:30:49    info] Action loss: -0.054493
+[18:30:49    info] Clip fraction: 0.334375
+[18:30:49    info] Entropy: 1.52758
+[18:30:49    info] KL divergence: 0.0500809
+[18:30:49    info] Reward: 1.8
+[18:30:56    info] ---
+[18:30:56    info] Update: 443/312500
+[18:30:56    info] Total frames: 142080
+[18:30:56    info] FPS: 43.6096
+[18:30:56    info] Value loss: 0.00572933
+[18:30:56    info] Action loss: -0.0471734
+[18:30:56    info] Clip fraction: 0.385417
+[18:30:56    info] Entropy: 1.45235
+[18:30:56    info] KL divergence: -0.0569305
+[18:30:56    info] Reward: 1.8
+[18:31:04    info] ---
+[18:31:04    info] Update: 444/312500
+[18:31:04    info] Total frames: 142400
+[18:31:04    info] FPS: 43.6141
+[18:31:04    info] Value loss: 0.010012
+[18:31:04    info] Action loss: -0.0447582
+[18:31:04    info] Clip fraction: 0.290625
+[18:31:04    info] Entropy: 1.45961
+[18:31:04    info] KL divergence: 0.0293561
+[18:31:04    info] Reward: 1.8
+[18:31:11    info] ---
+[18:31:11    info] Update: 445/312500
+[18:31:11    info] Total frames: 142720
+[18:31:11    info] FPS: 43.6053
+[18:31:11    info] Value loss: 0.00300263
+[18:31:11    info] Action loss: -0.0377537
+[18:31:11    info] Clip fraction: 0.35625
+[18:31:11    info] Entropy: 1.39375
+[18:31:11    info] KL divergence: 0.274191
+[18:31:11    info] Reward: 1.8
+[18:31:18    info] ---
+[18:31:18    info] Update: 446/312500
+[18:31:18    info] Total frames: 143040
+[18:31:18    info] FPS: 43.6098
+[18:31:18    info] Value loss: 0.00359315
+[18:31:18    info] Action loss: -0.0412845
+[18:31:18    info] Clip fraction: 0.355208
+[18:31:18    info] Entropy: 1.42531
+[18:31:18    info] KL divergence: 0.00683787
+[18:31:18    info] Reward: 1.8
+[18:31:25    info] ---
+[18:31:25    info] Update: 447/312500
+[18:31:25    info] Total frames: 143360
+[18:31:25    info] FPS: 43.6142
+[18:31:25    info] Value loss: 0.00394492
+[18:31:25    info] Action loss: -0.032556
+[18:31:25    info] Clip fraction: 0.3375
+[18:31:25    info] Entropy: 1.33541
+[18:31:25    info] KL divergence: -0.0099975
+[18:31:25    info] Reward: 1.8
+[18:31:33    info] ---
+[18:31:33    info] Update: 448/312500
+[18:31:33    info] Total frames: 143680
+[18:31:33    info] FPS: 43.6055
+[18:31:33    info] Value loss: 0.00233618
+[18:31:33    info] Action loss: -0.0331541
+[18:31:33    info] Clip fraction: 0.325
+[18:31:33    info] Entropy: 1.40495
+[18:31:33    info] KL divergence: 0.0192843
+[18:31:33    info] Reward: 1.8
+[18:31:40    info] ---
+[18:31:40    info] Update: 449/312500
+[18:31:40    info] Total frames: 144000
+[18:31:40    info] FPS: 43.6099
+[18:31:40    info] Value loss: 0.00284663
+[18:31:40    info] Action loss: -0.0303783
+[18:31:40    info] Clip fraction: 0.232292
+[18:31:40    info] Entropy: 1.39138
+[18:31:40    info] KL divergence: 0.148744
+[18:31:40    info] Reward: 1.8
+[18:31:47    info] ---
+[18:31:47    info] Update: 450/312500
+[18:31:47    info] Total frames: 144320
+[18:31:47    info] FPS: 43.6144
+[18:31:47    info] Value loss: 0.00268702
+[18:31:47    info] Action loss: -0.0468958
+[18:31:47    info] Clip fraction: 0.297917
+[18:31:47    info] Entropy: 1.40149
+[18:31:47    info] KL divergence: 0.0560939
+[18:31:47    info] Reward: 1.8
+[18:31:55    info] ---
+[18:31:55    info] Update: 451/312500
+[18:31:55    info] Total frames: 144640
+[18:31:55    info] FPS: 43.6188
+[18:31:55    info] Value loss: 0.00196703
+[18:31:55    info] Action loss: -0.0332293
+[18:31:55    info] Clip fraction: 0.109375
+[18:31:55    info] Entropy: 1.47558
+[18:31:55    info] KL divergence: 0.1007
+[18:31:55    info] Reward: 1.8
+[18:32:02    info] ---
+[18:32:02    info] Update: 452/312500
+[18:32:02    info] Total frames: 144960
+[18:32:02    info] FPS: 43.6101
+[18:32:02    info] Value loss: 0.00251373
+[18:32:02    info] Action loss: -0.0367913
+[18:32:02    info] Clip fraction: 0.138542
+[18:32:02    info] Entropy: 1.52669
+[18:32:02    info] KL divergence: 0.0775981
+[18:32:02    info] Reward: 1.8
+[18:32:09    info] ---
+[18:32:09    info] Update: 453/312500
+[18:32:09    info] Total frames: 145280
+[18:32:09    info] FPS: 43.6145
+[18:32:09    info] Value loss: 0.000811286
+[18:32:09    info] Action loss: -0.0350895
+[18:32:09    info] Clip fraction: 0.147917
+[18:32:09    info] Entropy: 1.47356
+[18:32:09    info] KL divergence: 0.214551
+[18:32:09    info] Reward: 1.8
+[18:32:16    info] ---
+[18:32:16    info] Update: 454/312500
+[18:32:16    info] Total frames: 145600
+[18:32:16    info] FPS: 43.6189
+[18:32:16    info] Value loss: 0.00199392
+[18:32:16    info] Action loss: -0.0400619
+[18:32:16    info] Clip fraction: 0.175
+[18:32:16    info] Entropy: 1.4663
+[18:32:16    info] KL divergence: 0.0932355
+[18:32:16    info] Reward: 1.8
+[18:32:24    info] ---
+[18:32:24    info] Update: 455/312500
+[18:32:24    info] Total frames: 145920
+[18:32:24    info] FPS: 43.6103
+[18:32:24    info] Value loss: 0.00383777
+[18:32:24    info] Action loss: -0.0343722
+[18:32:24    info] Clip fraction: 0.28125
+[18:32:24    info] Entropy: 1.41412
+[18:32:24    info] KL divergence: 0.192851
+[18:32:24    info] Reward: 1.8
+[18:32:31    info] ---
+[18:32:31    info] Update: 456/312500
+[18:32:31    info] Total frames: 146240
+[18:32:31    info] FPS: 43.6147
+[18:32:31    info] Value loss: 0.0020058
+[18:32:31    info] Action loss: -0.0390778
+[18:32:31    info] Clip fraction: 0.275
+[18:32:31    info] Entropy: 1.41051
+[18:32:31    info] KL divergence: 0.0316339
+[18:32:31    info] Reward: 1.8
+[18:32:38    info] ---
+[18:32:38    info] Update: 457/312500
+[18:32:38    info] Total frames: 146560
+[18:32:38    info] FPS: 43.619
+[18:32:38    info] Value loss: 0.00228729
+[18:32:38    info] Action loss: -0.0385199
+[18:32:38    info] Clip fraction: 0.2375
+[18:32:38    info] Entropy: 1.37571
+[18:32:38    info] KL divergence: 0.0739582
+[18:32:38    info] Reward: 1.8
+[18:32:45    info] ---
+[18:32:45    info] Update: 458/312500
+[18:32:45    info] Total frames: 146880
+[18:32:45    info] FPS: 43.6234
+[18:32:45    info] Value loss: 0.0025039
+[18:32:45    info] Action loss: -0.0397276
+[18:32:45    info] Clip fraction: 0.251042
+[18:32:45    info] Entropy: 1.38444
+[18:32:45    info] KL divergence: 0.0816531
+[18:32:45    info] Reward: 1.8
+[18:32:53    info] ---
+[18:32:53    info] Update: 459/312500
+[18:32:53    info] Total frames: 147200
+[18:32:53    info] FPS: 43.6148
+[18:32:53    info] Value loss: 0.00427484
+[18:32:53    info] Action loss: -0.0321169
+[18:32:53    info] Clip fraction: 0.2625
+[18:32:53    info] Entropy: 1.37443
+[18:32:53    info] KL divergence: 0.032664
+[18:32:53    info] Reward: 1.8
+[18:33:00    info] ---
+[18:33:00    info] Update: 460/312500
+[18:33:00    info] Total frames: 147520
+[18:33:00    info] FPS: 43.6192
+[18:33:00    info] Value loss: 0.00466479
+[18:33:00    info] Action loss: -0.0326168
+[18:33:00    info] Clip fraction: 0.272917
+[18:33:00    info] Entropy: 1.35946
+[18:33:00    info] KL divergence: 0.136188
+[18:33:00    info] Reward: 1.8
+[18:33:07    info] ---
+[18:33:07    info] Update: 461/312500
+[18:33:07    info] Total frames: 147840
+[18:33:07    info] FPS: 43.6235
+[18:33:07    info] Value loss: 0.00210793
+[18:33:07    info] Action loss: -0.0454241
+[18:33:07    info] Clip fraction: 0.258333
+[18:33:07    info] Entropy: 1.36046
+[18:33:07    info] KL divergence: -0.0433171
+[18:33:07    info] Reward: 1.8
+[18:33:15    info] ---
+[18:33:15    info] Update: 462/312500
+[18:33:15    info] Total frames: 148160
+[18:33:15    info] FPS: 43.6278
+[18:33:15    info] Value loss: 0.00355965
+[18:33:15    info] Action loss: -0.0336815
+[18:33:15    info] Clip fraction: 0.372917
+[18:33:15    info] Entropy: 1.15838
+[18:33:15    info] KL divergence: -0.00531024
+[18:33:15    info] Reward: 1.8
+[18:33:22    info] ---
+[18:33:22    info] Update: 463/312500
+[18:33:22    info] Total frames: 148480
+[18:33:22    info] FPS: 43.6193
+[18:33:22    info] Value loss: 0.00234033
+[18:33:22    info] Action loss: -0.0377762
+[18:33:22    info] Clip fraction: 0.28125
+[18:33:22    info] Entropy: 1.38003
+[18:33:22    info] KL divergence: 0.104157
+[18:33:22    info] Reward: 1.8
+[18:33:29    info] ---
+[18:33:29    info] Update: 464/312500
+[18:33:29    info] Total frames: 148800
+[18:33:29    info] FPS: 43.6236
+[18:33:29    info] Value loss: 0.00174926
+[18:33:29    info] Action loss: -0.0360777
+[18:33:29    info] Clip fraction: 0.248958
+[18:33:29    info] Entropy: 1.29612
+[18:33:29    info] KL divergence: -0.0364103
+[18:33:29    info] Reward: 1.8
+[18:33:36    info] ---
+[18:33:36    info] Update: 465/312500
+[18:33:36    info] Total frames: 149120
+[18:33:36    info] FPS: 43.6279
+[18:33:36    info] Value loss: 0.00345172
+[18:33:36    info] Action loss: -0.0386727
+[18:33:36    info] Clip fraction: 0.316667
+[18:33:36    info] Entropy: 1.44085
+[18:33:36    info] KL divergence: 0.112897
+[18:33:36    info] Reward: 1.8
+[18:33:44    info] ---
+[18:33:44    info] Update: 466/312500
+[18:33:44    info] Total frames: 149440
+[18:33:44    info] FPS: 43.6321
+[18:33:44    info] Value loss: 0.0029691
+[18:33:44    info] Action loss: -0.0499181
+[18:33:44    info] Clip fraction: 0.254167
+[18:33:44    info] Entropy: 1.38603
+[18:33:44    info] KL divergence: 0.0112248
+[18:33:44    info] Reward: 1.8
+[18:33:51    info] ---
+[18:33:51    info] Update: 467/312500
+[18:33:51    info] Total frames: 149760
+[18:33:51    info] FPS: 43.6237
+[18:33:51    info] Value loss: 0.00388234
+[18:33:51    info] Action loss: -0.0474699
+[18:33:51    info] Clip fraction: 0.328125
+[18:33:51    info] Entropy: 1.38242
+[18:33:51    info] KL divergence: 0.194334
+[18:33:51    info] Reward: 1.8
+[18:33:58    info] ---
+[18:33:58    info] Update: 468/312500
+[18:33:58    info] Total frames: 150080
+[18:33:58    info] FPS: 43.6279
+[18:33:58    info] Value loss: 0.00257612
+[18:33:58    info] Action loss: -0.0420208
+[18:33:58    info] Clip fraction: 0.258333
+[18:33:58    info] Entropy: 1.39672
+[18:33:58    info] KL divergence: -0.00837742
+[18:33:58    info] Reward: 1.8
+[18:34:06    info] ---
+[18:34:06    info] Update: 469/312500
+[18:34:06    info] Total frames: 150400
+[18:34:06    info] FPS: 43.6321
+[18:34:06    info] Value loss: 0.00190893
+[18:34:06    info] Action loss: -0.0473281
+[18:34:06    info] Clip fraction: 0.219792
+[18:34:06    info] Entropy: 1.52555
+[18:34:06    info] KL divergence: 0.0318559
+[18:34:06    info] Reward: 1.8
+[18:34:13    info] ---
+[18:34:13    info] Update: 470/312500
+[18:34:13    info] Total frames: 150720
+[18:34:13    info] FPS: 43.6237
+[18:34:13    info] Value loss: 0.00221348
+[18:34:13    info] Action loss: -0.0466525
+[18:34:13    info] Clip fraction: 0.246875
+[18:34:13    info] Entropy: 1.5176
+[18:34:13    info] KL divergence: -0.0783373
+[18:34:13    info] Reward: 1.8
+[18:34:20    info] ---
+[18:34:20    info] Update: 471/312500
+[18:34:20    info] Total frames: 151040
+[18:34:20    info] FPS: 43.628
+[18:34:20    info] Value loss: 0.00355677
+[18:34:20    info] Action loss: -0.0332482
+[18:34:20    info] Clip fraction: 0.253125
+[18:34:20    info] Entropy: 1.5222
+[18:34:20    info] KL divergence: 0.0135129
+[18:34:20    info] Reward: 1.8
+[18:34:27    info] ---
+[18:34:27    info] Update: 472/312500
+[18:34:27    info] Total frames: 151360
+[18:34:27    info] FPS: 43.6322
+[18:34:27    info] Value loss: 0.00189675
+[18:34:27    info] Action loss: -0.0242092
+[18:34:27    info] Clip fraction: 0.236458
+[18:34:27    info] Entropy: 1.55547
+[18:34:27    info] KL divergence: -0.0236703
+[18:34:27    info] Reward: 1.8
+[18:34:34    info] ---
+[18:34:34    info] Update: 473/312500
+[18:34:34    info] Total frames: 151680
+[18:34:34    info] FPS: 43.6364
+[18:34:34    info] Value loss: 0.00140383
+[18:34:34    info] Action loss: -0.0373306
+[18:34:34    info] Clip fraction: 0.233333
+[18:34:34    info] Entropy: 1.54464
+[18:34:34    info] KL divergence: 0.00658526
+[18:34:34    info] Reward: 1.8
+[18:34:42    info] ---
+[18:34:42    info] Update: 474/312500
+[18:34:42    info] Total frames: 152000
+[18:34:42    info] FPS: 43.628
+[18:34:42    info] Value loss: 0.00112371
+[18:34:42    info] Action loss: -0.0374756
+[18:34:42    info] Clip fraction: 0.2125
+[18:34:42    info] Entropy: 1.53045
+[18:34:42    info] KL divergence: 0.0799489
+[18:34:42    info] Reward: 1.8
+[18:34:49    info] ---
+[18:34:49    info] Update: 475/312500
+[18:34:49    info] Total frames: 152320
+[18:34:49    info] FPS: 43.6322
+[18:34:49    info] Value loss: 0.00147678
+[18:34:49    info] Action loss: -0.0308383
+[18:34:49    info] Clip fraction: 0.1875
+[18:34:49    info] Entropy: 1.4851
+[18:34:49    info] KL divergence: 0.0153071
+[18:34:49    info] Reward: 1.8
+[18:34:56    info] ---
+[18:34:56    info] Update: 476/312500
+[18:34:56    info] Total frames: 152640
+[18:34:56    info] FPS: 43.6364
+[18:34:56    info] Value loss: 0.000944749
+[18:34:56    info] Action loss: -0.0390777
+[18:34:56    info] Clip fraction: 0.258333
+[18:34:56    info] Entropy: 1.49984
+[18:34:56    info] KL divergence: -0.0866102
+[18:34:56    info] Reward: 1.8
+[18:35:04    info] ---
+[18:35:04    info] Update: 477/312500
+[18:35:04    info] Total frames: 152960
+[18:35:04    info] FPS: 43.6405
+[18:35:04    info] Value loss: 0.00280412
+[18:35:04    info] Action loss: -0.0304909
+[18:35:04    info] Clip fraction: 0.190625
+[18:35:04    info] Entropy: 1.55158
+[18:35:04    info] KL divergence: -0.000629432
+[18:35:04    info] Reward: 1.8
+[18:35:11    info] ---
+[18:35:11    info] Update: 478/312500
+[18:35:11    info] Total frames: 153280
+[18:35:11    info] FPS: 43.6322
+[18:35:11    info] Value loss: 0.00200312
+[18:35:11    info] Action loss: -0.0412839
+[18:35:11    info] Clip fraction: 0.234375
+[18:35:11    info] Entropy: 1.51697
+[18:35:11    info] KL divergence: 0.023408
+[18:35:11    info] Reward: 1.8
+[18:35:18    info] ---
+[18:35:18    info] Update: 479/312500
+[18:35:18    info] Total frames: 153600
+[18:35:18    info] FPS: 43.6364
+[18:35:18    info] Value loss: 0.00165269
+[18:35:18    info] Action loss: -0.040921
+[18:35:18    info] Clip fraction: 0.308333
+[18:35:18    info] Entropy: 1.52679
+[18:35:18    info] KL divergence: 0.0575691
+[18:35:18    info] Reward: 1.8
+[18:35:25    info] ---
+[18:35:25    info] Update: 480/312500
+[18:35:25    info] Total frames: 153920
+[18:35:25    info] FPS: 43.6405
+[18:35:25    info] Value loss: 0.00210474
+[18:35:25    info] Action loss: -0.025375
+[18:35:25    info] Clip fraction: 0.290625
+[18:35:25    info] Entropy: 1.50012
+[18:35:25    info] KL divergence: 0.00713512
+[18:35:25    info] Reward: 1.8
+[18:35:33    info] ---
+[18:35:33    info] Update: 481/312500
+[18:35:33    info] Total frames: 154240
+[18:35:33    info] FPS: 43.6322
+[18:35:33    info] Value loss: 0.000742055
+[18:35:33    info] Action loss: -0.0243332
+[18:35:33    info] Clip fraction: 0.259375
+[18:35:33    info] Entropy: 1.51328
+[18:35:33    info] KL divergence: 0.0346108
+[18:35:33    info] Reward: 1.8
+[18:35:40    info] ---
+[18:35:40    info] Update: 482/312500
+[18:35:40    info] Total frames: 154560
+[18:35:40    info] FPS: 43.6364
+[18:35:40    info] Value loss: 0.00105155
+[18:35:40    info] Action loss: -0.042386
+[18:35:40    info] Clip fraction: 0.284375
+[18:35:40    info] Entropy: 1.4686
+[18:35:40    info] KL divergence: 0.101523
+[18:35:40    info] Reward: 1.8
+[18:35:47    info] ---
+[18:35:47    info] Update: 483/312500
+[18:35:47    info] Total frames: 154880
+[18:35:47    info] FPS: 43.6405
+[18:35:47    info] Value loss: 0.000584246
+[18:35:47    info] Action loss: -0.0330136
+[18:35:47    info] Clip fraction: 0.184375
+[18:35:47    info] Entropy: 1.48791
+[18:35:47    info] KL divergence: 0.023628
+[18:35:47    info] Reward: 1.8
+[18:35:55    info] ---
+[18:35:55    info] Update: 484/312500
+[18:35:55    info] Total frames: 155200
+[18:35:55    info] FPS: 43.6445
+[18:35:55    info] Value loss: 0.000652727
+[18:35:55    info] Action loss: -0.0277891
+[18:35:55    info] Clip fraction: 0.235417
+[18:35:55    info] Entropy: 1.53215
+[18:35:55    info] KL divergence: 0.158596
+[18:35:55    info] Reward: 1.8
+[18:36:02    info] ---
+[18:36:02    info] Update: 485/312500
+[18:36:02    info] Total frames: 155520
+[18:36:02    info] FPS: 43.6364
+[18:36:02    info] Value loss: 0.00103412
+[18:36:02    info] Action loss: -0.0433055
+[18:36:02    info] Clip fraction: 0.283333
+[18:36:02    info] Entropy: 1.44622
+[18:36:02    info] KL divergence: 0.0271643
+[18:36:02    info] Reward: 1.8
+[18:36:09    info] ---
+[18:36:09    info] Update: 486/312500
+[18:36:09    info] Total frames: 155840
+[18:36:09    info] FPS: 43.6404
+[18:36:09    info] Value loss: 0.00161941
+[18:36:09    info] Action loss: -0.0312371
+[18:36:09    info] Clip fraction: 0.238542
+[18:36:09    info] Entropy: 1.35443
+[18:36:09    info] KL divergence: 0.0730234
+[18:36:09    info] Reward: 1.8
+[18:36:16    info] ---
+[18:36:16    info] Update: 487/312500
+[18:36:16    info] Total frames: 156160
+[18:36:16    info] FPS: 43.6445
+[18:36:16    info] Value loss: 0.000970213
+[18:36:16    info] Action loss: -0.0446599
+[18:36:16    info] Clip fraction: 0.254167
+[18:36:16    info] Entropy: 1.4013
+[18:36:16    info] KL divergence: 0.0918265
+[18:36:16    info] Reward: 1.8
+[18:36:24    info] ---
+[18:36:24    info] Update: 488/312500
+[18:36:24    info] Total frames: 156480
+[18:36:24    info] FPS: 43.6485
+[18:36:24    info] Value loss: 0.000953778
+[18:36:24    info] Action loss: -0.0457955
+[18:36:24    info] Clip fraction: 0.264583
+[18:36:24    info] Entropy: 1.43462
+[18:36:24    info] KL divergence: 0.0771348
+[18:36:24    info] Reward: 1.8
+[18:36:31    info] ---
+[18:36:31    info] Update: 489/312500
+[18:36:31    info] Total frames: 156800
+[18:36:31    info] FPS: 43.6404
+[18:36:31    info] Value loss: 0.000857297
+[18:36:31    info] Action loss: -0.0331539
+[18:36:31    info] Clip fraction: 0.241667
+[18:36:31    info] Entropy: 1.41123
+[18:36:31    info] KL divergence: 0.0913352
+[18:36:31    info] Reward: 1.8
+[18:36:38    info] ---
+[18:36:38    info] Update: 490/312500
+[18:36:38    info] Total frames: 157120
+[18:36:38    info] FPS: 43.6444
+[18:36:38    info] Value loss: 0.00065449
+[18:36:38    info] Action loss: -0.0468857
+[18:36:38    info] Clip fraction: 0.232292
+[18:36:38    info] Entropy: 1.35578
+[18:36:38    info] KL divergence: 0.169304
+[18:36:38    info] Reward: 1.8
+[18:36:45    info] ---
+[18:36:45    info] Update: 491/312500
+[18:36:45    info] Total frames: 157440
+[18:36:45    info] FPS: 43.6485
+[18:36:45    info] Value loss: 0.00121063
+[18:36:45    info] Action loss: -0.048158
+[18:36:45    info] Clip fraction: 0.3125
+[18:36:45    info] Entropy: 1.38084
+[18:36:45    info] KL divergence: 0.0174902
+[18:36:45    info] Reward: 1.8
+[18:36:53    info] ---
+[18:36:53    info] Update: 492/312500
+[18:36:53    info] Total frames: 157760
+[18:36:53    info] FPS: 43.6525
+[18:36:53    info] Value loss: 0.000752434
+[18:36:53    info] Action loss: -0.0402654
+[18:36:53    info] Clip fraction: 0.251042
+[18:36:53    info] Entropy: 1.37868
+[18:36:53    info] KL divergence: 0.0265322
+[18:36:53    info] Reward: 1.8
+[18:37:00    info] ---
+[18:37:00    info] Update: 493/312500
+[18:37:00    info] Total frames: 158080
+[18:37:00    info] FPS: 43.6444
+[18:37:00    info] Value loss: 0.00101285
+[18:37:00    info] Action loss: -0.0317288
+[18:37:00    info] Clip fraction: 0.205208
+[18:37:00    info] Entropy: 1.49385
+[18:37:00    info] KL divergence: 0.12586
+[18:37:00    info] Reward: 1.8
+[18:37:07    info] ---
+[18:37:07    info] Update: 494/312500
+[18:37:07    info] Total frames: 158400
+[18:37:07    info] FPS: 43.6484
+[18:37:07    info] Value loss: 0.00191985
+[18:37:07    info] Action loss: -0.0349289
+[18:37:07    info] Clip fraction: 0.20625
+[18:37:07    info] Entropy: 1.52708
+[18:37:07    info] KL divergence: -0.0374163
+[18:37:07    info] Reward: 1.8
+[18:37:14    info] ---
+[18:37:14    info] Update: 495/312500
+[18:37:14    info] Total frames: 158720
+[18:37:14    info] FPS: 43.6524
+[18:37:14    info] Value loss: 0.00147555
+[18:37:14    info] Action loss: -0.0355228
+[18:37:14    info] Clip fraction: 0.257292
+[18:37:14    info] Entropy: 1.46807
+[18:37:14    info] KL divergence: -0.0456148
+[18:37:14    info] Reward: 1.8
+[18:37:22    info] ---
+[18:37:22    info] Update: 496/312500
+[18:37:22    info] Total frames: 159040
+[18:37:22    info] FPS: 43.6443
+[18:37:22    info] Value loss: 0.000855247
+[18:37:22    info] Action loss: -0.0504627
+[18:37:22    info] Clip fraction: 0.267708
+[18:37:22    info] Entropy: 1.47527
+[18:37:22    info] KL divergence: 0.0566393
+[18:37:22    info] Reward: 1.8
+[18:37:29    info] ---
+[18:37:29    info] Update: 497/312500
+[18:37:29    info] Total frames: 159360
+[18:37:29    info] FPS: 43.6483
+[18:37:29    info] Value loss: 0.00166925
+[18:37:29    info] Action loss: -0.0377281
+[18:37:29    info] Clip fraction: 0.252083
+[18:37:29    info] Entropy: 1.52959
+[18:37:29    info] KL divergence: 0.0918163
+[18:37:29    info] Reward: 1.8
+[18:37:36    info] ---
+[18:37:36    info] Update: 498/312500
+[18:37:36    info] Total frames: 159680
+[18:37:36    info] FPS: 43.6523
+[18:37:36    info] Value loss: 0.000872447
+[18:37:36    info] Action loss: -0.0393916
+[18:37:36    info] Clip fraction: 0.271875
+[18:37:36    info] Entropy: 1.51883
+[18:37:36    info] KL divergence: 0.0881583
+[18:37:36    info] Reward: 1.8
+[18:37:44    info] ---
+[18:37:44    info] Update: 499/312500
+[18:37:44    info] Total frames: 160000
+[18:37:44    info] FPS: 43.6562
+[18:37:44    info] Value loss: 0.00136019
+[18:37:44    info] Action loss: -0.0362662
+[18:37:44    info] Clip fraction: 0.222917
+[18:37:44    info] Entropy: 1.60169
+[18:37:44    info] KL divergence: 0.0378171
+[18:37:44    info] Reward: 1.8
+[18:37:51    info] ---
+[18:37:51    info] Update: 500/312500
+[18:37:51    info] Total frames: 160320
+[18:37:51    info] FPS: 43.6482
+[18:37:51    info] Value loss: 0.00173327
+[18:37:51    info] Action loss: -0.032763
+[18:37:51    info] Clip fraction: 0.23125
+[18:37:51    info] Entropy: 1.51687
+[18:37:51    info] KL divergence: -0.0292762
+[18:37:51    info] Reward: 1.8
+[18:37:58    info] ---
+[18:37:58    info] Update: 501/312500
+[18:37:58    info] Total frames: 160640
+[18:37:58    info] FPS: 43.6522
+[18:37:58    info] Value loss: 0.000933201
+[18:37:58    info] Action loss: -0.0231941
+[18:37:58    info] Clip fraction: 0.251042
+[18:37:58    info] Entropy: 1.4936
+[18:37:58    info] KL divergence: 0.0337384
+[18:37:58    info] Reward: 1.8
+[18:38:06    info] ---
+[18:38:06    info] Update: 502/312500
+[18:38:06    info] Total frames: 160960
+[18:38:06    info] FPS: 43.6561
+[18:38:06    info] Value loss: 0.00146842
+[18:38:06    info] Action loss: -0.0198472
+[18:38:06    info] Clip fraction: 0.176042
+[18:38:06    info] Entropy: 1.49509
+[18:38:06    info] KL divergence: 0.0823739
+[18:38:06    info] Reward: 1.8
+[18:38:13    info] ---
+[18:38:13    info] Update: 503/312500
+[18:38:13    info] Total frames: 161280
+[18:38:13    info] FPS: 43.6482
+[18:38:13    info] Value loss: 0.000687105
+[18:38:13    info] Action loss: -0.0338448
+[18:38:13    info] Clip fraction: 0.227083
+[18:38:13    info] Entropy: 1.51278
+[18:38:13    info] KL divergence: 0.0410868
+[18:38:13    info] Reward: 1.8
+[18:38:20    info] ---
+[18:38:20    info] Update: 504/312500
+[18:38:20    info] Total frames: 161600
+[18:38:20    info] FPS: 43.6521
+[18:38:20    info] Value loss: 0.000624495
+[18:38:20    info] Action loss: -0.0506925
+[18:38:20    info] Clip fraction: 0.313542
+[18:38:20    info] Entropy: 1.50381
+[18:38:20    info] KL divergence: -0.0836349
+[18:38:20    info] Reward: 1.8
+[18:38:28    info] ---
+[18:38:28    info] Update: 505/312500
+[18:38:28    info] Total frames: 161920
+[18:38:28    info] FPS: 43.656
+[18:38:28    info] Value loss: 0.000947448
+[18:38:28    info] Action loss: -0.0470591
+[18:38:28    info] Clip fraction: 0.288542
+[18:38:28    info] Entropy: 1.49636
+[18:38:28    info] KL divergence: 0.173679
+[18:38:28    info] Reward: 1.8
+[18:38:35    info] ---
+[18:38:35    info] Update: 506/312500
+[18:38:35    info] Total frames: 162240
+[18:38:35    info] FPS: 43.6481
+[18:38:35    info] Value loss: 0.000976983
+[18:38:35    info] Action loss: -0.0361182
+[18:38:35    info] Clip fraction: 0.238542
+[18:38:35    info] Entropy: 1.48803
+[18:38:35    info] KL divergence: 0.019305
+[18:38:35    info] Reward: 1.8
+[18:38:42    info] ---
+[18:38:42    info] Update: 507/312500
+[18:38:42    info] Total frames: 162560
+[18:38:42    info] FPS: 43.652
+[18:38:42    info] Value loss: 0.000619474
+[18:38:42    info] Action loss: -0.029434
+[18:38:42    info] Clip fraction: 0.30625
+[18:38:42    info] Entropy: 1.44128
+[18:38:42    info] KL divergence: 0.0293497
+[18:38:42    info] Reward: 1.8
+[18:38:49    info] ---
+[18:38:49    info] Update: 508/312500
+[18:38:49    info] Total frames: 162880
+[18:38:49    info] FPS: 43.6559
+[18:38:49    info] Value loss: 0.000527774
+[18:38:49    info] Action loss: -0.0364866
+[18:38:49    info] Clip fraction: 0.267708
+[18:38:49    info] Entropy: 1.55783
+[18:38:49    info] KL divergence: -0.00738319
+[18:38:49    info] Reward: 1.8
+[18:38:57    info] ---
+[18:38:57    info] Update: 509/312500
+[18:38:57    info] Total frames: 163200
+[18:38:57    info] FPS: 43.648
+[18:38:57    info] Value loss: 0.000610587
+[18:38:57    info] Action loss: -0.0346942
+[18:38:57    info] Clip fraction: 0.236458
+[18:38:57    info] Entropy: 1.57896
+[18:38:57    info] KL divergence: 0.0705565
+[18:38:57    info] Reward: 1.8
