@@ -30,15 +30,62 @@ In our poject we applied a deep RL model to the game of Tetris. Tetris is a game
 
 ### Approach and Existing Work
 
-In our approach we combined prior work from three main sources:
+In our approach we began by combining the prior work of three main sources:
+- An OpenAI gym environment of Tetris called gym-tetris [[2]](#2)
+- A github repository which provides a production-ready framework for reinforcement learning with PyTorch [[3]](#3)
+- A Stanford publication on playing tetris using deep reinforcement learning [[4]](#4)
 
-
-
-
+We then built upon these sources with knowledge from the course to parallelize our implementation usin OpenMP and MPI.
 
 ## Model and Data
 
-## Technical Description (with links to code/data set)
+## Technical Description
+Our repository can be found here https://github.com/AlexLeonardi/cs205project/.
+
+### Programming Model, Platfom, and Infrastructure
+
+
+### Environmental Information
+
+
+### Replication Steps
+
+1. git clone https://github.com/AlexLeonardi/cs205project.git -b master
+2. wget https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.4.0%2Bcpu.zip
+3. sudo apt install unzip
+4. unzip libtorch-cxx11-abi-shared-with-deps-1.4.0+cpu.zip
+5. sudo apt-get install cmake
+6. sudo apt-get install gcc g++
+7. [GET TO PYTORCH DIRECTORY]
+8. mkdir build
+9. cd build
+10. cmake -DCMAKE_PREFIX_PATH=~/libtorch ..
+11. make -j4
+12. sudo apt update
+13. sudo apt install python3-pip
+14. pip3 install gym
+15. pip3 install nes-py
+16. pip3 install gym-tetris
+17. pip3 install scikit-build
+18. sudo apt install libopenmpi-dev
+19. pip3 install mpi4py
+21. Upload and execute getid_linux on instance from www.roboti.us
+22. Submit computer ID on www.roboti.us to receive product key
+23. Upload product key to instance as mjkey.txt
+24. Sudo cp mjkey.txt /bin/mjkey.txt
+25. wget https://www.roboti.us/download/mjpro150_linux.zip
+26. mkdir ~/.mujoco
+27. cp mjpro150_linux.zip ~/.mujoco/
+28. unzip  ~/.mujoco/mjpro150_linux.zip
+29. pip3 install --upgrade setuptools pip
+30. pip3 install opencv-python
+31. pip3 install baselines
+32. Add “export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ubuntu/.mujoco/mjpro150/bin” to .bashrc
+33. pip3 install mujoco-py==1.50.1.56
+34. pip3 install baselines
+35. sudo apt install python3-opencv
+36. pip3 install msgpack
+
 
 ## Performance Evaluation and Optimizations
 
@@ -47,4 +94,14 @@ In our approach we combined prior work from three main sources:
 ## Citations
 
 <a id="1">[1]</a> 
-Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D. and Riedmiller, M., 2013. Playing atari with deep reinforcement learning. arXiv preprint arXiv:1312.5602.
+Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D. and Riedmiller, M., 2013. Playing Atari with Deep Reinforcement Learning. arXiv preprint arXiv:1312.5602.
+
+<a id="2">[2]</a> 
+GitHub. Kautenja. gym-tetris - An OpenAI Gym interface to Tetris on the NES.. https://github.com/Kautenja/gym-tetris
+
+<a id="3">[3]</a> 
+GitHub. Omegastick. Pytorrch-cpp-rl - PyTorch C++ Reinforcement Learning. https://github.com/Omegastick/pytorch-cpp-rl
+
+<a id="4">[4]</a> 
+Stavene, M., Pradhan, S., 2016. Playing Tetris with Deep Reinforcement Learning. Stanford.
+
