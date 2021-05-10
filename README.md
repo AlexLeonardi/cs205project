@@ -118,13 +118,17 @@ The objective of our project was to attempt to speed up the training of a deep R
 
 The second metric we used was holding the execution time off the training process constant. Since one could theoretically train these RL models infinitely, cutting off the training and observing differences in average performance makes more sense from a practical perspective. By observing average performance we can analyze the speed-up provided by weak scaling parallelization. Our analysis of speed-up allows us to determine the increase in the number of training iterations that can be completed in a fixed amount of time from a model trained on a single-core architecture versus a parallel one. 
 
-| **Envs-Threads **     | **Average FPS **    |**Highest Reward (1 hour of training)** |
+| **Envs-Threads**     | **Average FPS**    | **Highest Reward (1 hour of training)** |
 |------|------|------|
 | 1-1 | 11.27 | N/A |
 | 2-2 | 19.34       | -20 |
 | 4-4   | 30.24   |-19.8   |
 | 6-6        |33.83        |-19.5        |
 | 8-8        |33.21       |-20        |
+
+<img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%202.52.16%20PM.png" width="50%" height="50%">
+<img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%202.52.20%20PM.png" width="50%" height="50%">
+<img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%202.55.31%20PM.png" width="50%" height="50%">
 
 
 ## Discussion
