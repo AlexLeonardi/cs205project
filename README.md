@@ -53,7 +53,7 @@ Then, to train our reinforcement learning agent, we use proximal policy optimiza
 
 We combined this approach with an underlying CNN architecture to read the Tetris game board itself. The CNN convolves over the game board with approximately 1.5 million trainable parameters across 3 convolutional layers and 2 linear layers using ReLU activations.
 
-$`L^{CLIP}(\theta) = \hat{E}_t[min(r_t(\theta)\hat{A}_t,clip(r_t(\theta),1-\varepsilon,1+\varepsilon)\hat{A}_t)]`$
+$$L^{CLIP}(\theta) = \hat{E}_t[min(r_t(\theta)\hat{A}_t,clip(r_t(\theta),1-\varepsilon,1+\varepsilon)\hat{A}_t)]$$
 $\theta$ is the policy parameter
 $\hat{E}_t$ denotes the empirical expectation over timesteps
 $r_t$ is the ratio of the probability under the new and old policies, respectively
