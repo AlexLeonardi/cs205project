@@ -209,7 +209,7 @@ Stavene, M., Pradhan, S., 2016. Playing Tetris with Deep Reinforcement Learning.
 ## Code Citations
 
 CPPRL (basis for project): https://github.com/Omegastick/pytorch-cpp-rl
-MPI: adapted from https://github.com/soumyadipghosh/eventgrad/blob/master/dmnist/cent/cent.cpp
+EventGrad: adapted from https://github.com/soumyadipghosh/eventgrad/blob/master/dmnist/cent/cent.cpp
 Gym-Tetris (tetris gym environment): https://pypi.org/project/gym-tetris/
 
 
