@@ -94,7 +94,7 @@ Specifications:
     1. GPU: instead, unzip libtorch-shared-with-deps-1.4.0.zip
 7. sudo apt-get install cmake
 8. sudo apt-get install gcc g++
-9. [GET TO PYTORCH DIRECTORY]
+9. cd pytorch-cpp-rl-2
 10. (GPU: install libcudnn8)
     1. wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin 
     2. sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
