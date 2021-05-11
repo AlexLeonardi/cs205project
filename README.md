@@ -77,6 +77,7 @@ Our repository can be found here https://github.com/AlexLeonardi/cs205project/.
 
 Specifications:
 ![Specs 1](https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-09%20at%2011.43.15%20PM.png)
+![Specs 2](https://github.com/AlexLeonardi/cs205project/blob/master/images/GPU_lscpu.png)
 
 
 ### Replication Steps
