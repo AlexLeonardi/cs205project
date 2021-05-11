@@ -183,6 +183,13 @@ The second metric we used was holding the execution time off the training proces
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%206.37.18%20PM.png" width="50%" height="50%">
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%206.37.30%20PM.png" width="50%" height="50%">
 
+| **Envs-Threads**     | **Average FPS** | **Average SpeedUp**    |**Highest Reward (1 hour of training)** |
+|------|------|------| ------|
+| 1-4 | 34.19877874 | 3.03449678 | N/A |
+| 2-4 | 39.05515607  | 3.4654087  | 6.5 |
+| 4-4   | 42.16964578 | 3.74176094 |  72.2 |
+| 8-4   | 43.51483633  | 2.946  | 3.86112124 |
+
 
 ## Challenges
 
