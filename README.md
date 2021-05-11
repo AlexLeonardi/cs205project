@@ -77,6 +77,7 @@ Our repository can be found here https://github.com/AlexLeonardi/cs205project/.
 
 Specifications:
 ![Specs 1](https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-09%20at%2011.43.15%20PM.png)
+![Specs 2](https://github.com/AlexLeonardi/cs205project/blob/master/images/GPU_lscpu.png)
 
 
 ### Replication Steps
@@ -213,7 +214,7 @@ Stavene, M., Pradhan, S., 2016. Playing Tetris with Deep Reinforcement Learning.
 ## Code Citations
 
 CPPRL (basis for project): https://github.com/Omegastick/pytorch-cpp-rl
-MPI: adapted from https://github.com/soumyadipghosh/eventgrad/blob/master/dmnist/cent/cent.cpp
+EventGrad: adapted from https://github.com/soumyadipghosh/eventgrad/blob/master/dmnist/cent/cent.cpp
 Gym-Tetris (tetris gym environment): https://pypi.org/project/gym-tetris/
 
 
