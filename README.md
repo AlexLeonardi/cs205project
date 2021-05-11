@@ -35,15 +35,15 @@ In our approach we began by combining the prior work of three main sources:
 - A github repository which provides a production-ready framework for reinforcement learning with PyTorch [[3]](#3)
 - A Stanford publication on playing tetris using deep reinforcement learning [[4]](#4)
 
-We then built upon these sources with knowledge from the course to parallelize our implementation using OpenMP and MPI.
+We then built upon these sources with knowledge from the course to parallelize our implementation using OpenMP and CUDA while also attempting to utilize MPI.
 
-[EXPLAIN OPENMP  implementation]
+The first parallelization scheme we implemented was OpenMP. Throughout the process of training our Tetris agent, there were several opportunities to introduce OpenMP parallelization. Using PyTorch’s OpenMP backend we could run several Tetris environments simultaneously and parallelize the process of generating a batch. We can control these variables by using num_envs and batch_size, respectively. When it comes to actually accessing OpenMP parallelization, we can use the at::set_num_threads command from PyTorch’s ATen library in conjunction with the standard OMP_NUM_THREADS to specify the number of threads we plan to use. 
 
-The first parallelization scheme we implemented was OpenMP. Throughout the process of training our Tetris agent, there were several opportunities to introduce OpenMP parallelization. Using PyTorch’s OpenMP backend we could run several Tetris environments simultaneously and parallelize the process of generating a batch. We can control these variables by using num_envs and batch_size, respectively. When it comes to actually accessing OpenMP parallelization, we can use the at::set_num_threads command from PyTorch’s ATen library in conjunction with the standard OMP_NUM_THREADS to specify the number of threads we plan to use, and using at::parallel_for should allow us to mimic the effect of OpenMP’s #pragma parallel for. 
+When parallelizing simulations, we expected to see overhead from synchronization since various simulations take different amounts of time to complete before they can be used to update the network. We expected to see a near-linear speed-up at first since the simulations will likely account for a large portion of our application’s runtime, and we expected this speed-up to be scalable to a certain extent since new simulations can be run on the additional threads. That being said, we expected the marginal speed-up to decrease as thread count increases since the marginal benefit of additional simulations on agent performance decreases depending on how long we have waited since we last updated the network. 
 
-When parallelizing simulations, overhead will likely arise from synchronization since various simulations will take different amounts of time to complete before they can be used to update the network. We expected to see a near-linear speed-up since the simulations will likely account for a large portion of our application’s runtime. We would also expect this speed-up to be scalable to a certain extent since new simulations can be run on the additional threads, but we would expect the marginal speed-up to decrease as thread count increases since the marginal benefit of additional simulations on agent performance decreases depending on how long we have waited since we last updated the network. 
+Additionally, we were able to use libtorch’s compatibility with CUDA 10.2 to access performance improvements through GPU-accelerated computing. This was done at a fairly high level that did not require us to explicitly write any CUDA code, and instead involved changing hyperparameters to enable CUDA and set the GPU as the device, as well as changes to compiler files and CmakeList.txt files in order to make the CMake compiler compatible with CUDA/cuDNN and enable automatic optimizations by the compiler and by libtorch. Version control issues in the cpprl repo and a lack of backwards-compatibility in the Pytorch C++ API required the use of older versions of libtorch, CUDA, and libcudnn7 that weren’t fully compatible with each other; as a result, our CUDA implementation also required some further changes to specific lines in various library and compiler files in order to resolve otherwise-fatal issues that were fixed in later versions of libtorch and CUDA.
 
-[EXPLAIN MPI  implementation and difficulties]
+Lastly, we attempted to access distributed-memory parallel processing through an MPI implementation of the PPO learning algorithm. While we were not able to fully connect this implementation to the rest of the project, we were able to produce an initial implementation of the distributed algorithm itself; this is discussed at greater length in the Discussion section below.
 
 ## Model and Data
 
@@ -69,8 +69,10 @@ Our repository can be found here https://github.com/AlexLeonardi/cs205project/.
 ### Programming Environment
 
 
-- 2 t2.2xlarge instances
+- t2.2xlarge instance (for CPU/OpenMP)
+- g3.4xlarge aws instance (for GPU/CUDA)
 - Ubuntu 18.04
+- Python 3.6.9
 - ZMQ Messaging Library
 
 Specifications:
@@ -165,24 +167,31 @@ The objective of our project was to attempt to speed up the training of a deep R
 
 The second metric we used was holding the execution time off the training process constant. Since one could theoretically train these RL models infinitely, cutting off the training and observing differences in average performance makes more sense from a practical perspective. By observing average performance we can analyze the speed-up provided by weak scaling parallelization. Our analysis of speed-up allows us to determine the increase in the number of training iterations that can be completed in a fixed amount of time from a model trained on a single-core architecture versus a parallel one. 
 
-| **Envs-Threads**     | **Average FPS**    | **Highest Reward (1 hour of training)** |
-|------|------|------|
-| 1-1 | 11.27 | N/A |
-| 2-2 | 19.34       | -20 |
-| 4-4   | 30.24   |-19.8   |
-| 6-6        |33.83        |-19.5        |
-| 8-8        |33.21       |-20        |
-
+#### CPU Results
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%202.52.16%20PM.png" width="50%" height="50%">
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%202.52.20%20PM.png" width="50%" height="50%">
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%205.21.10%20PM.png" width="50%" height="50%">
 
+
+#### GPU Results
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%206.37.06%20PM.png" width="50%" height="50%">
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%206.37.18%20PM.png" width="50%" height="50%">
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%206.37.30%20PM.png" width="50%" height="50%">
 
 
+## Challenges
+
+Perhaps the most challenging aspect of this project was working to develop compatibility between the various frameworks and libraries we utilized in the absence of sufficient documentation. First, we found issues with the communication between the PyTorch C++ RL framework and the Python gym server which required significant debugging to resolve. Next, when we attempted to transition to our Tetris gym, we found many issues with dependencies and had to reorient our RL code to take advantage of a foreign gym environment. This process involved changing several instructions for the making of executable files as well, further complicating the process. We also found that our RL framework did not function properly for Atari-style games, leading us to make several changes to the RL architecture, including the CNN, to ensure that the new environment was usable. Finally, the PyTorch C++ framework has very poor documentation, especially for its parallelization capabilities. Though we were able to find some of the commands necessary to parallelize our code, the documentation never included any information about how to utilize the commands, forcing us to experiment with them on our own.
+
 ## Discussion
+
+Overall, we were able to fulfill our goal of creating a working Tetris RL agent and training the agent in a parallelized manner. The amount of setup and debugging required to run the agent was very substantial, so the fact that we finished with a functioning agent was certainly a goal we were happy to meet. In addition, we did see noticeable improvements to the number of frames our agent was able to process per second due to our parallelization efforts.
+
+That being said, we were unable to meet our goal of demonstrating the effects of that parallelized training on the agent’s performance. One of the lessons we learned after running our agent for a few hours was that Tetris is a game that requires a significant amount of time to train because of its relatively long game times, and since we were not able to train our agents for extended periods of time, the reward we were able to achieve did not reflect a sufficient amount of learning on the part of the agent. Were we to approach this problem again, we would likely have chosen a game that is easier to train (such as Moon Lander or Super Mario) or given ourselves several weeks for the training process, after we had resolved any issues with building and parallelizing the agent.
+
+One aspect that we have been thus far unable to fully implement is the MPI version of the PPO algorithm (currently in src/algorithms/ppo.cpp; our attempted MPI implementation is in src/algorithms/ppo_mpi.cpp.) The code as written should be a correct implementation of PPO using MPI to distribute the gradient calculation prior to updating the neural network that calculates the next action; this is implemented by first partitioning the batch of observations (from gym_client) across the nodes available, then calculating the gradient on each partition in parallel, and finally updating the neural networks in parallel. Currently, the CMake compiler is unable to correctly link the ppo.cpp file to the directory containing openmpi, and we’ve been unable to fix this through modifying any of the CMakeLists.txt files in the project; this issue is potentially related to the version-requirements of the cpprl framework, which does not work on newer versions of libtorch (which potentially contain bugfixes or improvements for compatibility with libraries such as MPI.) In any case, the full implementation of MPI and the optimization of MPI hyperparameters such as the optimal number of nodes to use are potentially promising avenues for future research building on this project.
+
+
 
 ## Citations
 
@@ -195,8 +204,19 @@ GitHub. Kautenja. gym-tetris - An OpenAI Gym interface to Tetris on the NES.. ht
 <a id="3">[3]</a> 
 GitHub. Omegastick. Pytorrch-cpp-rl - PyTorch C++ Reinforcement Learning. https://github.com/Omegastick/pytorch-cpp-rl
 
-<a id="4">[4]</a> 
+<a id="2">[4]</a> 
+GitHub. Soumyadipghosh. “EventGrad: Event-Triggered Communication in Parallel Machine Learning.” https://github.com/soumyadipghosh/eventgrad/blob/master/dmnist/cent/cent.cpp
+
+<a id="4">[5]</a> 
 Stavene, M., Pradhan, S., 2016. Playing Tetris with Deep Reinforcement Learning. Stanford.
+
+## Code Citations
+
+CPPRL (basis for project): https://github.com/Omegastick/pytorch-cpp-rl
+MPI: adapted from https://github.com/soumyadipghosh/eventgrad/blob/master/dmnist/cent/cent.cpp
+Gym-Tetris (tetris gym environment): https://pypi.org/project/gym-tetris/
+
+
 
 
 
