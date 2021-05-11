@@ -169,7 +169,7 @@ The second metric we used was holding the execution time off the training proces
 <img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%205.21.10%20PM.png" width="50%" height="50%">
 
 | **Envs-Threads**     | **Average FPS** | **Average SpeedUp**    |**Highest Reward (1 hour of training)** |
-|------|------|------|
+|------|------|------| ------|
 | 1-1 | 11.27 | 1 | N/A |
 | 2-2 | 19.34  | 1.716     | -20 |
 | 4-4   | 30.24 | 2.683  |-19.8   |
