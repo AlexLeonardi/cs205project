@@ -53,8 +53,7 @@ Then, to train our reinforcement learning agent, we use proximal policy optimiza
 
 We combined this approach with an underlying CNN architecture to read the Tetris game board itself. The CNN convolves over the game board with approximately 1.5 million trainable parameters across 3 convolutional layers and 2 linear layers using ReLU activations.
 
-
-![PPO Equation](https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%208.26.39%20PM.png)
+<img src="https://github.com/AlexLeonardi/cs205project/blob/master/images/Screen%20Shot%202021-05-10%20at%208.26.39%20PM.png" width="50%" height="50%">
 
 Since our model seeks to accomplish a reinforcement learning task, there is no need for any external data. All training data will be provided by running simulations of the agent acting on a given state space after choosing an action from the action space based on the agent’s current policy. As we run more simulations, we give the agent more room to learn and encounter novel scenarios, so the load of this problem comes from the computational intensity of running many of these simulations.
 
